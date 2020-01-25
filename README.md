@@ -20,19 +20,19 @@ git clone https://github.com/tombrewsviews/vibrant-electron-views
 cd vibrant-electron-views/replace-with-my-app
 
 # Install dependencies
-npm install
+yarn install
 
 # Run the Views app
-npm start
+yarn start
 
 # Open new tab in Terminal and go folder up
 cd ..
 
 # Install dependencies
-npm install
+yarn install
 
 # Run the app
-npm start
+yarn start
 ```
 Important: You always need to run Views app in one tab of the Terminal and Electron app in another tab.
 Note: Made for Mac
