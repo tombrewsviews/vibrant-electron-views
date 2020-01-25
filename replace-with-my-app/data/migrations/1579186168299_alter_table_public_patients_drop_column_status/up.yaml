@@ -1,3 +1,0 @@
-- args:
-    sql: ALTER TABLE "public"."patients" DROP COLUMN "status" CASCADE
-  type: run_sql

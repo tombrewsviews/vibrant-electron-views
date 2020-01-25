@@ -1,4 +1,0 @@
-- args:
-    cascade: false
-    sql: DROP TABLE patient_statuses;
-  type: run_sql

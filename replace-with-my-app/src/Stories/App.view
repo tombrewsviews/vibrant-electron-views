@@ -1,4 +1,5 @@
 App View
 flow separate
-  Auth
-  Account
+  Text
+  color white
+  text Blurrrry it is!

@@ -1,3 +1,0 @@
-- args:
-    sql: ALTER TABLE "public"."companies" DROP COLUMN "expiry_date" CASCADE
-  type: run_sql

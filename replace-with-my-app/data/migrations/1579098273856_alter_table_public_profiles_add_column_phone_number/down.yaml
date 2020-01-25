@@ -1,3 +1,0 @@
-- args:
-    sql: ALTER TABLE "public"."profiles" DROP COLUMN "phone_number";
-  type: run_sql

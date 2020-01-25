@@ -1,3 +1,0 @@
-- args:
-    sql: DROP TABLE "public"."responsible_persons"
-  type: run_sql

@@ -1,8 +1,0 @@
-- args:
-    sql: CREATE TABLE "public"."payment_statuses"("name" text NOT NULL, PRIMARY KEY
-      ("name") );
-  type: run_sql
-- args:
-    name: payment_statuses
-    schema: public
-  type: add_existing_table_or_view

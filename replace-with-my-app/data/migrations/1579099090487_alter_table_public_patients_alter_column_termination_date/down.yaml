@@ -1,7 +1,0 @@
-- args:
-    sql: COMMENT ON COLUMN "public"."patients"."termination_date" IS E'null'
-  type: run_sql
-- args:
-    sql: alter table "public"."patients" rename column "insurance_expiry_date" to
-      "termination_date";
-  type: run_sql

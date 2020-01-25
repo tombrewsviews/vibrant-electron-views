@@ -1,3 +1,0 @@
-- args:
-    sql: ALTER TABLE "public"."companies" DROP COLUMN "broker_id" CASCADE
-  type: run_sql

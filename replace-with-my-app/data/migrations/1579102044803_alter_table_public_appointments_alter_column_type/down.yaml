@@ -1,6 +1,0 @@
-- args:
-    sql: COMMENT ON COLUMN "public"."appointments"."type" IS E'null'
-  type: run_sql
-- args:
-    sql: alter table "public"."appointments" rename column "template_id" to "type";
-  type: run_sql

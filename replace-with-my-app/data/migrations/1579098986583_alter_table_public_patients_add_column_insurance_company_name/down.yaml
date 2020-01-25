@@ -1,3 +1,0 @@
-- args:
-    sql: ALTER TABLE "public"."patients" DROP COLUMN "insurance_company_name";
-  type: run_sql

@@ -1,8 +1,0 @@
-RecentLocation View
-flow together
-  # Horizontal
-  # paddingTop 16
-    # ButtonRed
-    # onWhen <isMediaMobile
-    # text Schedule emergency appointment
-  UnscheduledAppointment

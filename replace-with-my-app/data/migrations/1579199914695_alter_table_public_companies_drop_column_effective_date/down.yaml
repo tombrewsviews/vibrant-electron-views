@@ -1,6 +1,0 @@
-- args:
-    sql: ALTER TABLE "public"."companies" ADD COLUMN "effective_date" date
-  type: run_sql
-- args:
-    sql: ALTER TABLE "public"."companies" ALTER COLUMN "effective_date" DROP NOT NULL
-  type: run_sql

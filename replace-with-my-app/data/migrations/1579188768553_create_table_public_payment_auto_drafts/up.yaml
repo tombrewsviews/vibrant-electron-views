@@ -1,9 +1,0 @@
-- args:
-    sql: CREATE TABLE "public"."payment_auto_drafts"("user_id" uuid NOT NULL, "context"
-      jsonb NOT NULL, PRIMARY KEY ("user_id") ); COMMENT ON TABLE "public"."payment_auto_drafts"
-      IS E'somehow coming from core';
-  type: run_sql
-- args:
-    name: payment_auto_drafts
-    schema: public
-  type: add_existing_table_or_view

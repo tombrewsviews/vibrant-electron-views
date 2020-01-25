@@ -1,4 +1,0 @@
-- args:
-    sql: ALTER TABLE "public"."patients" ADD COLUMN "insurance_company_name" text
-      NULL;
-  type: run_sql

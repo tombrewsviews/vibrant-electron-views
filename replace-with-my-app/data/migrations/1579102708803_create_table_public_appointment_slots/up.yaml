@@ -1,9 +1,0 @@
-- args:
-    sql: CREATE TABLE "public"."appointment_slots"("start" timestamptz NOT NULL, "end"
-      timestamptz NOT NULL, "template_id" uuid NOT NULL, PRIMARY KEY ("start","end","template_id")
-      ); COMMENT ON TABLE "public"."appointment_slots" IS E'virtual table of sorts';
-  type: run_sql
-- args:
-    name: appointment_slots
-    schema: public
-  type: add_existing_table_or_view
