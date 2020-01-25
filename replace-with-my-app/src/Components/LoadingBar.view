@@ -1,0 +1,36 @@
+LoadingBar View
+  Wrapper Horizontal
+  backgroundColor rgba(255,123,69, 0.2)
+  borderBottomLeftRadius < 0
+  borderBottomRightRadius < 0
+  borderTopLeftRadius < 0
+  borderTopRightRadius < 0
+  className <wrapper
+  height < 16
+  overflowY hidden
+  overflowX hidden
+  position relative
+  width < 80
+  marginLeft < 0 
+    Long Horizontal
+    backgroundColor rgba(255,123,69, 1)
+    borderBottomLeftRadius < 0
+    borderBottomRightRadius < 0
+    borderTopLeftRadius < 0
+    borderTopRightRadius < 0
+    className <long
+    height < 4
+    overflowY hidden
+    overflowX hidden
+    position absolute
+    Short Horizontal
+    backgroundColor rgba(255,123,69, 1)
+    borderBottomLeftRadius < 0
+    borderBottomRightRadius < 0
+    borderTopLeftRadius < 0
+    borderTopRightRadius < 0
+    className <short
+    height < 4
+    overflowY hidden
+    overflowX hidden
+    position absolute
