@@ -1,8 +1,10 @@
 import App from './App.view.js';
 import React from 'react';
-
-function AppLogic() {
-  return <App />;
+import { Flow } from 'useFlow.js';
+export default function AppLogic() {
+  return (
+    <Flow>
+      <App />
+    </Flow>
+  );
 }
-
-export default AppLogic;

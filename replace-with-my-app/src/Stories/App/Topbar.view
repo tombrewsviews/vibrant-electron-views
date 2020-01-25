@@ -3,17 +3,15 @@ flow together
   Horizontal
   alignItems center
   appRegion drag
-  backgroundColor #363636
+  backgroundColor rgba(0,0,0,0.2)
   height 24
-  paddingRight 60
   justifyContent center
-  #onDoubleClick <maximise
     LogoThin
     width 16
     height 16
     Text
     text Views Design Experiment
-    color rgba(255,255,255,0.7)
+    color rgba(255,255,255,0.5)
     fontFamily WonderUnitSans
     fontSize 12
     fontWeight 300
