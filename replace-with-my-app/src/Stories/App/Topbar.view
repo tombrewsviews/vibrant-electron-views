@@ -3,7 +3,7 @@ flow together
   Horizontal
   alignItems center
   appRegion drag
-  backgroundColor rgba(0,0,0,0.2)
+  backgroundColor rgba(0,0,0,0.4)
   height 24
   justifyContent center
     Text

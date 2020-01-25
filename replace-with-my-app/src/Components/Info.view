@@ -1,9 +1,9 @@
 View
   Info Text
-  color < #808080
+  color < rgba(255,255,255,0.3)
   fontFamily WonderUnitSans
   fontSize < 14
-  fontWeight 300
+  fontWeight 500
   marginTop < 0
   marginBottom < 0
   marginRight < 0
@@ -12,6 +12,8 @@ View
   hyphens < none
   textAlign < left
   width < auto
+  textTransform < none
+  letterSpacing 1.5
   maxWidth < auto
   lineHeight < 18px
   textOverflow < ellipsis

@@ -5,15 +5,60 @@ flow separate
   flexGrow 1
   flexShrink 1
   flexBasis auto
-  backgroundColor rgba(0,0,0,0.1)
+    Vertical
+    backgroundColor rgba(0,0,0,0.3)
+    width 150
+    height 100%
+    paddingTop 8
+    paddingBottom 4
+    paddingLeft 0
+    paddingRight 0
+      Info
+      textTransform uppercase
+      fontSize 10
+      fontWeight 600
+      letterSpacing 15
+      marginBottom 4
+      marginLeft 16
+      text New
+      ButtonLabel
+      text Inbox
+      fontSize 13
+      height 22
+      hasNotification true
+      ButtonLabel
+      text Tasks
+      fontSize 13
+      height 22
+    Vertical
+    backgroundColor rgba(0,0,0,0.2)
+    width 250
+    height 100%
+    paddingBottom 4
+    paddingLeft 0
+    paddingRight 0
+      CardTask
+      isNew true
+      CardTask
+      isNew true
+      CardTask
+      isNewSelected true
+      CardTask
+      CardTask
+      CardTask
     Vertical
     flexGrow 1
     flexShrink 1
     flexBasis auto
+    paddingLeft 8
     alignItems center
-    justifyContent center
-      Text
-      color white
-      text Blurrrry it is!
+    Vertical
+    backgroundColor rgba(255,255,255,0.05)
+    width 250
+    height 100%
+    paddingTop 8
+    paddingBottom 4
+    paddingLeft 8
+    paddingRight 4
     
 

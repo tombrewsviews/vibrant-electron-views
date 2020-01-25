@@ -1,0 +1,42 @@
+ButtonLabel View
+  Horizontal
+  alignItems < center
+  justifyContent spaceBetween
+  alignSelf < auto
+  borderBottomLeftRadius 0
+  borderBottomRightRadius 0
+  borderTopLeftRadius 0
+  borderTopRightRadius 0
+  height < auto
+  width < auto
+  marginLeft < 0
+  marginRight < 0
+  marginTop < 0
+  onClick <
+  opacity < 0.8
+  paddingBottom 0
+  paddingLeft 16
+  paddingRight 8
+  paddingTop 0
+  backgroundColor < rgba(255, 255, 255, 0)
+  when <isHovered
+  backgroundColor rgba(255,255,255,0.2) linear duration 100
+    Text
+    color rgba(255,255,255,0.8)
+    fontFamily WonderUnitSans
+    fontSize < 14
+    fontWeight 400
+    letterSpacing 0.5
+    marginTop <marginTopLabel 0
+    text < Default text
+    when <isHovered
+    color rgba(255,255,255,1)
+    Vertical
+    onWhen <hasNotification
+    width 10
+    height 10
+    backgroundColor rgba(240,133,45,1)
+    borderBottomLeftRadius 10
+    borderBottomRightRadius 10
+    borderTopLeftRadius 10
+    borderTopRightRadius 10

@@ -5,7 +5,7 @@ Body View
   fontFamily WonderUnitSans
   fontSize < 14
   fontWeight < 300
-  marginTop < 16
+  marginTop < 0
   marginLeft < 0
   marginRight < 0
   marginBottom < 0
