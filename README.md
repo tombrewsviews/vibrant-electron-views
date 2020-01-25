@@ -1,9 +1,11 @@
-# electron-quick-start
+# Vibrant Electron with Views Design Experiment
 
-**Uses electron-quick-start project**
+**Based on electron-quick-start project and Views to React Morpher**
 
-[Quick Start Guide](https://electronjs.org/docs/tutorial/quick-start)
+This project is a sample app and a design experiment to play with blur as a background of the app and app elements.
+This new style orginated in recent OSX and can be seen in use in Safari, Finder, and other OSX apps.
 
+We use this project to discover new design styles and patterns, but it can be used as an Electron desktop app starting point.
 
 
 ## To Use
