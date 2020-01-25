@@ -1,0 +1,25 @@
+---
+table: licenses
+
+###############
+# permissions #
+###############
+# select_permissions:
+#   - role: company-admin
+#     permission: &select_permissions:company-admin:permission
+#       allow_aggregations: true
+#       columns:
+#         - name
+#         - id
+#         - is_primary_care
+#         - default_age_min
+#         - default_age_max
+#         - can_age_be_set_by_professional
+#   - role: company-user
+#     permission: *select_permissions:company-admin:permission
+#   - role: member
+#     permission: *select_permissions:company-admin:permission
+#   - role: public
+#     permission: *select_permissions:company-admin:permission
+#   - role: support
+#     permission: *select_permissions:company-admin:permission

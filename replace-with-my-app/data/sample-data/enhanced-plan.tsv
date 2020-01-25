@@ -1,0 +1,529 @@
+Routine Check-Up (Comprehensive Eval if Applicable - D0150 Or D0180)	D0120	2	27	FALSE
+Four Bitewing X-Rays (If Applicable - D0270, D0272, or D0273)	D0274	2	34	FALSE
+Adult Teeth Cleaning	D1110	2	51	FALSE
+Child Teeth Cleaning	D1120	2	37	FALSE
+Topical Fluoride Varnish (Age 14 and Under)	D1206	1	25	FALSE
+Orthodontics	-	0	85	TRUE
+All Other Procedures Not Listed	-	0	75	TRUE
+Limited Exam (Problem-Focused)	D0140	0	37	FALSE
+Oral Evaluation For A Patient Under Three Years Of Age And Counseling With Primary Caregiver	D0145	0	28	FALSE
+Comprehensive Oral Evaluation - New Or Established Patient	D0150	0	39	FALSE
+Detailed And Extensive Oral Evaluation - Problem Focused, By Report	D0160	0	55	FALSE
+Re-Evaluation - Limited, Problem Focused (Established Patient; Not Post-Operative Visit)	D0170	0	34	FALSE
+Comprehensive Periodontal Evaluation - New Or Established Patient	D0180	0	42	FALSE
+Full Mouth X-Rays	D0210	0	81	FALSE
+Intraoral - Periapical 1st Image	D0220	0	16	FALSE
+Intraoral - Periapical Each Additional Radiographic Image	D0230	0	12	FALSE
+Intraoral - Occlusal Radiographic Image	D0240	0	24	FALSE
+Extra-Oral – 2D Projection Radiographic Image Created Using A Stationary Radiation Source, And Detector	D0250	0	40	FALSE
+Extra-Oral Posterior Dental Radiographic Image	D0251	0	44	FALSE
+Bitewing - Single Radiographic Image	D0270	0	16	FALSE
+Bitewings - Two Radiographic Images	D0272	0	24	FALSE
+Bitewings - Three Radiographic Images	D0273	0	28	FALSE
+Vertical Bitewings - 7 To 8 Radiographic Images	D0277	0	49	FALSE
+Sialography	D0310	0	207	FALSE
+Temporomandibular Joint Arthrogram, Including Injection	D0320	0	242	FALSE
+Other Temporomandibular Joint Radiographic Images, By Report	D0321	0	138	FALSE
+Tomographic Survey	D0322	0	207	FALSE
+Panoramic Film	D0330	0	65	FALSE
+2D Cephalometric Radiographic Image – Acquisition, Measurement And Analysis	D0340	0	62	FALSE
+2D Oral/Facial Photographic Image Obtained Intra-Orally Or Extra-Orally	D0350	0	28	FALSE
+Collection Of Microorganisms For Culture And Sensitivity	D0415	0	34	FALSE
+Viral Culture	D0416	0	23	FALSE
+Collection And Preparation Of Genetic Sample Material For Laboratory Analysis And Report	D0422	0	17	FALSE
+Genetic Test For Susceptibility To Diseases – Specimen Analysis	D0423	0	170	FALSE
+Caries Susceptibility Tests	D0425	0	15	FALSE
+Adjunctive Pre-Diagnostic Test That Aids In Detection Of Mucosal Abnormalities Including Premalignant And Malignant Lesions, Not To Include Cytology Or Biopsy Procedures	D0431	0	37	FALSE
+Pulp Vitality Tests	D0460	0	25	FALSE
+Diagnostic Casts	D0470	0	50	FALSE
+Accession Of Tissue, Gross Examination, Preparation And Transmission Of Written Report	D0472	0	46	FALSE
+Accession Of Tissue, Gross And Microscopic Examination, Preparation And Transmission Of Written Report	D0473	0	53	FALSE
+Accession Of Tissue, Gross And Microscopic Examination, Including Assessment Of Surgical Margins For Presence Of Disease, Preparation And Transmission Of Written Report	D0474	0	58	FALSE
+Decalcification Procedure	D0475	0	30	FALSE
+Special Stains For Microorganisms	D0476	0	29	FALSE
+Special Stains, Not For Microorganisms	D0477	0	38	FALSE
+Immunohistochemical Stains	D0478	0	35	FALSE
+Tissue In-Situ Hybridization, Including Interpretation	D0479	0	51	FALSE
+Accession Of Exfoliative Cytologic Smears, Microscopic Examination, Preparation And Transmission Of Written Report	D0480	0	43	FALSE
+Electron Microscopy	D0481	0	111	FALSE
+Direct Immunofluorescence	D0482	0	40	FALSE
+Indirect Immunofluorescence	D0483	0	40	FALSE
+Consultation On Slides Prepared Elsewhere	D0484	0	60	FALSE
+Consultation, Including Preparation Of Slides From Biopsy Material Supplied By Referring Source	D0485	0	83	FALSE
+Laboratory Accession Of Transepithelial Cytologic Sample, Microscopic Examination, Preparation And Transmission Of Written Report	D0486	0	101	FALSE
+Other Oral Pathology Procedures, By Report	D0502	0	79	FALSE
+Topical Fluoride Varnish (Age 15 and Older)	D1206	0	25	FALSE
+Nutritional Counseling For Control Of Dental Disease	D1310	0	17	FALSE
+Tobacco Counseling For The Control And Prevention Of Oral Disease	D1320	0	16	FALSE
+Oral Hygiene Instructions	D1330	0	25	FALSE
+Protective Sealant / Tooth	D1351	0	29	FALSE
+Space Maintainer - Fixed, Unilateral – Per Quadrant	D1510	0	188	FALSE
+Space Maintainer - Removable, Unilateral - Per Quadrant	D1520	0	199	FALSE
+Re-Cement Or Re-Bond Space Maintainer	D1550	0	38	FALSE
+Removal Of Fixed Space Maintainer	D1555	0	32	FALSE
+1 Surface Silver Filling For Primary Or Permanent Tooth	D2140	0	68	FALSE
+Amalgam - Two Surfaces, Primary Or Permanent	D2150	0	83	FALSE
+Amalgam - Three Surfaces, Primary Or Permanent	D2160	0	101	FALSE
+Amalgam - Four Or More Surfaces, Primary Or Permanent	D2161	0	117	FALSE
+1 Surface White Filling For U Or L Front Tooth	D2330	0	82	FALSE
+Resin-Based Composite - Two Surfaces, Anterior	D2331	0	103	FALSE
+Resin-Based Composite - Three Surfaces, Anterior	D2332	0	119	FALSE
+Resin-Based Composite - Four Or More Surfaces Or Involving Incisal Angle (Anterior)	D2335	0	143	FALSE
+Resin-Based Composite Crown, Anterior	D2390	0	154	FALSE
+Resin-Based Composite - One Surface, Posterior	D2391	0	95	FALSE
+Resin-Based Composite - Two Surfaces, Posterior	D2392	0	121	FALSE
+Resin-Based Composite - Three Surfaces, Posterior	D2393	0	147	FALSE
+Resin-Based Composite - Four Or More Surfaces, Posterior	D2394	0	158	FALSE
+Gold Foil - One Surface	D2410	0	170	FALSE
+Gold Foil - Two Surfaces	D2420	0	249	FALSE
+Gold Foil - Three Surfaces	D2430	0	298	FALSE
+Inlay - Metallic - One Surface	D2510	0	386	FALSE
+Inlay - Metallic - Two Surfaces	D2520	0	471	FALSE
+Inlay - Metallic - Three Or More Surfaces	D2530	0	564	FALSE
+Onlay - Metallic - Two Surfaces	D2542	0	557	FALSE
+Onlay - Metallic - Three Surfaces	D2543	0	675	FALSE
+Onlay - Metallic - Four Or More Surfaces	D2544	0	656	FALSE
+Inlay - Porcelain/Ceramic - One Surface	D2610	0	454	FALSE
+Inlay - Porcelain/Ceramic - Two Surfaces	D2620	0	505	FALSE
+Inlay - Porcelain/Ceramic - Three Or More Surfaces	D2630	0	594	FALSE
+Onlay - Porcelain/Ceramic - Two Surfaces	D2642	0	605	FALSE
+Onlay - Porcelain/Ceramic - Three Surfaces	D2643	0	655	FALSE
+Onlay - Porcelain/Ceramic - Four Or More Surfaces	D2644	0	679	FALSE
+Inlay - Resin-Based Composite - One Surface	D2650	0	384	FALSE
+Inlay - Resin-Based Composite - Two Surfaces	D2651	0	423	FALSE
+Inlay - Resin-Based Composite - Three Or More Surfaces	D2652	0	480	FALSE
+Onlay - Resin-Based Composite - Two Surfaces	D2662	0	536	FALSE
+Onlay - Resin-Based Composite - Three Surfaces	D2663	0	571	FALSE
+Onlay - Resin-Based Composite - Four Or More Surfaces	D2664	0	591	FALSE
+Crown - Resin-Based Composite (Indirect)	D2710	0	290	FALSE
+Crown - ¾ Resin-Based Composite (Indirect)	D2712	0	282	FALSE
+Crown - Resin With High Noble Metal	D2720	0	464	FALSE
+Crown - Resin With Predominantly Base Metal	D2721	0	416	FALSE
+Crown - Resin With Noble Metal	D2722	0	436	FALSE
+Single Crown - Porcelain/Ceramic	D2740	0	723	FALSE
+Single Crown - Porcelain On High Noble Metal	D2750	0	710	FALSE
+Crown - Porcelain Fused To Predominantly Base Metal	D2751	0	619	FALSE
+Single Crown - Porcelain On Noble Metal	D2752	0	671	FALSE
+Crown - 3/4 Cast High Noble Metal	D2780	0	699	FALSE
+Crown - 3/4 Cast Predominantly Base Metal	D2781	0	614	FALSE
+Crown - 3/4 Cast Noble Metal	D2782	0	664	FALSE
+Crown - 3/4 Porcelain/Ceramic	D2783	0	716	FALSE
+Crown - Full Cast High Noble Metal	D2790	0	693	FALSE
+Crown - Full Cast Predominantly Base Metal	D2791	0	591	FALSE
+Crown - Full Cast Noble Metal	D2792	0	653	FALSE
+Crown - Titanium And Titanium Alloys	D2794	0	707	FALSE
+Provisional Crown– Further Treatment Or Completion Of Diagnosis Necessary Prior To Final Impression	D2799	0	185	FALSE
+Re-Cement Or Re-Bond Inlay, Onlay, Veneer Or Partial Coverage Restoration	D2910	0	46	FALSE
+Re-Cement Or Re-Bond Indirectly Fabricated Or Prefabricated Post And Core	D2915	0	44	FALSE
+Re-Cement Or Re-Bond Crown	D2920	0	47	FALSE
+Prefabricated Porcelain/Ceramic Crown – Primary Tooth	D2929	0	165	FALSE
+Prefabricated Stainless Steel Crown - Primary Tooth	D2930	0	144	FALSE
+Prefabricated Stainless Steel Crown - Permanent Tooth	D2931	0	155	FALSE
+Prefabricated Resin Crown	D2932	0	165	FALSE
+Prefabricated Stainless Steel Crown With Resin Window	D2933	0	180	FALSE
+Prefabricated Esthetic Coated Stainless Steel Crown - Primary Tooth	D2934	0	166	FALSE
+Protective Restoration	D2940	0	47	FALSE
+Core Build-Up With Pins	D2950	0	117	FALSE
+Pin Retention - Per Tooth, In Addition To Restoration	D2951	0	36	FALSE
+Post And Core In Addition To Crown, Indirectly Fabricated	D2952	0	242	FALSE
+Each Additional Indirectly Fabricated Post - Same Tooth	D2953	0	68	FALSE
+Prefabricated Post And Core In Addition To Crown	D2954	0	167	FALSE
+Post Removal	D2955	0	121	FALSE
+Each Additional Prefabricated Post - Same Tooth	D2957	0	17	FALSE
+Labial Veneer (Resin Laminate) - Chairside	D2960	0	278	FALSE
+Labial Veneer (Resin Laminate) - Laboratory	D2961	0	433	FALSE
+Labial Veneer (Porcelain Laminate) - Laboratory	D2962	0	594	FALSE
+Coping	D2975	0	258	FALSE
+Crown Repair Necessitated By Restorative Material Failure	D2980	0	132	FALSE
+Pulp Cap - Direct (Excluding Final Restoration)	D3110	0	48	FALSE
+Pulp Cap - Indirect (Excluding Final Restoration)	D3120	0	42	FALSE
+Therapeutic Pulpotomy (Excluding Final Restoration) - Removal Of Pulp Coronal To The Dentinocemental Junction And Application Of Medicament	D3220	0	88	FALSE
+Pulpal Debridement, Primary And Permanent Teeth	D3221	0	71	FALSE
+Pulpal Therapy (Resorbable Filling) - Anterior, Primary Tooth (Excluding Final Restoration)	D3230	0	130	FALSE
+Pulpal Therapy (Resorbable Filling) - Posterior, Primary Tooth (Excluding Final Restoration)	D3240	0	151	FALSE
+Root Canal Treatment - Front Tooth	D3310	0	419	FALSE
+Root Canal Treatment - Bicuspid	D3320	0	493	FALSE
+Root Canal Treatment - Molar	D3330	0	637	FALSE
+Treatment Of Root Canal Obstruction; Non-Surgical Access	D3331	0	125	FALSE
+Incomplete Endodontic Therapy; Inoperable, Unrestorable Or Fractured Tooth	D3332	0	190	FALSE
+Internal Root Repair Of Perforation Defects	D3333	0	158	FALSE
+Retreatment Of Previous Root Canal Therapy - Anterior	D3346	0	554	FALSE
+Retreatment Of Previous Root Canal Therapy - Premolar	D3347	0	607	FALSE
+Retreatment Of Previous Root Canal Therapy - Molar	D3348	0	744	FALSE
+Apexification/Recalcification – Initial Visit (Apical Closure / Calcific Repair Of Perforations, Root Resorption, Etc.)	D3351	0	167	FALSE
+Apexification/Recalcification – Interim Medication Replacement	D3352	0	93	FALSE
+Apexification/Recalcification - Final Visit (Includes Completed Root Canal Therapy - Apical Closure/Calcific Repair Of Perforations, Root Resorption, Etc.)	D3353	0	255	FALSE
+Apicoectomy - Anterior	D3410	0	392	FALSE
+Apicoectomy - Premolar (First Root)	D3421	0	466	FALSE
+Apicoectomy - Molar (First Root)	D3425	0	508	FALSE
+Apicoectomy (Each Additional Root)	D3426	0	240	FALSE
+Retrograde Filling - Per Root	D3430	0	116	FALSE
+Root Amputation - Per Root	D3450	0	236	FALSE
+Endodontic Endosseous Implant	D3460	0	702	FALSE
+Intentional Reimplantation (Including Necessary Splinting)	D3470	0	348	FALSE
+Surgical Procedure For Isolation Of Tooth With Rubber Dam	D3910	0	106	FALSE
+Hemisection (Including Any Root Removal), Not Including Root Canal Therapy	D3920	0	239	FALSE
+Canal Preparation And Fitting Of Preformed Dowel Or Post	D3950	0	92	FALSE
+Gingivectomy Or Gingivoplasty - Four Or More Contiguous Teeth Or Tooth Bounded Spaces Per Quadrant	D4210	0	294	FALSE
+Gingivectomy Or Gingivoplasty - One To Three Contiguous Teeth Or Tooth Bounded Spaces Per Quadrant	D4211	0	125	FALSE
+Anatomical Crown Exposure – Four Or More Contiguous Teeth Or Tooth Bounded Spaces Per Quadrant	D4230	0	433	FALSE
+Anatomical Crown Exposure – One To Three Teeth Or Tooth Bounded Spaces Per Quadrant	D4231	0	303	FALSE
+Gingival Flap Procedure, Including Root Planing - Four Or More Contiguous Teeth Or Tooth Bounded Spaces Per Quadrant	D4240	0	336	FALSE
+Gingival Flap Procedure, Including Root Planing - One To Three Contiguous Teeth Or Tooth Bounded Spaces Per Quadrant	D4241	0	222	FALSE
+Apically Positioned Flap	D4245	0	351	FALSE
+Clinical Crown Lengthening – Hard Tissue	D4249	0	396	FALSE
+Osseous Surgery (Including Elevation Of A Full Thickness Flap And Closure) – Four Or More Contiguous Teeth Or Tooth Bounded Spaces Per Quadrant	D4260	0	628	FALSE
+Osseous Surgery (Including Elevation Of A Full Thickness Flap And Closure) – One To Three Contiguous Teeth Or Tooth Bounded Spaces Per Quadrant	D4261	0	401	FALSE
+Bone Replacement Graft - Retained Natural Tooth - First Site In Quadrant	D4263	0	298	FALSE
+Bone Replacement Graft – Retained Natural Tooth – Each Additional Site In Quadrant	D4264	0	199	FALSE
+Biologic Materials To Aid In Soft And Osseous Tissue Regeneration	D4265	0	164	FALSE
+Guided Tissue Regeneration - Resorbable Barrier, Per Site	D4266	0	290	FALSE
+Guided Tissue Regeneration - Nonresorbable Barrier, Per Site (Includes Membrane Removal)	D4267	0	311	FALSE
+Surgical Revision Procedure, Per Tooth	D4268	0	256	FALSE
+Pedicle Soft Tissue Graft Procedure	D4270	0	434	FALSE
+Autogenous Connective Tissue Graft Procedure (Including Donor And Recipient Surgical Sites) First Tooth, Implant, Or Edentulous Tooth Position In Graft	D4273	0	520	FALSE
+Mesial/Distal Wedge Procedure, Single Tooth (When Not Performed In Conjunction With Surgical Procedures In The Same Anatomical Area)	D4274	0	188	FALSE
+Non-Autogenous Connective Tissue Graft (Including Recipient Site And Donor Material) First Tooth, Implant, Or Edentulous Tooth Position In Graft	D4275	0	513	FALSE
+Combined Connective Tissue And Double Pedicle Graft, Per Tooth	D4276	0	576	FALSE
+Autogenous Connective Tissue Graft Procedure (Including Donor And Recipient Surgical Sites) – Each Additional Contiguous Tooth, Implant Or Edentulous Tooth Position In Same Graft Site	D4283	0	239	FALSE
+Non-Autogenous Connective Tissue Graft Procedure (Including Recipient Surgical Site And Donor Material) – Each Additional Contiguous Tooth, Implant Or Edentulous Tooth Position In Same Graft Site	D4285	0	239	FALSE
+Provisional Splinting - Intracoronal	D4320	0	166	FALSE
+Provisional Splinting - Extracoronal	D4321	0	129	FALSE
+Perio Scaling And Root Planing (4 Or More Teeth Per Quadrant)	D4341	0	134	FALSE
+Perio Scaling And Root Planing (1 to 3 Teeth Per Quadrant)	D4342	0	83	FALSE
+Full Mouth Debridement To Enable A Comprehensive Oral Evaluation And Diagnosis On A Subsequent Visit	D4355	0	70	FALSE
+Localized Delivery Of Antimicrobial Agents Via A Controlled Release Vehicle Into Diseased Crevicular Tissue, Per Tooth	D4381	0	62	FALSE
+Regular Cleaning Following Periodontic Procedure	D4910	0	74	FALSE
+Unscheduled Dressing Change (By Someone Other Than Treating Dentist Or Their Staff)	D4920	0	32	FALSE
+Full Upper Denture	D5110	0	848	FALSE
+Complete Denture - Mandibular	D5120	0	848	FALSE
+Immediate Denture - Maxillary	D5130	0	896	FALSE
+Immediate Denture - Mandibular	D5140	0	896	FALSE
+Maxillary Partial Denture – Resin Base (Including, Retentive/Clasping Materials, Rests, And Teeth)	D5211	0	606	FALSE
+Mandibular Partial Denture – Resin Base (Including, Retentive/Clasping Materials, Rests, And Teeth)	D5212	0	606	FALSE
+Maxillary Partial Denture - Cast Metal Framework With Resin Denture Bases (Including Retentive/Clasping Materials, Rests And Teeth)	D5213	0	967	FALSE
+Mandibular Partial Denture - Cast Metal Framework With Resin Denture Bases (Including Retentive/Clasping Materials, Rests And Teeth)	D5214	0	967	FALSE
+Immediate Maxillary Partial Denture - Resin Base (Including Retentive/Clasping Materials, Rests And Teeth)	D5221	0	611	FALSE
+Immediate Mandibular Partial Denture - Resin Base (Including Retentive/Clasping Materials, Rests And Teeth)	D5222	0	611	FALSE
+Immediate Mandibular Partial Denture - Cast Metal Framework With Resin Denture Bases (Including Retentive/Clasping Materials, Rests And Teeth)	D5224	0	985	FALSE
+Maxillary Partial Denture - Flexible Base (Including Any Clasps, Rests And Teeth)	D5225	0	886	FALSE
+Mandibular Partial Denture - Flexible Base (Including Any Clasps, Rests And Teeth)	D5226	0	886	FALSE
+Adjust Complete Denture - Maxillary	D5410	0	41	FALSE
+Adjust Complete Denture - Mandibular	D5411	0	43	FALSE
+Adjust Partial Denture - Maxillary	D5421	0	42	FALSE
+Adjust Partial Denture - Mandibular	D5422	0	42	FALSE
+Replace Missing Or Broken Teeth - Complete Denture (Each Tooth)	D5520	0	94	FALSE
+Repair Or Replace Broken Retentive Clasping Materials – Per Tooth	D5630	0	136	FALSE
+Replace Broken Teeth - Per Tooth	D5640	0	81	FALSE
+Add Tooth To Existing Partial Denture	D5650	0	111	FALSE
+Add Clasp To Existing Partial Denture	D5660	0	144	FALSE
+Replace All Teeth And Acrylic On Cast Metal Framework (Maxillary)	D5670	0	398	FALSE
+Replace All Teeth And Acrylic On Cast Metal Framework (Mandibular)	D5671	0	399	FALSE
+Rebase Complete Maxillary Denture	D5710	0	292	FALSE
+Rebase Complete Mandibular Denture	D5711	0	290	FALSE
+Rebase Maxillary Partial Denture	D5720	0	274	FALSE
+Rebase Mandibular Partial Denture	D5721	0	275	FALSE
+Reline Complete Maxillary Denture (Chairside)	D5730	0	163	FALSE
+Reline Complete Mandibular Denture (Chairside)	D5731	0	163	FALSE
+Reline Maxillary Partial Denture (Chairside)	D5740	0	149	FALSE
+Reline Mandibular Partial Denture (Chairside)	D5741	0	149	FALSE
+Reline Complete Maxillary Denture (Laboratory)	D5750	0	256	FALSE
+Reline Complete Mandibular Denture (Laboratory)	D5751	0	256	FALSE
+Reline Maxillary Partial Denture (Laboratory)	D5760	0	233	FALSE
+Reline Mandibular Partial Denture (Laboratory)	D5761	0	233	FALSE
+Interim Complete Denture (Maxillary)	D5810	0	715	FALSE
+Interim Complete Denture (Mandibular)	D5811	0	715	FALSE
+Interim Partial Denture (Maxillary)	D5820	0	284	FALSE
+Interim Partial Denture (Mandibular)	D5821	0	282	FALSE
+Tissue Conditioning, Maxillary	D5850	0	78	FALSE
+Tissue Conditioning, Mandibular	D5851	0	78	FALSE
+Precision Attachment, By Report	D5862	0	243	FALSE
+Replacement Of Replaceable Part Of Semi-Precision Or Precision Attachment (Male Or Female Component)	D5867	0	104	FALSE
+Modification Of Removable Prosthesis Following Implant Surgery	D5875	0	138	FALSE
+Facial Moulage (Sectional)	D5911	0	121	FALSE
+Facial Moulage (Complete)	D5912	0	121	FALSE
+Nasal Prosthesis	D5913	0	2559	FALSE
+Auricular Prosthesis	D5914	0	2559	FALSE
+Orbital Prosthesis	D5915	0	3457	FALSE
+Ocular Prosthesis	D5916	0	925	FALSE
+Facial Prosthesis	D5919	0	335	FALSE
+Nasal Septal Prosthesis	D5922	0	222	FALSE
+Cranial Prosthesis	D5924	0	442	FALSE
+Nasal Prosthesis, Replacement	D5926	0	746	FALSE
+Auricular Prosthesis, Replacement	D5927	0	792	FALSE
+Obturator Prosthesis, Surgical	D5931	0	1380	FALSE
+Obturator Prosthesis, Definitive	D5932	0	965	FALSE
+Obturator Prosthesis, Modification	D5933	0	139	FALSE
+Mandibular Resection Prosthesis With Guide Flange	D5934	0	2345	FALSE
+Mandibular Resection Prosthesis Without Guide Flange	D5935	0	2037	FALSE
+Obturator Prosthesis, Interim	D5936	0	710	FALSE
+Feeding Aid	D5951	0	375	FALSE
+Speech Aid Prosthesis, Pediatric	D5952	0	1219	FALSE
+Speech Aid Prosthesis, Adult	D5953	0	715	FALSE
+Palatal Augmentation Prosthesis	D5954	0	308	FALSE
+Palatal Lift Prosthesis, Definitive	D5955	0	1983	FALSE
+Palatal Lift Prosthesis, Interim	D5958	0	670	FALSE
+Palatal Lift Prosthesis, Modification	D5959	0	139	FALSE
+Speech Aid Prosthesis, Modification	D5960	0	715	FALSE
+Surgical Stent	D5982	0	134	FALSE
+Radiation Carrier	D5983	0	442	FALSE
+Fluoride Gel Carrier	D5986	0	75	FALSE
+Surgical Splint	D5988	0	201	FALSE
+Surgical Placement Of Implant Body: Endosteal Implant	D6010	0	1256	FALSE
+Surgical Placement Of Interim Implant Body For Transitional Prosthesis: Endosteal Implant	D6012	0	1188	FALSE
+Surgical Placement: Eposteal Implant	D6040	0	2754	FALSE
+Surgical Placement: Transosteal Implant	D6050	0	2334	FALSE
+Semi-Precision Attachment Abutment	D6052	0	531	FALSE
+Connecting Bar – Implant Supported Or Abutment Supported	D6055	0	1411	FALSE
+Prefabricated Abutment – Includes Modification And Placement	D6056	0	435	FALSE
+Custom Fabricated Abutment – Includes Placement	D6057	0	564	FALSE
+Abutment Supported Porcelain/Ceramic Crown	D6058	0	997	FALSE
+Abutment Supported Porcelain Fused To Metal Crown (High Noble Metal)	D6059	0	959	FALSE
+Abutment Supported Porcelain Fused To Metal Crown (Predominantly Base Metal)	D6060	0	831	FALSE
+Abutment Supported Porcelain Fused To Metal Crown (Noble Metal)	D6061	0	947	FALSE
+Abutment Supported Cast Metal Crown (High Noble Metal)	D6062	0	974	FALSE
+Abutment Supported Cast Metal Crown (Predominantly Base Metal)	D6063	0	810	FALSE
+Abutment Supported Cast Metal Crown (Noble Metal)	D6064	0	930	FALSE
+Implant Supported Porcelain/Ceramic Crown	D6065	0	995	FALSE
+Implant Supported Crown - Porcelain Fused To High Noble Alloys	D6066	0	971	FALSE
+Implant Supported Metal Crown (Titanium, Titanium Alloy, High Noble Metal)	D6067	0	961	FALSE
+Abutment Supported Retainer For Porcelain/Ceramic Fpd	D6068	0	991	FALSE
+Abutment Supported Retainer For Porcelain Fused To Metal Fpd (High Noble Metal)	D6069	0	968	FALSE
+Abutment Supported Retainer For Porcelain Fused To Metal Fpd (Predominantly Base Metal)	D6070	0	856	FALSE
+Abutment Supported Retainer For Porcelain Fused To Metal Fpd (Noble Metal)	D6071	0	944	FALSE
+Abutment Supported Retainer For Cast Metal Fpd (High Noble Metal)	D6072	0	961	FALSE
+Abutment Supported Retainer For Cast Metal Fpd (Predominantly Base Metal)	D6073	0	795	FALSE
+Abutment Supported Retainer For Cast Metal Fpd (Noble Metal)	D6074	0	919	FALSE
+Implant Supported Retainer For Ceramic Fpd	D6075	0	982	FALSE
+Implant Supported Retainer For Fpd - Porcelain Fused To High Noble Alloys	D6076	0	967	FALSE
+Implant Supported Retainer For Metal Fpd - High Noble Alloys	D6077	0	975	FALSE
+Implant Maintenance Procedures When Prostheses Are Removed And Reinserted, Including Cleansing Of Prostheses And Abutments	D6080	0	69	FALSE
+Repair Implant Supported Prosthesis, By Report	D6090	0	283	FALSE
+Replacement Of Semi-Precision Or Precision Attachment (Male Or Female Component) Of Implant/Abutment Supported Prosthesis, Per Attachment	D6091	0	207	FALSE
+Re-Cement Or Re-Bond Implant/Abutment Supported Crown	D6092	0	57	FALSE
+Re-Cement Or Re-Bond Implant/Abutment Supported Fixed Partial Denture	D6093	0	89	FALSE
+Abutment Supported Crown - Titanium And Titanium Alloys	D6094	0	973	FALSE
+Repair Implant Abutment, By Report	D6095	0	255	FALSE
+Implant Removal, By Report	D6100	0	321	FALSE
+Implant /Abutment Supported Removable Denture For Edentulous Arch – Maxillary	D6110	0	1204	FALSE
+Abutment Supported Retainer Crown For Fpd – Titanium And Titanium Alloys	D6194	0	992	FALSE
+Pontic - Indirect Resin Based Composite	D6205	0	404	FALSE
+Tooth Replacement Part Of Permanent Bridge	D6210	0	682	FALSE
+Pontic - Cast Predominantly Base Metal	D6211	0	580	FALSE
+Pontic - Cast Noble Metal	D6212	0	640	FALSE
+Pontic - Titanium And Titanium Alloys	D6214	0	619	FALSE
+Pontic - Porcelain Fused To High Noble Metal	D6240	0	688	FALSE
+Pontic - Porcelain Fused To Predominantly Base Metal	D6241	0	611	FALSE
+Pontic - Porcelain Fused To Noble Metal	D6242	0	656	FALSE
+Pontic - Porcelain/Ceramic	D6245	0	698	FALSE
+Pontic - Resin With High Noble Metal	D6250	0	649	FALSE
+Pontic - Resin With Predominantly Base Metal	D6251	0	547	FALSE
+Pontic - Resin With Noble Metal	D6252	0	575	FALSE
+Provisional Pontic - Further Treatment Or Completion Of Diagnosis Necessary Prior To Final  Impression	D6253	0	167	FALSE
+Retainer - Cast Metal For Resin Bonded Fixed Prosthesis	D6545	0	269	FALSE
+Retainer - Porcelain/Ceramic For Resin Bonded Fixed Prosthesis	D6548	0	256	FALSE
+Retainer Inlay - Porcelain/Ceramic, Two Surfaces	D6600	0	511	FALSE
+Retainer Inlay - Porcelain/Ceramic, Three Or More Surfaces	D6601	0	537	FALSE
+Retainer Inlay - Cast High Noble Metal, Two Surfaces	D6602	0	440	FALSE
+Retainer Inlay - Cast High Noble Metal, Three Or More Surfaces	D6603	0	473	FALSE
+Retainer Inlay - Cast Predominantly Base Metal, Two Surfaces	D6604	0	438	FALSE
+Retainer Inlay - Cast Predominantly Base Metal, Three Or More Surfaces	D6605	0	474	FALSE
+Retainer Inlay - Cast Noble Metal, Two Surfaces	D6606	0	437	FALSE
+Retainer Inlay - Cast Noble Metal, Three Or More Surfaces	D6607	0	485	FALSE
+Retainer Onlay - Porcelain/Ceramic, Two Surfaces	D6608	0	572	FALSE
+Retainer Onlay - Porcelain/Ceramic, Three Or More Surfaces	D6609	0	617	FALSE
+Retainer Onlay - Cast High Noble Metal, Two Surfaces	D6610	0	501	FALSE
+Retainer Onlay - Cast High Noble Metal, Three Or More Surfaces	D6611	0	572	FALSE
+Retainer Onlay - Cast Predominantly Base Metal, Two Surfaces	D6612	0	492	FALSE
+Retainer Onlay - Cast Predominantly Base Metal, Three Or More Surfaces	D6613	0	550	FALSE
+Retainer Onlay - Cast Noble Metal, Two Surfaces	D6614	0	493	FALSE
+Retainer Onlay - Cast Noble Metal, Three Or More Surfaces	D6615	0	557	FALSE
+Retainer Inlay - Titanium	D6624	0	432	FALSE
+Retainer Onlay - Titanium	D6634	0	490	FALSE
+Retainer Crown - Indirect Resin Based Composite	D6710	0	351	FALSE
+Retainer Crown - Resin With High Noble Metal	D6720	0	467	FALSE
+Retainer Crown - Resin With Predominantly Base Metal	D6721	0	418	FALSE
+Retainer Crown - Resin With Noble Metal	D6722	0	428	FALSE
+Retainer Crown - Porcelain/Ceramic	D6740	0	712	FALSE
+Retainer Crown - Porcelain Fused To High Noble Metal	D6750	0	701	FALSE
+Retainer Crown - Porcelain Fused To Predominantly Base Metal	D6751	0	617	FALSE
+Retainer Crown - Porcelain Fused To Noble Metal	D6752	0	662	FALSE
+Retainer Crown - 3/4 Cast High Noble Metal	D6780	0	647	FALSE
+Retainer Crown - 3/4 Cast Predominantly Base Metal	D6781	0	578	FALSE
+Retainer Crown - 3/4 Cast Noble Metal	D6782	0	602	FALSE
+Retainer Crown - 3/4 Porcelain/Ceramic	D6783	0	667	FALSE
+Retainer Crown - Full Cast High Noble Metal	D6790	0	683	FALSE
+Retainer Crown - Full Cast Predominantly Base Metal	D6791	0	598	FALSE
+Retainer Crown - Full Cast Noble Metal	D6792	0	640	FALSE
+Provisional Retainer Crown - Further Treatment Or Completion Of Diagnosis  Necessary Prior To Final Impression	D6793	0	167	FALSE
+Retainer Crown - Titanium And Titanium Alloys	D6794	0	625	FALSE
+Connector Bar	D6920	0	298	FALSE
+Re-Cement Or Re-Bond Fixed Partial Denture	D6930	0	66	FALSE
+Stress Breaker	D6940	0	175	FALSE
+Precision Attachment	D6950	0	253	FALSE
+Fixed Partial Denture Repair Necessitated By Restorative Material Failure	D6980	0	161	FALSE
+Pediatric Partial Denture, Fixed	D6985	0	257	FALSE
+Extraction, Coronal Remnants – Primary Tooth	D7111	0	52	FALSE
+Single Tooth Removal - Simple Extraction	D7140	0	76	FALSE
+Extraction - Erupted Tooth	D7210	0	138	FALSE
+Extraction - Impacted Wisdom Tooth (Soft Tissue)	D7220	0	174	FALSE
+Extraction - Impacted Wisdom Tooth (Partial Bony)	D7230	0	222	FALSE
+Removal Of Impacted Tooth - Completely Bony	D7240	0	265	FALSE
+Removal Of Impacted Tooth - Completely Bony, With Unusual Surgical Complications	D7241	0	310	FALSE
+Removal Of Residual Tooth Roots (Cutting Procedure)	D7250	0	145	FALSE
+Oroantral Fistula Closure	D7260	0	287	FALSE
+Primary Closure Of A Sinus Perforation	D7261	0	334	FALSE
+Tooth Reimplantation And/Or Stabilization Of Accidentally Evulsed Or Displaced Tooth	D7270	0	221	FALSE
+Tooth Transplantation (Includes Reimplantation From One Site To Another And Splinting And/Or Stabilization)	D7272	0	216	FALSE
+Exposure Of An Unerupted Tooth	D7280	0	209	FALSE
+Mobilization Of Erupted Or Malpositioned Tooth To Aid Eruption	D7282	0	238	FALSE
+Placement Of Device To Facilitate Eruption Of Impacted Tooth	D7283	0	172	FALSE
+Incisional Biopsy Of Oral Tissue-Hard (Bone, Tooth)	D7285	0	311	FALSE
+Incisional Biopsy Of Oral Tissue-Soft	D7286	0	127	FALSE
+Exfoliative Cytological Sample Collection	D7287	0	58	FALSE
+Brush Biopsy - Transepithelial Sample Collection	D7288	0	78	FALSE
+Surgical Repositioning Of Teeth	D7290	0	231	FALSE
+Transseptal Fiberotomy/Supra Crestal Fiberotomy, By Report	D7291	0	113	FALSE
+Placement Of Temporary Anchorage Device [Screw Retained Plate] Requiring Flap; Includes Device Removal	D7292	0	294	FALSE
+Placement Of Temporary Anchorage Device Requiring Flap; Includes Device Removal	D7293	0	250	FALSE
+Placement Of Temporary Anchorage Device Without Flap; Includes Device Removal	D7294	0	191	FALSE
+Alveoloplasty In Conjunction With Extractions - Four Or More Teeth Or Tooth Spaces, Per Quadrant	D7310	0	126	FALSE
+Alveoloplasty In Conjunction With Extractions - One To Three Teeth Or Tooth Spaces, Per Quadrant	D7311	0	90	FALSE
+Alveoloplasty Not In Conjunction With Extractions - Four Or More Teeth Or Tooth Spaces, Per Quadrant	D7320	0	161	FALSE
+Alveoloplasty Not In Conjunction With Extractions - One To Three Teeth Or Tooth Spaces, Per Quadrant	D7321	0	128	FALSE
+Vestibuloplasty - Ridge Extension (Secondary Epithelialization)	D7340	0	448	FALSE
+Vestibuloplasty - Ridge Extension (Including Soft Tissue Grafts, Muscle Reattachment, Revision Of Soft Tissue Attachment And Management Of Hypertrophied And Hyperplastic Tissue)	D7350	0	1550	FALSE
+Excision Of Benign Lesion Up To 1.25 Cm	D7410	0	200	FALSE
+Excision Of Benign Lesion Greater Than 1.25 Cm	D7411	0	241	FALSE
+Excision Of Benign Lesion, Complicated	D7412	0	266	FALSE
+Excision Of Malignant Lesion Up To 1.25 Cm	D7413	0	166	FALSE
+Excision Of Malignant Lesion Greater Than 1.25 Cm	D7414	0	241	FALSE
+Excision Of Malignant Lesion, Complicated	D7415	0	266	FALSE
+Excision Of Malignant Tumor - Lesion Diameter Up To 1.25 Cm	D7440	0	208	FALSE
+Excision Of Malignant Tumor - Lesion Diameter Greater Than 1.25 Cm	D7441	0	219	FALSE
+Removal Of Benign Odontogenic Cyst Or Tumor - Lesion Diameter Up To 1.25 Cm	D7450	0	217	FALSE
+Removal Of Benign Odontogenic Cyst Or Tumor - Lesion Diameter Greater Than 1.25 Cm	D7451	0	365	FALSE
+Removal Of Benign Nonodontogenic Cyst Or Tumor - Lesion Diameter Up To 1.25 Cm	D7460	0	176	FALSE
+Removal Of Benign Nonodontogenic Cyst Or Tumor - Lesion Diameter Greater Than 1.25 Cm	D7461	0	373	FALSE
+Destruction Of Lesion(S) By Physical Or Chemical Method, By Report	D7465	0	83	FALSE
+Removal Of Lateral Exostosis (Maxilla Or Mandible)	D7471	0	268	FALSE
+Removal Of Torus Palatinus	D7472	0	269	FALSE
+Removal Of Torus Mandibularis	D7473	0	270	FALSE
+Reduction Of Osseous Tuberosity	D7485	0	233	FALSE
+Radical Resection Of Maxilla Or Mandible	D7490	0	519	FALSE
+Incision And Drainage Of Abscess - Intraoral Soft Tissue	D7510	0	91	FALSE
+Incision And Drainage Of Abscess - Intraoral Soft Tissue - Complicated (Includes Drainage Of Multiple Fascial Spaces)	D7511	0	102	FALSE
+Incision And Drainage Of Abscess - Extraoral Soft Tissue	D7520	0	125	FALSE
+Incision And Drainage Of Abscess - Extraoral Soft Tissue - Complicated (Includes Drainage Of Multiple Fascial Spaces)	D7521	0	114	FALSE
+Removal Of Foreign Body From Mucosa, Skin, Or Subcutaneous Alveolar Tissue	D7530	0	130	FALSE
+Removal Of Reaction Producing Foreign Bodies, Musculoskeletal System	D7540	0	201	FALSE
+Partial Ostectomy/Sequestrectomy For  Removal Of Non-Vital Bone	D7550	0	226	FALSE
+Maxillary Sinusotomy For Removal Of Tooth Fragment Or Foreign Body	D7560	0	280	FALSE
+Maxilla - Open Reduction (Teeth Immobilized, If Present)	D7610	0	411	FALSE
+Maxilla - Closed Reduction (Teeth Immobilized, If Present)	D7620	0	450	FALSE
+Mandible - Open Reduction (Teeth Immobilized, If Present)	D7630	0	1457	FALSE
+Mandible - Closed Reduction (Teeth Immobilized, If Present)	D7640	0	1172	FALSE
+Malar And/Or Zygomatic Arch - Open Reduction	D7650	0	569	FALSE
+Malar And/Or Zygomatic Arch - Closed Reduction	D7660	0	212	FALSE
+Alveolus - Closed Reduction, May Include Stabilization Of Teeth	D7670	0	482	FALSE
+Alveolus - Open Reduction, May Include Stabilization Of Teeth	D7671	0	638	FALSE
+Facial Bones - Complicated Reduction With Fixation And Multiple Surgical Approaches	D7680	0	2099	FALSE
+Maxilla - Open Reduction	D7710	0	1208	FALSE
+Maxilla - Closed Reduction	D7720	0	969	FALSE
+Mandible - Open Reduction	D7730	0	1659	FALSE
+Mandible - Closed Reduction	D7740	0	1214	FALSE
+Malar And/Or Zygomatic Arch - Open Reduction	D7750	0	1209	FALSE
+Malar And/Or Zygomatic Arch - Closed Reduction	D7760	0	97	FALSE
+Alveolus - Open Reduction Stabilization Of Teeth	D7770	0	328	FALSE
+Alveolus, Closed Reduction Stabilization Of Teeth	D7771	0	633	FALSE
+Facial Bones - Complicated Reduction With Fixation And Multiple Approaches	D7780	0	812	FALSE
+Open Reduction Of Dislocation	D7810	0	321	FALSE
+Closed Reduction Of Dislocation	D7820	0	112	FALSE
+Manipulation Under Anesthesia	D7830	0	100	FALSE
+Condylectomy	D7840	0	283	FALSE
+Surgical Discectomy, With/Without Implant	D7850	0	300	FALSE
+Disc Repair	D7852	0	36	FALSE
+Joint Reconstruction	D7858	0	2168	FALSE
+Arthrotomy	D7860	0	154	FALSE
+Arthroplasty	D7865	0	937	FALSE
+Arthrocentesis	D7870	0	103	FALSE
+Non-Arthroscopic Lysis And Lavage	D7871	0	197	FALSE
+Arthroscopy - Diagnosis, With Or Without Biopsy	D7872	0	147	FALSE
+Arthroscopy: Lavage And Lysis Of Adhesions	D7873	0	918	FALSE
+Arthroscopy: Disc Repositioning And Stabilization	D7874	0	301	FALSE
+Arthroscopy: Synovectomy	D7875	0	301	FALSE
+Arthroscopy: Discectomy	D7876	0	251	FALSE
+Occlusal Orthotic Device, By Report	D7880	0	568	FALSE
+Occlusal Orthotic Device Adjustment	D7881	0	62	FALSE
+Occlusal Orthotic Device Adjustment	D7881	0	62	FALSE
+Suture Of Recent Small Wounds Up To 5 Cm	D7910	0	70	FALSE
+Complicated Suture - Up To 5 Cm	D7911	0	111	FALSE
+Complicated Suture - Greater Than 5 Cm	D7912	0	129	FALSE
+Skin Graft (Identify Defect Covered, Location And Type Of Graft)	D7920	0	407	FALSE
+Osteoplasty - For Orthognathic Deformities	D7940	0	455	FALSE
+Osteotomy - Mandibular Rami	D7941	0	3130	FALSE
+Osteotomy - Mandibular Rami With Bone Graft; Includes Obtaining The Graft	D7943	0	905	FALSE
+Osteotomy - Segmented Or Subapical	D7944	0	1986	FALSE
+Osteotomy - Body Of Mandible	D7945	0	1256	FALSE
+Lefort I (Maxilla - Total)	D7946	0	3406	FALSE
+Lefort I (Maxilla - Segmented)	D7947	0	1397	FALSE
+Lefort Ii Or Lefort Iii (Osteoplasty Of Facial Bones For Midface Hypoplasia Or Retrusion) - Without Bone Graft	D7948	0	411	FALSE
+Lefort Ii Or Lefort Iii - With Bone Graft	D7949	0	2015	FALSE
+Osseous, Osteoperiosteal, Or Cartilage Graft Of The Mandible Or Maxilla - Autogenous Or Nonautogenous, By Report	D7950	0	1200	FALSE
+Sinus Augmentation With Bone Or Bone Substitutes Via A Lateral Open Approach	D7951	0	1700	FALSE
+Bone Replacement Graft For Ridge Preservation - Per Site	D7953	0	254	FALSE
+Frenulectomy - Also Known As Frenectomy Or Frenotomy - Separate Procedure Not Incidental To Another Procedure	D7960	0	198	FALSE
+Frenuloplasty	D7963	0	254	FALSE
+Excision Of Hyperplastic Tissue - Per Arch	D7970	0	211	FALSE
+Excision Of Pericoronal Gingiva	D7971	0	119	FALSE
+Surgical Reduction Of Fibrous Tuberosity	D7972	0	193	FALSE
+Surgical Sialolithotomy	D7980	0	259	FALSE
+Sialodochoplasty	D7982	0	542	FALSE
+Closure Of Salivary Fistula	D7983	0	522	FALSE
+Emergency Tracheotomy	D7990	0	117	FALSE
+Coronoidectomy	D7991	0	575	FALSE
+Synthetic Graft - Mandible Or Facial Bones, By Report	D7995	0	273	FALSE
+Implant-Mandible For Augmentation Purposes (Excluding Alveolar Ridge), By Report	D7996	0	230	FALSE
+Appliance Removal (Not By Dentist Who Placed Appliance), Includes Removal Of Archbar	D7997	0	115	FALSE
+Intraoral Placement Of A Fixation Device Not In Conjunction With A Fracture	D7998	0	652	FALSE
+Removable Appliance Therapy	D8210	0	584	FALSE
+Fixed Appliance Therapy	D8220	0	727	FALSE
+Re-Cement Or Re-Bond Fixed Retainer	D8693	0	41	FALSE
+Palliative (Emergency) Treatment Of Dental Pain - Minor Procedure	D9110	0	49	FALSE
+Fixed Partial Denture Sectioning	D9120	0	80	FALSE
+Local Anesthesia Not In Conjunction With Operative Or Surgical Procedures	D9210	0	13	FALSE
+Regional Block Anesthesia	D9211	0	14	FALSE
+Trigeminal Division Block Anesthesia	D9212	0	14	FALSE
+Local Anesthesia In Conjunction With Operative Or Surgical Procedures	D9215	0	0	FALSE
+Deep Sedation/General Anesthesia – Each Subsequent 15 Minute Increment	D9223	0	104	FALSE
+Inhalation Of Nitrous Oxide/Analgesia, Anxiolysis	D9230	0	30	FALSE
+Intravenous Moderate (Conscious) Sedation/Analgesia – Each Subsequent 15 Minute Increment	D9243	0	91	FALSE
+Non-Intravenous Conscious Sedation	D9248	0	155	FALSE
+Consultation - Diagnostic Service Provided By Dentist Or Physician Other Than Requesting Dentist Or Physician	D9310	0	66	FALSE
+House/Extended Care Facility Call	D9410	0	44	FALSE
+Hospital Or Ambulatory Surgical Center Call	D9420	0	152	FALSE
+Office Visit For Observation (During Regularly Scheduled Hours) - No Other Services Performed	D9430	0	31	FALSE
+Office Visit - After Regularly Scheduled Hours	D9440	0	48	FALSE
+Case Presentation, Detailed And Extensive Treatment Planning	D9450	0	13	FALSE
+Therapeutic Parenteral Drug, Single Administration	D9610	0	29	FALSE
+Therapeutic Parenteral Drugs, Two Or More Administrations, Different Medications	D9612	0	47	FALSE
+Drugs Or Medicaments Dispensed In The Office For Home Use	D9630	0	23	FALSE
+Application Of Desensitizing Medicament	D9910	0	31	FALSE
+Application Of Desensitizing Resin For Cervical And/Or Root Surface, Per Tooth	D9911	0	26	FALSE
+Behavior Management, By Report	D9920	0	34	FALSE
+Treatment Of Complications (Post-Surgical) - Unusual Circumstances, By Report	D9930	0	46	FALSE
+Cleaning And Inspection Of Removable Complete Denture, Maxillary	D9932	0	56	FALSE
+Cleaning And Inspection Of Removable Complete Denture, Mandibular	D9933	0	56	FALSE
+Cleaning And Inspection Of Removable Partial Denture, Maxillary	D9934	0	56	FALSE
+Cleaning And Inspection Of Removable Partial Denture, Mandibular	D9935	0	56	FALSE
+Fabrication Of Athletic Mouthguard	D9941	0	80	FALSE
+Repair And/Or Reline Of Occlusal Guard	D9942	0	49	FALSE
+Occlusal Guard Adjustment	D9943	0	54	FALSE
+Occlusion Analysis - Mounted Case	D9950	0	111	FALSE
+Occlusal Adjustment - Limited	D9951	0	52	FALSE
+Occlusal Adjustment - Complete	D9952	0	189	FALSE
+Enamel Microabrasion	D9970	0	29	FALSE
+Odontoplasty 1 - 2 Teeth; Includes Removal Of Enamel Projections	D9971	0	44	FALSE
+External Bleaching - Per Arch - Performed In Office	D9972	0	199	FALSE
+External Bleaching - Per Tooth	D9973	0	45	FALSE
+Internal Bleaching - Per Tooth	D9974	0	139	FALSE

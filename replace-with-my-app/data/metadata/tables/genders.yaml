@@ -1,0 +1,20 @@
+---
+table: genders
+
+###############
+# permissions #
+###############
+# select_permissions:
+#   - role: company-admin
+#     permission: &select_permissions:company-admin:permission
+#       allow_aggregations: false
+#       columns:
+#         - name
+#   - role: company-user
+#     permission: *select_permissions:company-admin:permission
+#   - role: member
+#     permission: *select_permissions:company-admin:permission
+#   - role: public
+#     permission: *select_permissions:company-admin:permission
+#   - role: support
+#     permission: *select_permissions:company-admin:permission

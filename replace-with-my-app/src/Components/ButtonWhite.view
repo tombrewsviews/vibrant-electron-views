@@ -1,0 +1,30 @@
+ButtonWhite View
+  Vertical
+  alignItems center
+  onClick <
+  marginTop < 0
+  marginRight < 0
+  paddingTop 8
+  paddingBottom 8
+  paddingLeft < 16
+  paddingRight < 16
+  alignSelf < auto
+  backgroundColor < white
+  borderBottomLeftRadius 4
+  borderBottomRightRadius 4
+  borderTopLeftRadius 4
+  borderTopRightRadius 4
+  width < auto
+  order <
+  backdropFilter <
+  when <isHovered
+  backgroundColor rgba(0, 162, 255, 1) easeInOut
+    Text
+    color < #303030
+    fontFamily WonderUnitSans
+    fontSize < 14
+    letterSpacing 0.5
+    fontWeight 400
+    text < Deafult text
+    when <isHovered
+    color white easeInOut

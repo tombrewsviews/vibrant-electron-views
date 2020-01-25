@@ -1,0 +1,31 @@
+AddUser View
+  Svg
+  alignSelf < auto
+  marginTop < 0
+  marginBottom < 0
+  marginLeft < 0
+  marginRight < 0
+  opacity < 1
+  viewBox 0 0 48 32
+  width < 48
+  height < 32
+    SvgPath
+    fill < none
+    stroke < #2E2E2E
+    strokeWidth 2
+    strokeMiterlimit 10
+    d M9.8 10.7v10.6M15.1 16H4.4
+    SvgCircle
+    fill < none
+    stroke < #2E2E2E
+    strokeWidth 2
+    strokeMiterlimit 10
+    cx 30.5
+    cy 14.2
+    r 7.7
+    SvgPath
+    fill < none
+    stroke < #2E2E2E
+    strokeWidth 2
+    strokeMiterlimit 10
+    d M21.1 26.5c5.2-5.2 13.6-5.2 18.8 0

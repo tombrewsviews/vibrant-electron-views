@@ -1,0 +1,57 @@
+AutocompleteAddress View
+  AutocompleteAddress Vertical
+    InputNoLabel
+    autoComplete off
+    autoFocus <
+    className mousetrap
+    onBlur <
+    onChange <
+    onSubmit <
+    isInvalid <
+    placeholder Address
+    type text
+    value <
+    label <
+    width < 300
+    marginRight < 8
+    fontSize 14
+    AutocompletePopup Vertical
+    onWhen <isShowingSuggestions
+    backgroundColor #ff2424
+      List
+      backgroundColor #ffffff
+      borderBottomLeftRadius 5
+      borderBottomRightRadius 5
+      borderTopLeftRadius 5
+      borderTopRightRadius 5
+      from <
+      left 0
+      paddingBottom 4
+      paddingLeft 4
+      paddingRight 4
+      position absolute
+      shadowBlur 20
+      shadowColor rgba(109, 109, 109, 0.2)
+      shadowOffsetX 0
+      shadowOffsetY 4
+      shadowSpread 0
+      top 5
+      zIndex 1
+      width 600
+      when <isMediaMobile
+      width 350
+        AutocompleteAddressChoice
+        onClick <chooseAddress
+        selected <
+      Shortcut
+      keys up
+      onPress <prevSuggestion
+      Shortcut
+      keys down
+      onPress <nextSuggestion
+      Shortcut
+      keys enter
+      onPress <chooseSelectedAddress
+      Shortcut
+      keys esc
+      onPress <closeSuggestions

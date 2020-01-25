@@ -1,0 +1,15 @@
+View
+  TagCloudRadial List
+  flexDirection row
+  flexWrap wrap
+  from <
+    ChoiceRadial
+    alignSelf selfStart
+    marginLeft 0
+    marginRight 0
+    marginTop 4
+    onClick <
+    paddingBottom 15
+    paddingTop 15
+    selected <isSelected
+    width 100%

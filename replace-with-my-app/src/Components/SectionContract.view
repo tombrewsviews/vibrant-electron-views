@@ -1,0 +1,13 @@
+SectionContract View
+  Vertical
+  marginLeft < 0
+  marginTop < 16
+    Horizontal
+      SubTitle
+      text <number
+      marginRight 8
+      SubTitle
+      text <title 
+    Body
+    text <body
+  

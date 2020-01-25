@@ -1,0 +1,46 @@
+InputNoLabel View
+  Capture
+  backgroundColor #f2f2f2
+  borderBottomLeftRadius 8
+  borderBottomRightRadius 8
+  borderTopLeftRadius 8
+  borderTopRightRadius 8
+  borderColor transparent
+  borderStyle solid
+  borderWidth 2
+  alignSelf stretch
+  autoComplete < on
+  autoFocus <
+  className <
+  color #404040
+  fontFamily < WonderUnitSans
+  fontSize < 16
+  fontWeight < 300
+  letterSpacing 0.3
+  marginTop < 0
+  marginRight < 0
+  onBlur <
+  onChange <
+  onFocus <
+  onKeyUp <
+  paddingBottom < 16
+  paddingLeft < 16
+  paddingRight < 16
+  paddingTop < 16
+  placeholder <
+  ref <innerRef
+  textTransform < capitalize
+  type < text
+  value <
+  maxWidth < 600
+  when <isPlaceholder
+  color #606060
+  textTransform none
+  when <isFocused
+  backgroundColor white linear
+  borderColor #00a2ff linear
+  when <isInvalid
+  borderColor rgba(224,51,51, 0.75) linear
+  when <isDisabled
+  backgroundColor transparent
+  borderColor #f2f2f2

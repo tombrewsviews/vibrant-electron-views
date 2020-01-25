@@ -1,0 +1,6 @@
+AllLocations View
+flow together
+  Vertical
+  paddingTop 16
+    Text
+    text all

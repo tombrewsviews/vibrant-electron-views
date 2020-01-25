@@ -1,0 +1,10 @@
+PlanCellText View
+  Vertical
+  marginTop < 0
+  marginRight < 0
+  height 40
+  justifyContent center
+  paddingRight < 0
+    SubTitle
+    text < Text
+    color <

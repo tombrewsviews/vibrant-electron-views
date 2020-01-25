@@ -1,0 +1,12 @@
+DataNoLabel View
+  Vertical
+  marginLeft 2
+  marginRight 2
+    Text
+    text < Johns
+    color < #303030
+    fontFamily WonderUnitSans
+    fontSize 14
+    fontWeight < 400
+    letterSpacing 0.3
+    marginTop < 0

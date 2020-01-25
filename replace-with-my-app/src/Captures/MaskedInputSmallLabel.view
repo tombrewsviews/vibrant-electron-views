@@ -1,0 +1,42 @@
+MaskedInputSmallLabel View
+  Vertical
+  marginTop < 0
+  marginRight < 8
+  marginLeft < 0
+  marginBottom < 0
+  width < 300
+    Text
+    onWhen <label
+    text <label
+    color #606060
+    fontFamily WonderUnitSans
+    fontSize 8
+    fontWeight 500
+    letterSpacing 1
+    marginBottom 8
+    marginLeft <marginLeftLabel 10
+    textTransform uppercase
+    MaskedInput
+    autoFocus <
+    fontSize 14
+    paddingBottom < 7
+    paddingLeft < 8
+    paddingRight < 8
+    paddingTop < 7
+    borderBottomLeftRadius 5
+    borderBottomRightRadius 5
+    borderTopLeftRadius 5
+    borderTopRightRadius 5
+    isInvalid <
+    invalidMessage <
+    onBlur <
+    onChange <
+    onFocus <
+    onSubmit <
+    onKeyUp <
+    placeholder <
+    ref <innerRef
+    textTransform < capitalize
+    mask < date
+    initialValue <
+    width auto

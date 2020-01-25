@@ -1,0 +1,69 @@
+Menu View
+flow together
+  Horizontal
+  alignItems center
+  justifyContent spaceAround
+  height 60
+  width 100%
+  backgroundColor #ffffff
+  # borderColor rgba(255,255,255,1)
+  # borderWidth 1
+  # borderStyle solid
+  zIndex 1
+  borderBottomLeftRadius 0
+  borderBottomRightRadius 0
+  borderTopLeftRadius 0
+  borderTopRightRadius 0
+  paddingLeft 16
+  paddingRight 16
+  paddingTop 0
+  zIndex 2
+  shadowBlur 16
+  shadowColor rgba(0,0,0, 0.05)
+  shadowOffsetX 0
+  shadowOffsetY -8
+  shadowSpread 0
+  flexDirection row
+  when <isMediaLaptop
+  paddingTop 16
+  justifyContent flexStart
+  borderTopLeftRadius 0
+  borderTopRightRadius 0
+  flexDirection column
+  height 100%
+  width 80
+    ButtonIcon
+    onClick <setFlow
+    onClickId /App/Account/Content/Dash
+    isSelected <
+      StatusInactive BellIcon
+      width 25
+      height 25
+    ButtonIcon
+    onClick <setFlow
+    onClickId /App/Account/Content/Profile
+    isSelected <
+      StatusInactive ProfileIcon
+      width 25
+      height 25
+    ButtonIcon
+    onClick <setFlow
+    onClickId /App/Account/Content/Chat
+    isSelected <
+      StatusInactive ChatIcon
+      width 25
+      height 25
+    ButtonIcon
+    onClick <setFlow
+    onClickId /App/Account/Content/Appointments
+    isSelected <
+      StatusInactive CalendarIcon
+      width 25
+      height 25
+    ButtonIcon
+    onClick <setFlow
+    onClickId /App/Account/Content/Financial
+    isSelected <
+      StatusInactive DollarIcon
+      width 25
+      height 25

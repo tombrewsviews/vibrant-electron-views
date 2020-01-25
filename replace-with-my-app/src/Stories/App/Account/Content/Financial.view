@@ -1,0 +1,19 @@
+Financial View
+flow together
+  Vertical
+  paddingTop 16
+  paddingLeft 16
+  paddingRight 16
+  paddingBottom 100
+    Text
+    text Pay the bill - credit card
+    Text
+    text Generate statement
+    Text
+    text Generate FSA/HSA recepit
+    Text
+    text Payment history - print recepit
+    Text
+    text Update auto-draft - credit card/bank
+    Text
+    text Adjust payment plan - payment calculator

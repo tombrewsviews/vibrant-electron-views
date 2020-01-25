@@ -1,0 +1,9 @@
+ShortcutFake Vertical
+  backgroundColor #323232
+  alignSelf flexStart
+  Text
+    color #f2f2f2
+    fontSize 10
+    fontFamily WonderUnitSans
+    fontWeight 400
+    text S

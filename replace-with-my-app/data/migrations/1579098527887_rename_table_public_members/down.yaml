@@ -1,0 +1,3 @@
+- args:
+    sql: alter table "public"."patients" rename to "members";
+  type: run_sql

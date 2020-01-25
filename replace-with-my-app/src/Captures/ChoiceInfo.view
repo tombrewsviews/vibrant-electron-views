@@ -1,0 +1,42 @@
+ChoiceInfo View
+  Choice Vertical
+  backgroundColor #ffffff
+  borderBottomLeftRadius 8
+  borderBottomRightRadius 8
+  borderColor #ebebeb
+  borderStyle solid
+  borderTopLeftRadius 8
+  borderTopRightRadius 8
+  borderWidth 1
+  cursor pointer
+  marginTop 8
+  onClick <
+  paddingBottom 15
+  paddingLeft 20
+  paddingRight 15
+  paddingTop 15
+  when <isSelected
+  backgroundColor rgba(0,162,255, 0.05) easeInOut
+  borderColor rgba(0,162,255, 0.3) easeInOut
+  when <isHovered
+  backgroundColor rgba(0,162,255, 0.2) easeInOut
+  borderColor rgba(0,162,255, 0.0) easeInOut
+    Text
+    color #404040
+    fontFamily WonderUnitSans
+    fontSize 16
+    fontWeight 400
+    text < Medicare
+    when <isSelected
+    color #ffffff
+    when <isHovered
+    color rgba(0,162,255, 1) easeInOut
+    Text
+    color #606060
+    fontFamily WonderUnitSans
+    fontSize 14
+    fontWeight 300
+    marginTop 8
+    text <info Infor text
+    when <isHovered
+    color rgba(0,162,255, 1) easeInOut

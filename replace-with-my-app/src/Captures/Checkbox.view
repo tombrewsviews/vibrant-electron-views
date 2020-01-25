@@ -1,0 +1,52 @@
+View
+  Checkbox Horizontal
+  alignItems center
+  borderBottomLeftRadius 4
+  borderBottomRightRadius 4
+  borderTopLeftRadius 4
+  borderTopRightRadius 4
+  cursor pointer
+  isDisabled <
+  marginTop < 0
+  marginRight < 0
+  onClick <
+  paddingBottom 4
+  paddingRight 8
+  paddingTop 4
+  when <isDisabled
+  cursor default
+    Horizontal
+    alignItems center
+    backgroundColor #ffffff
+    borderBottomLeftRadius 4
+    borderBottomRightRadius 4
+    borderColor #ebebeb
+    borderStyle solid
+    borderTopLeftRadius 4
+    borderTopRightRadius 4
+    borderWidth 1
+    height 20
+    justifyContent center
+    width 20
+    when <isSelected
+    backgroundColor rgb(0,206,124) easeInOut delay 1
+    borderColor rgb(0,206,124) easeInOut delay 1
+    when <isHovered
+    borderColor rgba(0, 188, 112, 0.83) easeInOut delay 1
+      Check
+      height 14
+      stroke rgba(0, 0, 0, 0)
+      width 14
+      opacity 0
+      when <isSelected
+      stroke #ffffff
+      opacity 1 easeInOut delay 1
+    Text
+    color #323232
+    fontFamily WonderUnitSans
+    fontSize < 14
+    fontWeight 400
+    marginLeft 16
+    paddingTop 2
+    text < Yes, send me text notifications
+    lineHeight 18px

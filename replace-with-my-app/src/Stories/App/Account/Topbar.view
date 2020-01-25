@@ -1,0 +1,55 @@
+Topbar View
+flow together
+  Horizontal
+  height 60
+  alignItems center
+  shadowBlur 8
+  zIndex 1
+  paddingLeft 16
+  paddingRight 16
+  paddingTop 16
+  when <isMediaLaptop
+  height 80
+  paddingLeft 32
+  paddingRight 32
+  paddingTop 4
+    Title
+    text Notifications
+    marginRight auto
+    when <flowProfile
+    text Profile
+    when <flowChat
+    text Chat
+    when <flowAppointments
+    text Appointments
+    when <flowFinancial
+    text Financial
+    ButtonOutline
+    onWhen <isMediaLaptop
+    paddingTop 10
+    paddingBottom 10
+    shadowColor rgba(237,55,26, 0)
+    marginRight 16
+    text Schedule Emergency Appointment
+    Horizontal
+    backgroundColor transparent
+    borderBottomLeftRadius 8
+    borderBottomRightRadius 8
+    borderTopLeftRadius 8
+    borderTopRightRadius 8
+    paddingTop 12
+    paddingLeft 16
+    paddingBottom 12
+    paddingRight 8
+    onClick <
+    when <isHovered
+    backgroundColor rgba(0,0,0,0.05) linear
+    when <isMediaLaptop
+    paddingRight 12
+      SubTitle
+      text John
+      ArrowRight
+      stroke #404040
+      marginLeft 8
+      width 16
+      height 16

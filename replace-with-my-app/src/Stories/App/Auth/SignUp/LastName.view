@@ -1,0 +1,22 @@
+LastName View
+flow together
+data capture last_name
+dataValidate name required
+  InputSmallLabel
+  marginTop 20
+  marginRight 0
+  marginLeftLabel 0
+  paddingBottom 16
+  paddingLeft 16
+  paddingRight 16
+  paddingTop 16
+  isInvalid <
+  label last name
+  onChange <
+  onSubmit <
+  placeholder What's your last name?
+  textTransform none
+  type text
+  value <
+  width 100%
+  disabled <

@@ -1,0 +1,3017 @@
+[
+  {
+    "id": "111 - Wheat"
+  },
+  {
+    "id": "112 - Rice"
+  },
+  {
+    "id": "115 - Corn"
+  },
+  {
+    "id": "116 - Soybeans"
+  },
+  {
+    "id": "119 - Cash Grains, Not Elsewhere Classified"
+  },
+  {
+    "id": "131 - Cotton"
+  },
+  {
+    "id": "132 - Tobacco"
+  },
+  {
+    "id": "133 - Sugarcane and Sugar Beets"
+  },
+  {
+    "id": "134 - Irish Potatoes"
+  },
+  {
+    "id": "139 - Field Crops, Except Cash Grains, Not Elsewhere Classified"
+  },
+  {
+    "id": "161 - Vegetables and Melons"
+  },
+  {
+    "id": "171 - Berry Crops"
+  },
+  {
+    "id": "172 - Grapes"
+  },
+  {
+    "id": "173 - Tree Nuts"
+  },
+  {
+    "id": "174 - Citrus Fruits"
+  },
+  {
+    "id": "175 - Deciduous Tree Fruits"
+  },
+  {
+    "id": "179 - Fruits and Tree Nuts, Not Elsewhere Classified"
+  },
+  {
+    "id": "181 - Ornamental Floriculture and Nursery Products"
+  },
+  {
+    "id": "182 - Food Crops Grown Under Cover"
+  },
+  {
+    "id": "191 - General Farms, Primarily Crop"
+  },
+  {
+    "id": "211 - Beef Cattle Feedlots"
+  },
+  {
+    "id": "212 - Beef Cattle, Except Feedlots"
+  },
+  {
+    "id": "213 - Hogs"
+  },
+  {
+    "id": "214 - Sheep and Goats"
+  },
+  {
+    "id": "219 - General Livestock, Except Dairy and Poultry"
+  },
+  {
+    "id": "241 - Dairy Farms"
+  },
+  {
+    "id": "251 - Broiler, Fryer, and Roaster Chickens"
+  },
+  {
+    "id": "252 - Chicken Eggs"
+  },
+  {
+    "id": "253 - Turkeys and Turkey Eggs"
+  },
+  {
+    "id": "254 - Poultry Hatcheries"
+  },
+  {
+    "id": "259 - Poultry and Eggs, Not Elsewhere Classified"
+  },
+  {
+    "id": "271 - Fur-Bearing Animals and Rabbits"
+  },
+  {
+    "id": "272 - Horses and Other Equines"
+  },
+  {
+    "id": "273 - Animal Aquaculture"
+  },
+  {
+    "id": "279 - Animal Specialties, Not Elsewhere Classified"
+  },
+  {
+    "id": "291 - General Farms, Primarily Livestock and Animal Specialties"
+  },
+  {
+    "id": "711 - Soil Preparation Services"
+  },
+  {
+    "id": "721 - Crop Planting, Cultivating, and Protecting"
+  },
+  {
+    "id": "722 - Crop Harvesting, Primarily by Machine"
+  },
+  {
+    "id": "723 - Crop Preparation Services for Market, Except Cotton Ginning"
+  },
+  {
+    "id": "724 - Cotton Ginning"
+  },
+  {
+    "id": "741 - Veterinary Services for Livestock"
+  },
+  {
+    "id": "742 - Veterinary Services for Animal Specialties"
+  },
+  {
+    "id": "751 - Livestock Services, Except Veterinary"
+  },
+  {
+    "id": "752 - Animal Specialty Services, Except Veterinary"
+  },
+  {
+    "id": "761 - Farm Labor Contractors and Crew Leaders"
+  },
+  {
+    "id": "762 - Farm Management Services"
+  },
+  {
+    "id": "781 - Landscape Counseling and Planning"
+  },
+  {
+    "id": "782 - Lawn and Garden Services"
+  },
+  {
+    "id": "783 - Ornamental Shrub and Tree Services"
+  },
+  {
+    "id": "811 - Timber Tracts"
+  },
+  {
+    "id": "831 - Forest Nurseries and Gathering of Forest Products"
+  },
+  {
+    "id": "851 - Forestry Services"
+  },
+  {
+    "id": "912 - Finfish"
+  },
+  {
+    "id": "913 - Shellfish"
+  },
+  {
+    "id": "919 - Miscellaneous Marine Products"
+  },
+  {
+    "id": "921 - Fish Hatcheries and Preserves"
+  },
+  {
+    "id": "971 - Hunting and Trapping, and Game Propagation"
+  },
+  {
+    "id": "1011 - Iron Ores"
+  },
+  {
+    "id": "1021 - Copper Ores"
+  },
+  {
+    "id": "1031 - Lead and Zinc Ores"
+  },
+  {
+    "id": "1041 - Gold Ores"
+  },
+  {
+    "id": "1044 - Silver Ores"
+  },
+  {
+    "id": "1061 - Ferroalloy Ores, Except Vanadium"
+  },
+  {
+    "id": "1081 - Metal Mining Services"
+  },
+  {
+    "id": "1094 - Uranium-Radium-Vanadium Ores"
+  },
+  {
+    "id": "1099 - Miscellaneous Metal Ores, Not Elsewhere Classified"
+  },
+  {
+    "id": "1221 - Bituminous Coal and Lignite Surface Mining"
+  },
+  {
+    "id": "1222 - Bituminous Coal Underground Mining"
+  },
+  {
+    "id": "1231 - Anthracite Mining"
+  },
+  {
+    "id": "1241 - Coal Mining Services"
+  },
+  {
+    "id": "1311 - Crude Petroleum and Natural Gas"
+  },
+  {
+    "id": "1321 - Natural Gas Liquids"
+  },
+  {
+    "id": "1381 - Drilling Oil and Gas Wells"
+  },
+  {
+    "id": "1382 - Oil and Gas Field Exploration Services"
+  },
+  {
+    "id": "1389 - Oil and Gas Field Services, Not Elsewhere Classified"
+  },
+  {
+    "id": "1411 - Dimension Stone"
+  },
+  {
+    "id": "1422 - Crushed and Broken Limestone"
+  },
+  {
+    "id": "1423 - Crushed and Broken Granite"
+  },
+  {
+    "id": "1429 - Crushed and Broken Stone, Not Elsewhere Classified"
+  },
+  {
+    "id": "1442 - Construction Sand and Gravel"
+  },
+  {
+    "id": "1446 - Industrial Sand"
+  },
+  {
+    "id": "1455 - Kaolin and Ball Clay"
+  },
+  {
+    "id": "1459 - Clay, Ceramic, and Refractory Minerals, Not Elsewhere Classified"
+  },
+  {
+    "id": "1474 - Potash, Soda, and Borate Minerals"
+  },
+  {
+    "id": "1475 - Phosphate Rock"
+  },
+  {
+    "id": "1479 - Chemical and Fertilizer Mineral Mining, Not Elsewhere Classified"
+  },
+  {
+    "id": "1481 - Nonmetallic Minerals Services, Except Fuels"
+  },
+  {
+    "id": "1499 - Miscellaneous Nonmetallic Minerals, Except Fuels"
+  },
+  {
+    "id": "1521 - General Contractors-Single-Family Houses"
+  },
+  {
+    "id": "1522 - General Contractors-Residential Buildings, Other Than Single-Family"
+  },
+  {
+    "id": "1531 - Operative Builders"
+  },
+  {
+    "id": "1541 - General Contractors-Industrial Buildings and Warehouses"
+  },
+  {
+    "id": "1542 - General Contractors-Nonresidential Buildings, Other than Industrial Buildings and Warehouses"
+  },
+  {
+    "id": "1611 - Highway and Street Construction, Except Elevated Highways"
+  },
+  {
+    "id": "1622 - Bridge, Tunnel, and Elevated Highway Construction"
+  },
+  {
+    "id": "1623 - Water, Sewer, Pipeline, and Communications and Power Line Construction"
+  },
+  {
+    "id": "1629 - Heavy Construction, Not Elsewhere Classified"
+  },
+  {
+    "id": "1711 - Plumbing, Heating and Air-Conditioning"
+  },
+  {
+    "id": "1721 - Painting and Paper Hanging"
+  },
+  {
+    "id": "1731 - Electrical Work"
+  },
+  {
+    "id": "1741 - Masonry, Stone Setting, and Other Stone Work"
+  },
+  {
+    "id": "1742 - Plastering, Drywall, Acoustical, and Insulation Work"
+  },
+  {
+    "id": "1743 - Terrazzo, Tile, Marble, and Mosaic Work"
+  },
+  {
+    "id": "1751 - Carpentry Work"
+  },
+  {
+    "id": "1752 - Floor Laying and Other Floor Work, Not Elsewhere Classified"
+  },
+  {
+    "id": "1761 - Roofing, Siding, and Sheet Metal Work"
+  },
+  {
+    "id": "1771 - Concrete Work"
+  },
+  {
+    "id": "1781 - Water Well Drilling"
+  },
+  {
+    "id": "1791 - Structural Steel Erection"
+  },
+  {
+    "id": "1793 - Glass and Glazing Work"
+  },
+  {
+    "id": "1794 - Excavation Work"
+  },
+  {
+    "id": "1795 - Wrecking and Demolition Work"
+  },
+  {
+    "id": "1796 - Installation or Erection of Building Equipment, Not Elsewhere"
+  },
+  {
+    "id": "1799 - Special Trade Contractors, Not Elsewhere Classified"
+  },
+  {
+    "id": "2011 - Meat Packing Plants"
+  },
+  {
+    "id": "2013 - Sausages and Other Prepared Meat Products"
+  },
+  {
+    "id": "2015 - Poultry Slaughtering and Processing"
+  },
+  {
+    "id": "2021 - Creamery Butter"
+  },
+  {
+    "id": "2022 - Natural, Processed, and Imitation Cheese"
+  },
+  {
+    "id": "2023 - Dry, Condensed, and Evaporated Dairy Products"
+  },
+  {
+    "id": "2024 - Ice Cream and Frozen Desserts"
+  },
+  {
+    "id": "2026 - Fluid Milk"
+  },
+  {
+    "id": "2032 - Canned Specialties"
+  },
+  {
+    "id": "2033 - Canned Fruits, Vegetables, Preserves, Jams, and Jellies"
+  },
+  {
+    "id": "2034 - Dried and Dehydrated Fruits, Vegetables, and Soup Mixes"
+  },
+  {
+    "id": "2035 - Pickled Fruits and Vegetables, Vegetable Sauces and Seasonings, and Salad Dressings"
+  },
+  {
+    "id": "2037 - Frozen Fruits, Fruit Juices, and Vegetables"
+  },
+  {
+    "id": "2038 - Frozen Specialties, Not Elsewhere Classified"
+  },
+  {
+    "id": "2041 - Flour and Other Grain Mill Products"
+  },
+  {
+    "id": "2043 - Cereal Breakfast Foods"
+  },
+  {
+    "id": "2044 - Rice Milling"
+  },
+  {
+    "id": "2045 - Prepared Flour Mixes and Doughs"
+  },
+  {
+    "id": "2046 - Wet Corn Milling"
+  },
+  {
+    "id": "2047 - Dog and Cat Food"
+  },
+  {
+    "id": "2048 - Prepared Feed and Feed Ingredients for Animals and Fowls, Except Dogs and Cats"
+  },
+  {
+    "id": "2051 - Bread and Other Bakery Products, Except Cookies and Crackers"
+  },
+  {
+    "id": "2052 - Cookies and Crackers"
+  },
+  {
+    "id": "2053 - Frozen Bakery Products, Except Bread"
+  },
+  {
+    "id": "2061 - Cane Sugar, Except Refining"
+  },
+  {
+    "id": "2062 - Cane Sugar Refining"
+  },
+  {
+    "id": "2063 - Beet Sugar"
+  },
+  {
+    "id": "2064 - Candy and Other Confectionery Products"
+  },
+  {
+    "id": "2066 - Chocolate and Cocoa Products"
+  },
+  {
+    "id": "2067 - Chewing Gum"
+  },
+  {
+    "id": "2068 - Salted and Roasted Nuts and Seeds"
+  },
+  {
+    "id": "2074 - Cottonseed Oil Mills"
+  },
+  {
+    "id": "2075 - Soybean Oil Mills"
+  },
+  {
+    "id": "2076 - Vegetable Oil Mills, Except Corn, Cottonseed, and Soybean"
+  },
+  {
+    "id": "2077 - Animal and Marine Fats and Oils"
+  },
+  {
+    "id": "2079 - Shortening, Table Oils, Margarine, and Other Edible Fats and Oils, Not Elsewhere Classified"
+  },
+  {
+    "id": "2082 - Malt Beverages"
+  },
+  {
+    "id": "2083 - Malt"
+  },
+  {
+    "id": "2084 - Wines, Brandy, and Brandy Spirits"
+  },
+  {
+    "id": "2085 - Distilled and Blended Liquors"
+  },
+  {
+    "id": "2086 - Bottled and Canned Soft Drinks and Carbonated Waters"
+  },
+  {
+    "id": "2087 - Flavoring Extracts and Flavoring Syrups, Not Elsewhere Classified"
+  },
+  {
+    "id": "2091 - Canned and Cured Fish and Seafoods"
+  },
+  {
+    "id": "2092 - Prepared Fresh or Frozen Fish and Seafoods"
+  },
+  {
+    "id": "2095 - Roasted Coffee"
+  },
+  {
+    "id": "2096 - Potato Chips, Corn Chips, and Similar Snacks"
+  },
+  {
+    "id": "2097 - Manufactured Ice"
+  },
+  {
+    "id": "2098 - Macaroni, Spaghetti, Vermicelli, and Noodles"
+  },
+  {
+    "id": "2099 - Food Preparations, Not Elsewhere Classified"
+  },
+  {
+    "id": "2111 - Cigarettes"
+  },
+  {
+    "id": "2121 - Cigars"
+  },
+  {
+    "id": "2131 - Chewing and Smoking Tobacco and Snuff"
+  },
+  {
+    "id": "2141 - Tobacco Stemming and Redrying"
+  },
+  {
+    "id": "2211 - Broadwoven Fabric Mills, Cotton"
+  },
+  {
+    "id": "2221 - Broadwoven Fabric Mills, Manmade Fiber and Silk"
+  },
+  {
+    "id": "2231 - Broadwoven Fabric Mills, Wool (Including Dyeing and Finishing)"
+  },
+  {
+    "id": "2241 - Narrow Fabric and Other Smallware Mills: Cotton, Wool, Silk, and Manmade Fiber"
+  },
+  {
+    "id": "2251 - Women's Full-Length and Knee-Length Hosiery, Except Socks"
+  },
+  {
+    "id": "2252 - Hosiery, Not Elsewhere Classified"
+  },
+  {
+    "id": "2253 - Knit Outerwear Mills"
+  },
+  {
+    "id": "2254 - Knit Underwear and Nightwear Mills"
+  },
+  {
+    "id": "2257 - Weft Knit Fabric Mills"
+  },
+  {
+    "id": "2258 - Lace and Warp Knit Fabric Mills"
+  },
+  {
+    "id": "2259 - Knitting Mills, Not Elsewhere Classified"
+  },
+  {
+    "id": "2261 - Finishers of Broadwoven Fabrics of Cotton"
+  },
+  {
+    "id": "2262 - Finishers of Broadwoven Fabrics of Manmade Fiber and Silk"
+  },
+  {
+    "id": "2269 - Finishers of Textiles, Not elsewhere Classified"
+  },
+  {
+    "id": "2273 - Carpets and Rugs"
+  },
+  {
+    "id": "2281 - Yarn Spinning Mills"
+  },
+  {
+    "id": "2282 - Yarn Texturizing, Throwing, Twisting, and Winding Mills"
+  },
+  {
+    "id": "2284 - Thread Mills"
+  },
+  {
+    "id": "2295 - Coated Fabrics, Not Rubberized"
+  },
+  {
+    "id": "2296 - Tire Cord and Fabrics"
+  },
+  {
+    "id": "2297 - Non-woven Fabrics"
+  },
+  {
+    "id": "2298 - Cordage and Twine"
+  },
+  {
+    "id": "2299 - Textile goods, Not Elsewhere Classified"
+  },
+  {
+    "id": "2311 - Men's and Boys' Suits, Coats, and Overcoats"
+  },
+  {
+    "id": "2321 - Men's and Boys' Shirts, Except Work Shirts"
+  },
+  {
+    "id": "2322 - Men's and Boys' Underwear and Nightwear"
+  },
+  {
+    "id": "2323 - Men's and Boys' Neckwear"
+  },
+  {
+    "id": "2325 - Men's and Boys' Separate Trousers and Slacks"
+  },
+  {
+    "id": "2326 - Men's and Boys' Work Clothing"
+  },
+  {
+    "id": "2329 - Men's and Boys' Clothing, Not Elsewhere Classified"
+  },
+  {
+    "id": "2331 - Women's, Misses', and Juniors' Blouses and Shirts"
+  },
+  {
+    "id": "2335 - Women's, Misses', and Juniors' Dresses"
+  },
+  {
+    "id": "2337 - Women's, Misses', and Juniors' Suits, Skirts, and Coats"
+  },
+  {
+    "id": "2339 - Women's, Misses', and Juniors' Outerwear, Not Elsewhere Classified"
+  },
+  {
+    "id": "2341 - Women's, Misses', Children's, and Infants' Underwear and Nightwear"
+  },
+  {
+    "id": "2342 - Brassieres, Girdles, and Allied Garments"
+  },
+  {
+    "id": "2353 - Hats, Caps, and Millinery"
+  },
+  {
+    "id": "2361 - Girls', Children's, and Infants' Dresses, Blouses, and Shirts"
+  },
+  {
+    "id": "2369 - Girls', Children's, and Infants' Outerwear, Not Elsewhere Classified"
+  },
+  {
+    "id": "2371 - Fur Goods"
+  },
+  {
+    "id": "2381 - Dress and Work Gloves, Except Knit and All-Leather"
+  },
+  {
+    "id": "2384 - Robes and Dressing Gowns"
+  },
+  {
+    "id": "2385 - Waterproof Outerwear"
+  },
+  {
+    "id": "2386 - Leather and Sheep-Lined Clothing"
+  },
+  {
+    "id": "2387 - Apparel belts"
+  },
+  {
+    "id": "2389 - Apparel and Accessories, Not Elsewhere Classified"
+  },
+  {
+    "id": "2391 - Curtains and Draperies"
+  },
+  {
+    "id": "2392 - House furnishing, Except Curtains and Draperies"
+  },
+  {
+    "id": "2393 - Textile Bags"
+  },
+  {
+    "id": "2394 - Canvas and Related Products"
+  },
+  {
+    "id": "2395 - Pleating, Decorative and Novelty Stitching, and Tucking for the Trade"
+  },
+  {
+    "id": "2396 - Automotive Trimmings, Apparel Findings, and Related Products"
+  },
+  {
+    "id": "2397 - Schiffli Machine Embroideries"
+  },
+  {
+    "id": "2399 - Fabricated Textile Products, Not Elsewhere Classified"
+  },
+  {
+    "id": "2411 - Logging"
+  },
+  {
+    "id": "2421 - Sawmills and Planing Mills, General"
+  },
+  {
+    "id": "2426 - Hardwood Dimension and Flooring Mills"
+  },
+  {
+    "id": "2429 - Special Product Sawmills, Not Elsewhere Classified"
+  },
+  {
+    "id": "2431 - Millwork"
+  },
+  {
+    "id": "2434 - Wood Kitchen Cabinets"
+  },
+  {
+    "id": "2435 - Hardwood Veneer and Plywood"
+  },
+  {
+    "id": "2436 - Softwood Veneer and Plywood"
+  },
+  {
+    "id": "2439 - Structural Wood Members, Not Elsewhere Classified"
+  },
+  {
+    "id": "2441 - Nailed and Lock Corner Wood Boxes and Shook"
+  },
+  {
+    "id": "2448 - Wood Pallets and Skids"
+  },
+  {
+    "id": "2449 - Wood Containers, Not Elsewhere Classified"
+  },
+  {
+    "id": "2451 - Mobile Homes"
+  },
+  {
+    "id": "2452 - Prefabricated Wood Buildings and Components"
+  },
+  {
+    "id": "2491 - Wood Preserving"
+  },
+  {
+    "id": "2493 - Reconstituted Wood Products"
+  },
+  {
+    "id": "2499 - Wood Products, Not Elsewhere Classified"
+  },
+  {
+    "id": "2511 - Wood Household Furniture, Except Upholstered"
+  },
+  {
+    "id": "2512 - Wood Household Furniture, Upholstered"
+  },
+  {
+    "id": "2514 - Metal Household Furniture"
+  },
+  {
+    "id": "2515 - Mattresses, Foundations, and Convertible Beds"
+  },
+  {
+    "id": "2517 - Wood Television, Radio, Phonograph, and Sewing Machine Cabinets"
+  },
+  {
+    "id": "2519 - Household Furniture, Not Elsewhere Classified"
+  },
+  {
+    "id": "2521 - Wood Office Furniture"
+  },
+  {
+    "id": "2522 - Office Furniture, Except Wood"
+  },
+  {
+    "id": "2531 - Public Building and Related Furniture"
+  },
+  {
+    "id": "2541 - Wood Office and Store Fixtures, Partitions, Shelving, and Lockers"
+  },
+  {
+    "id": "2542 - Office and Store Fixtures, Partitions, Shelving, and Lockers, Except Wood"
+  },
+  {
+    "id": "2591 - Drapery Hardware and Window Blinds and Shades"
+  },
+  {
+    "id": "2599 - Furniture and Fixtures, Not Elsewhere Classified"
+  },
+  {
+    "id": "2611 - Pulp Mills"
+  },
+  {
+    "id": "2621 - Paper Mills"
+  },
+  {
+    "id": "2631 - Paperboard Mills"
+  },
+  {
+    "id": "2652 - Setup Paperboard Boxes"
+  },
+  {
+    "id": "2653 - Corrugated and Solid Fiber Boxes"
+  },
+  {
+    "id": "2655 - Fiber Cans, Tubes, Drums, and Similar Products"
+  },
+  {
+    "id": "2656 - Sanitary Food Containers, Except Folding"
+  },
+  {
+    "id": "2657 - Folding Paperboard Boxes, Including Sanitary"
+  },
+  {
+    "id": "2671 - Packaging Paper and Plastics Film, Coated and Laminated"
+  },
+  {
+    "id": "2672 - Coated and Laminated Paper, Not Elsewhere Classified"
+  },
+  {
+    "id": "2673 - Plastics, Foil, and Coated Paper Bags"
+  },
+  {
+    "id": "2674 - Uncoated Paper and Multiwall Bags"
+  },
+  {
+    "id": "2675 - Die-Cut Paper and Paperboard and Cardboard"
+  },
+  {
+    "id": "2676 - Sanitary Paper Products"
+  },
+  {
+    "id": "2677 - Envelopes"
+  },
+  {
+    "id": "2678 - Stationery, Tablets, and Related Products"
+  },
+  {
+    "id": "2679 - Converted Paper and Paperboard Products, Not Elsewhere Classified"
+  },
+  {
+    "id": "2711 - Newspapers: Publishing, or Publishing and Printing"
+  },
+  {
+    "id": "2721 - Periodicals: Publishing, or Publishing and Printing"
+  },
+  {
+    "id": "2731 - Books: Publishing, or Publishing and Printing"
+  },
+  {
+    "id": "2732 - Book Printing"
+  },
+  {
+    "id": "2741 - Miscellaneous Publishing"
+  },
+  {
+    "id": "2752 - Commercial Printing, Lithographic"
+  },
+  {
+    "id": "2754 - Commercial Printing, Gravure"
+  },
+  {
+    "id": "2759 - Commercial Printing, Not Elsewhere Classified"
+  },
+  {
+    "id": "2761 - Manifold Business Forms"
+  },
+  {
+    "id": "2771 - Greeting Cards"
+  },
+  {
+    "id": "2782 - Blankbooks, Looseleaf Binders and Devices"
+  },
+  {
+    "id": "2789 - Bookbinding and Related Work"
+  },
+  {
+    "id": "2791 - Typesetting"
+  },
+  {
+    "id": "2796 - Platemaking and Related Services"
+  },
+  {
+    "id": "2812 - Alkalies and Chlorine"
+  },
+  {
+    "id": "2813 - Industrial Gases"
+  },
+  {
+    "id": "2816 - Inorganic Pigments"
+  },
+  {
+    "id": "2819 - Industrial Inorganic Chemicals, Not Elsewhere Classified"
+  },
+  {
+    "id": "2821 - Plastics Materials, Synthetic Resins, and Nonvulcanizable Elastomers"
+  },
+  {
+    "id": "2822 - Synthetic Rubber (Vulcanizable Elastomers)"
+  },
+  {
+    "id": "2823 - Cellulosic Manmade Fibers"
+  },
+  {
+    "id": "2824 - Manmade Organic Fibers, Except Cellulosic"
+  },
+  {
+    "id": "2833 - Medicinal Chemicals and Botanical Products"
+  },
+  {
+    "id": "2834 - Pharmaceutical Preparations"
+  },
+  {
+    "id": "2835 - In Vitro and In Vivo Diagnostic Substances"
+  },
+  {
+    "id": "2836 - Biological Products, Except Diagnostic Substances"
+  },
+  {
+    "id": "2841 - Soap and Other Detergents, Except Specialty Cleaners"
+  },
+  {
+    "id": "2842 - Specialty Cleaning, Polishing, and Sanitation Preparations"
+  },
+  {
+    "id": "2843 - Surface Active Agents, Finishing Agents, Sulfonated Oils, and Assistants"
+  },
+  {
+    "id": "2844 - Perfumes, Cosmetics, and Other Toilet Preparations"
+  },
+  {
+    "id": "2851 - Paints, Varnishes, Lacquers, Enamels, and Allied Products"
+  },
+  {
+    "id": "2861 - Gum and Wood Chemicals"
+  },
+  {
+    "id": "2865 - Cyclic Organic Crudes and Intermediates, and Organic Dyes and Pigments"
+  },
+  {
+    "id": "2869 - Industrial Organic Chemicals, Not Elsewhere Classified"
+  },
+  {
+    "id": "2873 - Nitrogenous Fertilizers"
+  },
+  {
+    "id": "2874 - Phosphatic Fertilizers"
+  },
+  {
+    "id": "2875 - Fertilizers, Mixing Only"
+  },
+  {
+    "id": "2879 - Pesticides and Agricultural Chemicals, Not Elsewhere Classified"
+  },
+  {
+    "id": "2891 - Adhesives and Sealants"
+  },
+  {
+    "id": "2892 - Explosives"
+  },
+  {
+    "id": "2893 - Printing Ink"
+  },
+  {
+    "id": "2895 - Carbon Black"
+  },
+  {
+    "id": "2899 - Chemicals and Chemical Preparations, Not Elsewhere Classified"
+  },
+  {
+    "id": "2911 - Petroleum Refining"
+  },
+  {
+    "id": "2951 - Asphalt Paving Mixtures and Blocks"
+  },
+  {
+    "id": "2952 - Asphalt Felts and Coatings"
+  },
+  {
+    "id": "2992 - Lubricating Oils and Greases"
+  },
+  {
+    "id": "2999 - Products of Petroleum and Coal, Not Elsewhere Classified"
+  },
+  {
+    "id": "3011 - Tires and Inner Tubes"
+  },
+  {
+    "id": "3021 - Rubber and Plastics Footwear"
+  },
+  {
+    "id": "3052 - Rubber and Plastics Hose and Belting"
+  },
+  {
+    "id": "3053 - Gaskets, Packing, and Sealing Devices"
+  },
+  {
+    "id": "3061 - Molded, Extruded, and Lathe-Cut Mechanical Rubber Goods"
+  },
+  {
+    "id": "3069 - Fabricated Rubber Products, Not Elsewhere Classified"
+  },
+  {
+    "id": "3081 - Unsupported Plastics Film and Sheet"
+  },
+  {
+    "id": "3082 - Unsupported Plastics Profile Shapes"
+  },
+  {
+    "id": "3083 - Laminated Plastics Plate, Sheet, and Profile Shapes"
+  },
+  {
+    "id": "3084 - Plastics Pipe"
+  },
+  {
+    "id": "3085 - Plastics Bottles"
+  },
+  {
+    "id": "3086 - Plastics Foam Products"
+  },
+  {
+    "id": "3087 - Custom Compounding of Purchased Plastics Resins"
+  },
+  {
+    "id": "3088 - Plastics Plumbing Fixtures"
+  },
+  {
+    "id": "3089 - Plastics Products, Not Elsewhere Classified"
+  },
+  {
+    "id": "3111 - Leather Tanning and Finishing"
+  },
+  {
+    "id": "3131 - Boot and Shoe Cut Stock and Findings"
+  },
+  {
+    "id": "3142 - House Slippers"
+  },
+  {
+    "id": "3143 - Men's Footwear, Except Athletic"
+  },
+  {
+    "id": "3144 - Women's Footwear, Except Athletic"
+  },
+  {
+    "id": "3149 - Footwear, Except Rubber, Not Elsewhere Classified"
+  },
+  {
+    "id": "3151 - Leather Gloves and Mittens"
+  },
+  {
+    "id": "3161 - Luggage"
+  },
+  {
+    "id": "3171 - Women's Handbags and Purses"
+  },
+  {
+    "id": "3172 - Personal Leather Goods, Except Women's Handbags and Purses"
+  },
+  {
+    "id": "3199 - Leather Goods, Not Elsewhere Classified"
+  },
+  {
+    "id": "3211 - Flat Glass"
+  },
+  {
+    "id": "3221 - Glass Containers"
+  },
+  {
+    "id": "3229 - Pressed and Blown Glass and Glassware, Not Elsewhere Classified"
+  },
+  {
+    "id": "3231 - Glass Products, Made of Purchased Glass"
+  },
+  {
+    "id": "3241 - Cement, Hydraulic"
+  },
+  {
+    "id": "3251 - Brick and Structural Clay Tile"
+  },
+  {
+    "id": "3253 - Ceramic Wall and Floor Tile"
+  },
+  {
+    "id": "3255 - Clay Refractories"
+  },
+  {
+    "id": "3259 - Structural Clay Products, Not Elsewhere Classified"
+  },
+  {
+    "id": "3261 - Vitreous China Plumbing Fixtures and China and Earthenware Fittings and Bathroom Accessories"
+  },
+  {
+    "id": "3262 - Vitreous China Table and Kitchen Articles"
+  },
+  {
+    "id": "3263 - Fine Earthenware (Whiteware) Table and Kitchen Articles"
+  },
+  {
+    "id": "3264 - Porcelain Electrical Supplies"
+  },
+  {
+    "id": "3269 - Pottery Products, Not Elsewhere Classified"
+  },
+  {
+    "id": "3271 - Concrete Block and Brick"
+  },
+  {
+    "id": "3272 - Concrete Products, Except Block and Brick"
+  },
+  {
+    "id": "3273 - Ready-Mixed Concrete"
+  },
+  {
+    "id": "3274 - Lime"
+  },
+  {
+    "id": "3275 - Gypsum Products"
+  },
+  {
+    "id": "3281 - Cut Stone and Stone Products"
+  },
+  {
+    "id": "3291 - Abrasive Products"
+  },
+  {
+    "id": "3292 - Asbestos Products"
+  },
+  {
+    "id": "3295 - Minerals and Earths, Ground or Otherwise Treated"
+  },
+  {
+    "id": "3296 - Mineral Wool"
+  },
+  {
+    "id": "3297 - Nonclay Refractories"
+  },
+  {
+    "id": "3299 - Nonmetallic Mineral Products, Not Elsewhere Classified"
+  },
+  {
+    "id": "3312 - Steel Works, Blast Furnaces (Including Coke Ovens), and Rolling Mills"
+  },
+  {
+    "id": "3313 - Electrometallurgical Products, Except Steel"
+  },
+  {
+    "id": "3315 - Steel Wiredrawing and Steel Nails and Spikes"
+  },
+  {
+    "id": "3316 - Cold-Rolled Steel Sheet, Strip, and Bars"
+  },
+  {
+    "id": "3317 - Steel Pipe and Tubes"
+  },
+  {
+    "id": "3321 - Gray and Ductile Iron Foundries"
+  },
+  {
+    "id": "3322 - Malleable Iron Foundries"
+  },
+  {
+    "id": "3324 - Steel Investment Foundries"
+  },
+  {
+    "id": "3325 - Steel Foundries, Not Elsewhere Classified"
+  },
+  {
+    "id": "3331 - Primary Smelting and Refining of Copper"
+  },
+  {
+    "id": "3334 - Primary Production of Aluminum"
+  },
+  {
+    "id": "3339 - Primary Smelting and Refining of Nonferrous Metals, Except Copper and Aluminum"
+  },
+  {
+    "id": "3341 - Secondary Smelting and Refining of Nonferrous Metals"
+  },
+  {
+    "id": "3351 - Rolling, Drawing, and Extruding Of Copper"
+  },
+  {
+    "id": "3353 - Aluminum Sheet, Plate, and Foil"
+  },
+  {
+    "id": "3354 - Aluminum Extruded Products"
+  },
+  {
+    "id": "3355 - Aluminum Rolling and Drawing, Not Elsewhere Classified"
+  },
+  {
+    "id": "3356 - Rolling, Drawing, and Extruding of Nonferrous Metals, Except Copper and Aluminum"
+  },
+  {
+    "id": "3357 - Drawing and Insulating of Nonferrous Wire"
+  },
+  {
+    "id": "3363 - Aluminum Die-Castings"
+  },
+  {
+    "id": "3364 - Nonferrous Die-Castings, Except Aluminum"
+  },
+  {
+    "id": "3365 - Aluminum Foundries"
+  },
+  {
+    "id": "3366 - Copper Foundries"
+  },
+  {
+    "id": "3369 - Nonferrous Foundries, Except Aluminum and Copper"
+  },
+  {
+    "id": "3398 - Metal Heat Treating"
+  },
+  {
+    "id": "3399 - Primary Metal Products, Not Elsewhere Classified"
+  },
+  {
+    "id": "3411 - Metal Cans"
+  },
+  {
+    "id": "3412 - Metal Shipping Barrels, Drums, Kegs, and Pails"
+  },
+  {
+    "id": "3421 - Cutlery"
+  },
+  {
+    "id": "3423 - Hand and Edge Tools, Except Machine Tools and Handsaws"
+  },
+  {
+    "id": "3425 - Saw Blades and Handsaws"
+  },
+  {
+    "id": "3429 - Hardware, Not Elsewhere Classified"
+  },
+  {
+    "id": "3431 - Enameled Iron and Metal Sanitary Ware"
+  },
+  {
+    "id": "3432 - Plumbing Fixture Fittings and Trim"
+  },
+  {
+    "id": "3433 - Heating Equipment, Except Electric and Warm Air Furnaces"
+  },
+  {
+    "id": "3441 - Fabricated Structural Metal"
+  },
+  {
+    "id": "3442 - Metal Doors, Sash, Frames, Molding, and Trim Manufacturing"
+  },
+  {
+    "id": "3443 - Fabricated Plate Work (Boiler Shops)"
+  },
+  {
+    "id": "3444 - Sheet Metal Work"
+  },
+  {
+    "id": "3446 - Architectural and Ornamental Metal Work"
+  },
+  {
+    "id": "3448 - Prefabricated Metal Buildings and Components"
+  },
+  {
+    "id": "3449 - Miscellaneous Structural Metal Work"
+  },
+  {
+    "id": "3451 - Screw Machine Products"
+  },
+  {
+    "id": "3452 - Bolts, Nuts, Screws, Rivets, and Washers"
+  },
+  {
+    "id": "3462 - Iron and Steel Forgings"
+  },
+  {
+    "id": "3463 - Nonferrous Forgings"
+  },
+  {
+    "id": "3465 - Automotive Stampings"
+  },
+  {
+    "id": "3466 - Crowns and Closures"
+  },
+  {
+    "id": "3469 - Metal Stampings, Not Elsewhere Classified"
+  },
+  {
+    "id": "3471 - Electroplating, Plating, Polishing, Anodizing, and Coloring"
+  },
+  {
+    "id": "3479 - Coating, Engraving, and Allied Services, Not Elsewhere Classified"
+  },
+  {
+    "id": "3482 - Small Arms Ammunition"
+  },
+  {
+    "id": "3483 - Ammunition, Except for Small Arms"
+  },
+  {
+    "id": "3484 - Small Arms"
+  },
+  {
+    "id": "3489 - Ordnance and Accessories, Not Elsewhere Classified"
+  },
+  {
+    "id": "3491 - Industrial Valves"
+  },
+  {
+    "id": "3492 - Fluid Power Valves and Hose Fittings"
+  },
+  {
+    "id": "3493 - Steel Springs, Except Wire"
+  },
+  {
+    "id": "3494 - Valves and Pipe Fittings, Not Elsewhere Classified"
+  },
+  {
+    "id": "3495 - Wire Springs"
+  },
+  {
+    "id": "3496 - Miscellaneous Fabricated Wire Products"
+  },
+  {
+    "id": "3497 - Metal Foil and Leaf"
+  },
+  {
+    "id": "3498 - Fabricated Pipe and Pipe Fittings"
+  },
+  {
+    "id": "3499 - Fabricated Metal Products, Not Elsewhere Classified"
+  },
+  {
+    "id": "3511 - Steam, Gas, and Hydraulic Turbines, and Turbine Generator Set Units"
+  },
+  {
+    "id": "3519 - Internal Combustion Engines, Not Elsewhere Classified"
+  },
+  {
+    "id": "3523 - Farm Machinery and Equipment"
+  },
+  {
+    "id": "3524 - Lawn and Garden Tractors and Home Lawn and Garden Equipment"
+  },
+  {
+    "id": "3531 - Construction Machinery and Equipment"
+  },
+  {
+    "id": "3532 - Mining Machinery and Equipment, Except Oil and Gas Field Machinery and Equipment"
+  },
+  {
+    "id": "3533 - Oil and Gas Field Machinery and Equipment"
+  },
+  {
+    "id": "3534 - Elevators and Moving Stairways"
+  },
+  {
+    "id": "3535 - Conveyors and Conveying Equipment"
+  },
+  {
+    "id": "3536 - Overhead Traveling Cranes, Hoists, and Monorail Systems"
+  },
+  {
+    "id": "3537 - Industrial Trucks, Tractors, Trailers, and Stackers"
+  },
+  {
+    "id": "3541 - Machine Tools, Metal Cutting Types"
+  },
+  {
+    "id": "3542 - Machine Tools, Metal Forming Types"
+  },
+  {
+    "id": "3543 - Industrial Patterns"
+  },
+  {
+    "id": "3544 - Special Dies and Tools, Die Sets, Jigs and Fixtures, and Industrial Molds"
+  },
+  {
+    "id": "3545 - Cutting Tools, Machine Tool Accessories, and Machinists' Precision Measuring Devices"
+  },
+  {
+    "id": "3546 - Power-Driven Handtools"
+  },
+  {
+    "id": "3547 - Rolling Mill Machinery and Equipment"
+  },
+  {
+    "id": "3548 - Electric and Gas Welding and Soldering Equipment"
+  },
+  {
+    "id": "3549 - Metalworking Machinery, Not Elsewhere Classified"
+  },
+  {
+    "id": "3552 - Textile Machinery"
+  },
+  {
+    "id": "3553 - Woodworking Machinery"
+  },
+  {
+    "id": "3554 - Paper Industries Machinery"
+  },
+  {
+    "id": "3555 - Printing Trades Machinery and Equipment"
+  },
+  {
+    "id": "3556 - Food Products Machinery"
+  },
+  {
+    "id": "3559 - Special Industry Machinery, Not Elsewhere Classified"
+  },
+  {
+    "id": "3561 - Pumps and Pumping Equipment"
+  },
+  {
+    "id": "3562 - Ball and Roller Bearings"
+  },
+  {
+    "id": "3563 - Air and Gas Compressors"
+  },
+  {
+    "id": "3564 - Industrial and Commercial Fans and Blowers and Air Purification Equipment"
+  },
+  {
+    "id": "3565 - Packaging Machinery"
+  },
+  {
+    "id": "3566 - Speed Changers, Industrial High-Speed Drives, and Gears"
+  },
+  {
+    "id": "3567 - Industrial Process Furnaces and Ovens"
+  },
+  {
+    "id": "3568 - Mechanical Power Transmission Equipment, Not Elsewhere Classified"
+  },
+  {
+    "id": "3569 - General Industrial Machinery and Equipment, Not Elsewhere"
+  },
+  {
+    "id": "3571 - Electronic Computers"
+  },
+  {
+    "id": "3572 - Computer Storage Devices"
+  },
+  {
+    "id": "3575 - Computer Terminals"
+  },
+  {
+    "id": "3577 - Computer Peripheral Equipment, Not Elsewhere Classified"
+  },
+  {
+    "id": "3578 - Calculating and Accounting Machines, Except Electronic Computers"
+  },
+  {
+    "id": "3579 - Office Machines, Not Elsewhere Classified"
+  },
+  {
+    "id": "3581 - Automatic Vending Machines"
+  },
+  {
+    "id": "3582 - Commercial Laundry, Drycleaning, and Pressing Machines"
+  },
+  {
+    "id": "3585 - Air-Conditioning and Warm Air Heating Equipment and Commercial and Industrial Refrigeration Equipment"
+  },
+  {
+    "id": "3586 - Measuring and Dispensing Pumps"
+  },
+  {
+    "id": "3589 - Service Industry Machinery, Not Elsewhere Classified"
+  },
+  {
+    "id": "3592 - Carburetors, Pistons, Piston Rings, and Valves"
+  },
+  {
+    "id": "3593 - Fluid Power Cylinders and Actuators"
+  },
+  {
+    "id": "3594 - Fluid Power Pumps and Motors"
+  },
+  {
+    "id": "3596 - Scales and Balances, Except Laboratory"
+  },
+  {
+    "id": "3599 - Industrial and Commercial Machinery and Equipment, Not Elsewhere Classified"
+  },
+  {
+    "id": "3612 - Power, Distribution, and Specialty Transformers"
+  },
+  {
+    "id": "3613 - Switchgear and Switchboard Apparatus"
+  },
+  {
+    "id": "3621 - Motors and Generators"
+  },
+  {
+    "id": "3624 - Carbon and Graphite Products"
+  },
+  {
+    "id": "3625 - Relays and Industrial Controls"
+  },
+  {
+    "id": "3629 - Electrical Industrial Apparatus, Not Elsewhere Classified"
+  },
+  {
+    "id": "3631 - Household Cooking Equipment"
+  },
+  {
+    "id": "3632 - Household Refrigerators and HOme and Farm Freezers"
+  },
+  {
+    "id": "3633 - Household Laundry Equipment"
+  },
+  {
+    "id": "3634 - Electric Housewares and Fans"
+  },
+  {
+    "id": "3635 - Household Vacuum Cleaners"
+  },
+  {
+    "id": "3639 - Household Appliances, Not Elsewhere Classified"
+  },
+  {
+    "id": "3641 - Electric Lamp Bulbs and Tubes"
+  },
+  {
+    "id": "3643 - Current-Carrying Wiring Devices"
+  },
+  {
+    "id": "3644 - Noncurrent-Carrying Wiring Devices"
+  },
+  {
+    "id": "3645 - Residential Electric Lighting Fixtures"
+  },
+  {
+    "id": "3646 - Commercial, Industrial, and Institutional Electric Lighting Fixtures"
+  },
+  {
+    "id": "3647 - Vehicular Lighting Equipment"
+  },
+  {
+    "id": "3648 - Lighting Equipment, Not Elsewhere Classified"
+  },
+  {
+    "id": "3651 - Household Audio and Video Equipment"
+  },
+  {
+    "id": "3652 - Phonograph Records and Prerecorded Audio Tapes and Disks"
+  },
+  {
+    "id": "3661 - Telephone and Telegraph Apparatus"
+  },
+  {
+    "id": "3663 - Radio and Television Broadcasting and Communications Equipment"
+  },
+  {
+    "id": "3669 - Communications Equipment, Not Elsewhere Classified"
+  },
+  {
+    "id": "3671 - Electron Tubes"
+  },
+  {
+    "id": "3672 - Printed Circuit Boards"
+  },
+  {
+    "id": "3674 - Semiconductors and Related Devices"
+  },
+  {
+    "id": "3675 - Electronic Capacitors"
+  },
+  {
+    "id": "3676 - Electronic Resistors"
+  },
+  {
+    "id": "3677 - Electronic Coils, Transformers, and Other Inductors"
+  },
+  {
+    "id": "3678 - Electronic Connectors"
+  },
+  {
+    "id": "3679 - Electronic Components, Not Elsewhere Classified"
+  },
+  {
+    "id": "3691 - Storage Batteries"
+  },
+  {
+    "id": "3692 - Primary Batteries, Dry and Wet"
+  },
+  {
+    "id": "3694 - Electrical Equipment for Internal Combustion Engines"
+  },
+  {
+    "id": "3695 - Magnetic And Optical Recording Media"
+  },
+  {
+    "id": "3699 - Electrical Machinery, Equipment, and Supplies, Not Elsewhere"
+  },
+  {
+    "id": "3711 - Motor Vehicles and Passenger Car Bodies"
+  },
+  {
+    "id": "3713 - Truck and Bus Bodies"
+  },
+  {
+    "id": "3714 - Motor Vehicle Parts and Accessories"
+  },
+  {
+    "id": "3715 - Truck Trailers"
+  },
+  {
+    "id": "3716 - Motor Homes"
+  },
+  {
+    "id": "3721 - Aircraft"
+  },
+  {
+    "id": "3724 - Aircraft Engines and Engine Parts"
+  },
+  {
+    "id": "3728 - Aircraft Parts and Auxiliary Equipment, Not Elsewhere Classified"
+  },
+  {
+    "id": "3731 - Ship Building and Repairing"
+  },
+  {
+    "id": "3732 - Boat Building and Repairing"
+  },
+  {
+    "id": "3743 - Railroad Equipment"
+  },
+  {
+    "id": "3751 - Motorcycles, Bicycles, and Parts"
+  },
+  {
+    "id": "3761 - Guided Missiles and Space Vehicles"
+  },
+  {
+    "id": "3764 - Guided Missile and Space Vehicle Propulsion Units and Propulsion Unit Parts"
+  },
+  {
+    "id": "3769 - Guided Missile Space Vehicle Parts and Auxiliary Equipment, Not Elsewhere Classified"
+  },
+  {
+    "id": "3792 - Travel Trailers and Campers"
+  },
+  {
+    "id": "3795 - Tanks and Tank Components"
+  },
+  {
+    "id": "3799 - Transportation Equipment, Not Elsewhere Classified"
+  },
+  {
+    "id": "3812 - Search, Detection, Navigation, Guidance, Aeronautical, and Nautical Systems and Instruments"
+  },
+  {
+    "id": "3821 - Laboratory Apparatus and Furniture"
+  },
+  {
+    "id": "3822 - Automatic Controls for Regulating Residential and Commercial Environments and Appliances"
+  },
+  {
+    "id": "3823 - Industrial Instruments for Measurement, Display, and Control of Process Variables; and Related Products"
+  },
+  {
+    "id": "3824 - Totalizing Fluid Meters and Counting Devices"
+  },
+  {
+    "id": "3825 - Instruments for Measuring and Testing of Electricity and Electrical Signals"
+  },
+  {
+    "id": "3826 - Laboratory Analytical Instruments"
+  },
+  {
+    "id": "3827 - Optical Instruments and Lenses"
+  },
+  {
+    "id": "3829 - Measuring and Controlling Devices, Not Elsewhere Classified"
+  },
+  {
+    "id": "3841 - Surgical and Medical Instruments and Apparatus"
+  },
+  {
+    "id": "3842 - Orthopedic, Prosthetic, and Surgical Appliances and Supplies"
+  },
+  {
+    "id": "3843 - Dental Equipment and Supplies"
+  },
+  {
+    "id": "3844 - X-Ray Apparatus and Tubes and Related Irradiation Apparatus"
+  },
+  {
+    "id": "3845 - Electromedical and Electrotherapeutic Apparatus"
+  },
+  {
+    "id": "3851 - Ophthalmic Goods"
+  },
+  {
+    "id": "3861 - Photographic Equipment and Supplies"
+  },
+  {
+    "id": "3873 - Watches, Clocks, Clockwork Operated Devices, and Parts"
+  },
+  {
+    "id": "3911 - Jewelry, Precious Metal"
+  },
+  {
+    "id": "3914 - Silverware, Plated Ware, and Stainless Steel Ware"
+  },
+  {
+    "id": "3915 - Jewelers' Findings and Materials, and Lapidary Work"
+  },
+  {
+    "id": "3931 - Musical Instruments"
+  },
+  {
+    "id": "3942 - Dolls and Stuffed Toys"
+  },
+  {
+    "id": "3944 - Games, Toys, and Children's Vehicles, Except Dolls and Bicycles"
+  },
+  {
+    "id": "3949 - Sporting and Athletic Goods, Not Elsewhere Classified"
+  },
+  {
+    "id": "3951 - Pens, Mechanical Pencils, and Parts"
+  },
+  {
+    "id": "3952 - Lead Pencils, Crayons, and Artists' Materials"
+  },
+  {
+    "id": "3953 - Marking Devices"
+  },
+  {
+    "id": "3955 - Carbon Paper and Inked Ribbons"
+  },
+  {
+    "id": "3961 - Costume Jewelry and Costume Novelties, Except Precious Metal"
+  },
+  {
+    "id": "3965 - Fasteners, Buttons, Needles, and Pins"
+  },
+  {
+    "id": "3991 - Brooms and Brushes"
+  },
+  {
+    "id": "3993 - Signs and Advertising Specialties"
+  },
+  {
+    "id": "3995 - Burial Caskets"
+  },
+  {
+    "id": "3996 - Linoleum, Asphalted-Felt-Base, and Other Hard Surface Floor Coverings, Not Elsewhere Classified"
+  },
+  {
+    "id": "3999 - Manufacturing Industries, Not Elsewhere Classified"
+  },
+  {
+    "id": "4011 - Railroads, Line-Haul Operating"
+  },
+  {
+    "id": "4013 - Railroad Switching and Terminal Establishments"
+  },
+  {
+    "id": "4111 - Local and Suburban Transit"
+  },
+  {
+    "id": "4119 - Local Passenger Transportation, Not Elsewhere Classified"
+  },
+  {
+    "id": "4121 - Taxicabs"
+  },
+  {
+    "id": "4131 - Intercity and Rural Bus Transportation"
+  },
+  {
+    "id": "4141 - Local Bus Charter Service"
+  },
+  {
+    "id": "4142 - Bus Charter Service, Except Local"
+  },
+  {
+    "id": "4151 - School Buses"
+  },
+  {
+    "id": "4173 - Terminal and Service Facilities for Motor Vehicle Passenger Transportation"
+  },
+  {
+    "id": "4212 - Local Trucking Without Storage"
+  },
+  {
+    "id": "4213 - Trucking, Except Local"
+  },
+  {
+    "id": "4214 - Local Trucking With Storage"
+  },
+  {
+    "id": "4215 - Courier Services, Except by Air"
+  },
+  {
+    "id": "4221 - Farm Product Warehousing and Storage"
+  },
+  {
+    "id": "4222 - Refrigerated Warehousing and Storage"
+  },
+  {
+    "id": "4225 - General Warehousing and Storage"
+  },
+  {
+    "id": "4226 - Special Warehousing and Storage, Not Elsewhere Classified"
+  },
+  {
+    "id": "4231 - Terminal and Joint Terminal Maintenance Facilities for Motor Freight Transportation"
+  },
+  {
+    "id": "4311 - United States Postal Service"
+  },
+  {
+    "id": "4412 - Deep Sea Foreign Transportation of Freight"
+  },
+  {
+    "id": "4424 - Deep Sea Domestic Transportation of Freight"
+  },
+  {
+    "id": "4432 - Freight Transportation on the Great Lakes-St. Lawrence Seaway"
+  },
+  {
+    "id": "4449 - Water Transportation of Freight, Not Elsewhere Classified"
+  },
+  {
+    "id": "4481 - Deep Sea Transportation of Passengers, Except by Ferry"
+  },
+  {
+    "id": "4482 - Ferries"
+  },
+  {
+    "id": "4489 - Water Transportation of Passengers, Not Elsewhere Classified"
+  },
+  {
+    "id": "4491 - Marine Cargo Handling"
+  },
+  {
+    "id": "4492 - Towing and Tugboat Services"
+  },
+  {
+    "id": "4493 - Marinas"
+  },
+  {
+    "id": "4499 - Water Transportation Services, Not Elsewhere Classified"
+  },
+  {
+    "id": "4512 - Air Transportation, Scheduled"
+  },
+  {
+    "id": "4513 - Air Courier Services"
+  },
+  {
+    "id": "4522 - Air Transportation, Nonscheduled"
+  },
+  {
+    "id": "4581 - Airports, Flying Fields, and Airport Terminal Services"
+  },
+  {
+    "id": "4612 - Crude Petroleum Pipelines"
+  },
+  {
+    "id": "4613 - Refined Petroleum Pipelines"
+  },
+  {
+    "id": "4619 - Pipelines, Not Elsewhere Classified"
+  },
+  {
+    "id": "4724 - Travel Agencies"
+  },
+  {
+    "id": "4725 - Tour Operators"
+  },
+  {
+    "id": "4729 - Arrangement of Passenger Transportation, Not Elsewhere Classified"
+  },
+  {
+    "id": "4731 - Arrangement of Transportation of Freight and Cargo"
+  },
+  {
+    "id": "4741 - Rental of Railroad Cars"
+  },
+  {
+    "id": "4783 - Packing and Crating"
+  },
+  {
+    "id": "4785 - Fixed Facilities and Inspection and Weighing Services for Motor Vehicle Transportation"
+  },
+  {
+    "id": "4789 - Transportation Services, Not Elsewhere Classified"
+  },
+  {
+    "id": "4812 - Radiotelephone Communications"
+  },
+  {
+    "id": "4813 - Telephone Communications, Except Radiotelephone"
+  },
+  {
+    "id": "4822 - Telegraph and Other Message Communications"
+  },
+  {
+    "id": "4832 - Radio Broadcasting Stations"
+  },
+  {
+    "id": "4833 - Television Broadcasting Stations"
+  },
+  {
+    "id": "4841 - Cable and Other Pay Television Services"
+  },
+  {
+    "id": "4899 - Communications Services, Not Elsewhere Classified"
+  },
+  {
+    "id": "4911 - Electric Services"
+  },
+  {
+    "id": "4922 - Natural Gas Transmission"
+  },
+  {
+    "id": "4923 - Natural Gas Transmission and Distribution"
+  },
+  {
+    "id": "4924 - Natural Gas Distribution"
+  },
+  {
+    "id": "4925 - Mixed, Manufactured, or Liquefied Petroleum Gas Production and/or"
+  },
+  {
+    "id": "4931 - Electric and Other Services Combined"
+  },
+  {
+    "id": "4932 - Gas and Other Services Combined"
+  },
+  {
+    "id": "4939 - Combination Utilities, Not Elsewhere Classified"
+  },
+  {
+    "id": "4941 - Water Supply"
+  },
+  {
+    "id": "4952 - Sewerage Systems"
+  },
+  {
+    "id": "4953 - Refuse Systems"
+  },
+  {
+    "id": "4959 - Sanitary Services, Not Elsewhere Classified"
+  },
+  {
+    "id": "4961 - Steam and Air-Conditioning Supply"
+  },
+  {
+    "id": "4971 - Irrigation Systems"
+  },
+  {
+    "id": "5012 - Automobiles and Other Motor Vehicles"
+  },
+  {
+    "id": "5013 - Motor Vehicle Supplies and New Parts"
+  },
+  {
+    "id": "5014 - Tires and Tubes"
+  },
+  {
+    "id": "5015 - Motor Vehicle Parts, Used"
+  },
+  {
+    "id": "5021 - Furniture"
+  },
+  {
+    "id": "5023 - Home furnishings"
+  },
+  {
+    "id": "5031 - Lumber, Plywood, Millwork, and Wood Panels"
+  },
+  {
+    "id": "5032 - Brick, Stone, and Related Construction Materials"
+  },
+  {
+    "id": "5033 - Roofing, Siding, and Insulation Materials"
+  },
+  {
+    "id": "5039 - Construction Materials, Not Elsewhere Classified"
+  },
+  {
+    "id": "5043 - Photographic Equipment and Supplies"
+  },
+  {
+    "id": "5044 - Office Equipment"
+  },
+  {
+    "id": "5045 - Computers and Computer Peripheral Equipment and Software"
+  },
+  {
+    "id": "5046 - Commercial Equipment, Not Elsewhere Classified"
+  },
+  {
+    "id": "5047 - Medical, Dental, and Hospital Equipment and Supplies"
+  },
+  {
+    "id": "5048 - Ophthalmic Goods"
+  },
+  {
+    "id": "5049 - Professional Equipment and Supplies, Not Elsewhere Classified"
+  },
+  {
+    "id": "5051 - Metals Service Centers and Offices"
+  },
+  {
+    "id": "5052 - Coal and Other Minerals and Ores"
+  },
+  {
+    "id": "5063 - Electrical Apparatus and Equipment Wiring Supplies, and Construction Materials"
+  },
+  {
+    "id": "5064 - Electrical Appliances, Television and Radio Sets"
+  },
+  {
+    "id": "5065 - Electronic Parts and Equipment, Not Elsewhere Classified"
+  },
+  {
+    "id": "5072 - Hardware"
+  },
+  {
+    "id": "5074 - Plumbing and Heating Equipment and Supplies (Hydronics)"
+  },
+  {
+    "id": "5075 - Warm Air Heating and Air-Conditioning Equipment and Supplies"
+  },
+  {
+    "id": "5078 - Refrigeration Equipment and Supplies"
+  },
+  {
+    "id": "5082 - Construction and Mining (Except Petroleum) Machinery and Equipment"
+  },
+  {
+    "id": "5083 - Farm and Garden Machinery and Equipment"
+  },
+  {
+    "id": "5084 - Industrial Machinery and Equipment"
+  },
+  {
+    "id": "5085 - Industrial Supplies"
+  },
+  {
+    "id": "5087 - Service Establishment Equipment and Supplies"
+  },
+  {
+    "id": "5088 - Transportation Equipment and Supplies, Except Motor Vehicles"
+  },
+  {
+    "id": "5091 - Sporting and Recreational Goods and Supplies"
+  },
+  {
+    "id": "5092 - Toys and Hobby Goods and Supplies"
+  },
+  {
+    "id": "5093 - Scrap and Waste Materials"
+  },
+  {
+    "id": "5094 - Jewelry, Watches, Precious Stones, and Precious Metals"
+  },
+  {
+    "id": "5099 - Durable Goods, Not Elsewhere Classified"
+  },
+  {
+    "id": "5111 - Printing and Writing Paper"
+  },
+  {
+    "id": "5112 - Stationery and Office Supplies"
+  },
+  {
+    "id": "5113 - Industrial and Personal Service Paper"
+  },
+  {
+    "id": "5122 - Drugs, Drug Proprietaries, and Druggists' Sundries"
+  },
+  {
+    "id": "5131 - Piece Goods, Notions, and Other Dry Good"
+  },
+  {
+    "id": "5136 - Men's and Boy's Clothing and Furnishings"
+  },
+  {
+    "id": "5137 - Women's, Children's, and Infants' Clothing and Accessories"
+  },
+  {
+    "id": "5139 - Footwear"
+  },
+  {
+    "id": "5141 - Groceries, General Line"
+  },
+  {
+    "id": "5142 - Packaged Frozen Foods"
+  },
+  {
+    "id": "5143 - Dairy Products, Except Dried or Canned"
+  },
+  {
+    "id": "5144 - Poultry and Poultry Products"
+  },
+  {
+    "id": "5145 - Confectionery"
+  },
+  {
+    "id": "5146 - Fish and Seafoods"
+  },
+  {
+    "id": "5147 - Meats and Meat Products"
+  },
+  {
+    "id": "5148 - Fresh Fruits and Vegetables"
+  },
+  {
+    "id": "5149 - Groceries and Related Products, Not Elsewhere Classified"
+  },
+  {
+    "id": "5153 - Grain and Field Beans"
+  },
+  {
+    "id": "5154 - Livestock"
+  },
+  {
+    "id": "5159 - Farm-Product Raw Materials, Not Elsewhere Classified"
+  },
+  {
+    "id": "5162 - Plastics Materials and Basic Forms and Shapes"
+  },
+  {
+    "id": "5169 - Chemicals and Allied Products, Not Elsewhere Classified"
+  },
+  {
+    "id": "5171 - Petroleum Bulk stations and Terminals"
+  },
+  {
+    "id": "5172 - Petroleum and Petroleum Products Wholesalers, Except Bulk Stations and Terminals"
+  },
+  {
+    "id": "5181 - Beer and Ale"
+  },
+  {
+    "id": "5182 - Wine and Distilled Alcoholic Beverages"
+  },
+  {
+    "id": "5191 - Farm Supplies"
+  },
+  {
+    "id": "5192 - Books, Periodicals, and Newspapers"
+  },
+  {
+    "id": "5193 - Flowers, Nursery Stock, and Florists' Supplies"
+  },
+  {
+    "id": "5194 - Tobacco and Tobacco Products"
+  },
+  {
+    "id": "5198 - Paints, Varnishes, and Supplies"
+  },
+  {
+    "id": "5199 - Nondurable Goods, Not Elsewhere Classified"
+  },
+  {
+    "id": "5211 - Lumber and Other Building Materials Dealers"
+  },
+  {
+    "id": "5231 - Paint, Glass, and Wallpaper Stores"
+  },
+  {
+    "id": "5251 - Hardware Stores"
+  },
+  {
+    "id": "5261 - Retail Nurseries, Lawn and Garden Supply Stores"
+  },
+  {
+    "id": "5271 - Mobile Home Dealers"
+  },
+  {
+    "id": "5311 - Department Stores"
+  },
+  {
+    "id": "5331 - Variety Stores"
+  },
+  {
+    "id": "5399 - Miscellaneous General Merchandise Stores"
+  },
+  {
+    "id": "5411 - Grocery Stores"
+  },
+  {
+    "id": "5421 - Meat and Fish (Seafood) Markets, Including Freezer Provisioners"
+  },
+  {
+    "id": "5431 - Fruit and Vegetable Markets"
+  },
+  {
+    "id": "5441 - Candy, Nut, and Confectionery Stores"
+  },
+  {
+    "id": "5451 - Dairy Products Stores"
+  },
+  {
+    "id": "5461 - Retail Bakeries"
+  },
+  {
+    "id": "5499 - Miscellaneous Food Stores"
+  },
+  {
+    "id": "5511 - Motor Vehicle Dealers (New and Used)"
+  },
+  {
+    "id": "5521 - Motor Vehicle Dealers (Used Only)"
+  },
+  {
+    "id": "5531 - Auto and Home Supply Stores"
+  },
+  {
+    "id": "5541 - Gasoline Service Stations"
+  },
+  {
+    "id": "5551 - Boat Dealers"
+  },
+  {
+    "id": "5561 - Recreational Vehicle Dealers"
+  },
+  {
+    "id": "5571 - Motorcycle Dealers"
+  },
+  {
+    "id": "5599 - Automotive Dealers, Not Elsewhere Classified"
+  },
+  {
+    "id": "5611 - Men's and Boys' Clothing and Accessory Stores"
+  },
+  {
+    "id": "5621 - Women's Clothing Stores"
+  },
+  {
+    "id": "5632 - Women's Accessory and Specialty Stores"
+  },
+  {
+    "id": "5641 - Children's and Infants' Wear Stores"
+  },
+  {
+    "id": "5651 - Family Clothing Stores"
+  },
+  {
+    "id": "5661 - Shoe Stores"
+  },
+  {
+    "id": "5699 - Miscellaneous Apparel and Accessory Stores"
+  },
+  {
+    "id": "5712 - Furniture Stores"
+  },
+  {
+    "id": "5713 - Floor Covering Stores"
+  },
+  {
+    "id": "5714 - Drapery, Curtain, and Upholstery Stores"
+  },
+  {
+    "id": "5719 - Miscellaneous home furnishings Stores"
+  },
+  {
+    "id": "5722 - Household Appliance Stores"
+  },
+  {
+    "id": "5731 - Radio, Television, and Consumer Electronics Stores"
+  },
+  {
+    "id": "5734 - Computer and Computer Software Stores"
+  },
+  {
+    "id": "5735 - Record and Prerecorded Tape Stores"
+  },
+  {
+    "id": "5736 - Musical Instrument Stores"
+  },
+  {
+    "id": "5812 - Eating Places"
+  },
+  {
+    "id": "5813 - Drinking Places (alcoholic Beverages)"
+  },
+  {
+    "id": "5912 - Drug Stores and Proprietary Stores"
+  },
+  {
+    "id": "5921 - Liquor Stores"
+  },
+  {
+    "id": "5932 - Used Merchandise Stores"
+  },
+  {
+    "id": "5941 - Sporting Goods Stores and Bicycle Shops"
+  },
+  {
+    "id": "5942 - Book Stores"
+  },
+  {
+    "id": "5943 - Stationery Stores"
+  },
+  {
+    "id": "5944 - Jewelry Stores"
+  },
+  {
+    "id": "5945 - Hobby, Toy, and Game Shops"
+  },
+  {
+    "id": "5946 - Camera and Photographic Supply Stores"
+  },
+  {
+    "id": "5947 - Gift, Novelty, and Souvenir Shops"
+  },
+  {
+    "id": "5948 - Luggage and Leather Goods Stores"
+  },
+  {
+    "id": "5949 - Sewing, Needlework, and Piece Goods Stores"
+  },
+  {
+    "id": "5961 - Catalog and Mail-Order Houses"
+  },
+  {
+    "id": "5962 - Automatic Merchandising Machine Operators"
+  },
+  {
+    "id": "5963 - Direct Selling Establishments"
+  },
+  {
+    "id": "5983 - Fuel Oil Dealers"
+  },
+  {
+    "id": "5984 - Liquefied Petroleum Gas (Bottled Gas) Dealers"
+  },
+  {
+    "id": "5989 - Fuel Dealers, Not Elsewhere Classified"
+  },
+  {
+    "id": "5992 - Florists"
+  },
+  {
+    "id": "5993 - Tobacco Stores and Stands"
+  },
+  {
+    "id": "5994 - News Dealers and Newsstands"
+  },
+  {
+    "id": "5995 - Optical Goods Stores"
+  },
+  {
+    "id": "5999 - Miscellaneous Retail Stores, Not Elsewhere Classified"
+  },
+  {
+    "id": "6011 - Federal Reserve Banks"
+  },
+  {
+    "id": "6019 - Central Reserve Depository Institutions, Not Elsewhere Classified"
+  },
+  {
+    "id": "6021 - National Commercial Banks"
+  },
+  {
+    "id": "6022 - State Commercial Banks"
+  },
+  {
+    "id": "6029 - Commercial Banks, Not Elsewhere Classified"
+  },
+  {
+    "id": "6035 - Savings Institutions, Federally Chartered"
+  },
+  {
+    "id": "6036 - Savings Institutions, Not Federally Chartered"
+  },
+  {
+    "id": "6061 - Credit Unions, Federally Chartered"
+  },
+  {
+    "id": "6062 - Credit Unions, Not Federally Chartered"
+  },
+  {
+    "id": "6081 - Branches and Agencies of Foreign Banks"
+  },
+  {
+    "id": "6082 - Foreign Trade and International Banking Institutions"
+  },
+  {
+    "id": "6091 - Non-deposit Trust Facilities,"
+  },
+  {
+    "id": "6099 - Functions Related to Depository Banking, Not Elsewhere Classified"
+  },
+  {
+    "id": "6111 - Federal and Federally-Sponsored Credit Agencies"
+  },
+  {
+    "id": "6141 - Personal Credit Institutions"
+  },
+  {
+    "id": "6153 - Short-Term Business Credit Institutions, Except Agricultural"
+  },
+  {
+    "id": "6159 - Miscellaneous business Credit Institutions"
+  },
+  {
+    "id": "6162 - Mortgage Bankers and Loan Correspondents"
+  },
+  {
+    "id": "6163 - Loan Brokers"
+  },
+  {
+    "id": "6211 - Security Brokers, Dealers, and Flotation Companies"
+  },
+  {
+    "id": "6221 - Commodity Contracts Brokers and Dealers"
+  },
+  {
+    "id": "6231 - Security and Commodity Exchanges"
+  },
+  {
+    "id": "6282 - Investment Advice"
+  },
+  {
+    "id": "6289 - Services Allied With the Exchange of Securities or Commodities, Not Elsewhere Classified"
+  },
+  {
+    "id": "6311 - Life Insurance"
+  },
+  {
+    "id": "6321 - Accident and Health Insurance"
+  },
+  {
+    "id": "6324 - Hospital and Medical Service Plans"
+  },
+  {
+    "id": "6331 - Fire, Marine, and Casualty Insurance"
+  },
+  {
+    "id": "6351 - Surety Insurance"
+  },
+  {
+    "id": "6361 - Title Insurance"
+  },
+  {
+    "id": "6371 - Pension, Health, and Welfare Funds"
+  },
+  {
+    "id": "6399 - Insurance Carriers, Not Elsewhere Classified"
+  },
+  {
+    "id": "6411 - Insurance Agents, Brokers, and Service"
+  },
+  {
+    "id": "6512 - Operators of Nonresidential Buildings"
+  },
+  {
+    "id": "6513 - Operators of Apartment Buildings"
+  },
+  {
+    "id": "6514 - Operators of Dwellings Other Than Apartment Buildings"
+  },
+  {
+    "id": "6515 - Operators of Residential Mobile Home Sites"
+  },
+  {
+    "id": "6517 - Lessors of Railroad Property"
+  },
+  {
+    "id": "6519 - Lessors of Real Property, Not Elsewhere Classified"
+  },
+  {
+    "id": "6531 - Real Estate Agents and Managers"
+  },
+  {
+    "id": "6541 - Title Abstract Offices"
+  },
+  {
+    "id": "6552 - Land Subdividers and Developers, Except Cemeteries"
+  },
+  {
+    "id": "6553 - Cemetery Subdividers and Developers"
+  },
+  {
+    "id": "6712 - Offices of Bank Holding Companies"
+  },
+  {
+    "id": "6719 - Offices of Holding Companies, Not Elsewhere Classified"
+  },
+  {
+    "id": "6722 - Management Investment Offices, Open-End"
+  },
+  {
+    "id": "6726 - Unit Investment Trusts, Face-Amount Certificate Offices, and Closed-End Management Investment Offices"
+  },
+  {
+    "id": "6732 - Educational, Religious, and Charitable Trusts"
+  },
+  {
+    "id": "6733 - Trusts, Except Educational, Religious, and Charitable"
+  },
+  {
+    "id": "6792 - Oil Royalty Traders"
+  },
+  {
+    "id": "6794 - Patent Owners and Lessors"
+  },
+  {
+    "id": "6798 - Real Estate Investment Trusts"
+  },
+  {
+    "id": "6799 - Investors, Not Elsewhere Classified"
+  },
+  {
+    "id": "7011 - Hotels and Motels"
+  },
+  {
+    "id": "7021 - Rooming and Boarding Houses"
+  },
+  {
+    "id": "7032 - Sporting and Recreational Camps"
+  },
+  {
+    "id": "7033 - Recreational Vehicle Parks and Campsites"
+  },
+  {
+    "id": "7041 - Organization Hotels and Lodging Houses, on Membership Basis"
+  },
+  {
+    "id": "7211 - Power Laundries, Family and Commercial"
+  },
+  {
+    "id": "7212 - Garment Pressing, and Agents for Laundries and Drycleaners"
+  },
+  {
+    "id": "7213 - Linen Supply"
+  },
+  {
+    "id": "7215 - Coin-Operated Laundries and Drycleaning"
+  },
+  {
+    "id": "7216 - Drycleaning Plants, Except Rug Cleaning"
+  },
+  {
+    "id": "7217 - Carpet and Upholstery Cleaning"
+  },
+  {
+    "id": "7218 - Industrial Launderers"
+  },
+  {
+    "id": "7219 - Laundry and Garment Services, Not Elsewhere Classified"
+  },
+  {
+    "id": "7221 - Photographic Studios, Portrait"
+  },
+  {
+    "id": "7231 - Beauty Shops"
+  },
+  {
+    "id": "7241 - Barber Shops"
+  },
+  {
+    "id": "7251 - Shoe Repair Shops and Shoeshine Parlors"
+  },
+  {
+    "id": "7261 - Funeral Service and Crematories"
+  },
+  {
+    "id": "7291 - Tax Return Preparation Services"
+  },
+  {
+    "id": "7299 - Miscellaneous Personal Services, Not Elsewhere Classified"
+  },
+  {
+    "id": "7311 - Advertising Agencies"
+  },
+  {
+    "id": "7312 - Outdoor Advertising Services"
+  },
+  {
+    "id": "7313 - Radio, Television, and Publishers' Advertising Representatives"
+  },
+  {
+    "id": "7319 - Advertising, Not Elsewhere Classified"
+  },
+  {
+    "id": "7322 - Adjustment and Collection Services"
+  },
+  {
+    "id": "7323 - Credit Reporting Services"
+  },
+  {
+    "id": "7331 - Direct Mail Advertising Services"
+  },
+  {
+    "id": "7334 - Photocopying and Duplicating Services"
+  },
+  {
+    "id": "7335 - Commercial Photography"
+  },
+  {
+    "id": "7336 - Commercial Art and Graphic Design"
+  },
+  {
+    "id": "7338 - Secretarial and Court Reporting Services"
+  },
+  {
+    "id": "7342 - Disinfecting and Pest Control Services"
+  },
+  {
+    "id": "7349 - Building Cleaning and Maintenance Services, Not Elsewhere"
+  },
+  {
+    "id": "7352 - Medical Equipment Rental and Leasing"
+  },
+  {
+    "id": "7353 - Heavy Construction Equipment Rental and Leasing"
+  },
+  {
+    "id": "7359 - Equipment Rental and Leasing, Not Elsewhere Classified"
+  },
+  {
+    "id": "7361 - Employment Agencies"
+  },
+  {
+    "id": "7363 - Help Supply Services"
+  },
+  {
+    "id": "7371 - Computer Programming Services"
+  },
+  {
+    "id": "7372 - Prepackaged Software"
+  },
+  {
+    "id": "7373 - Computer Integrated Systems Design"
+  },
+  {
+    "id": "7374 - Computer Processing and Data Preparation and Processing Services"
+  },
+  {
+    "id": "7375 - Information Retrieval Services"
+  },
+  {
+    "id": "7376 - Computer Facilities Management Services"
+  },
+  {
+    "id": "7377 - Computer Rental and Leasing"
+  },
+  {
+    "id": "7378 - Computer Maintenance and Repair"
+  },
+  {
+    "id": "7379 - Computer Related Services, Not Elsewhere Classified"
+  },
+  {
+    "id": "7381 - Detective, Guard, and Armored Car Services"
+  },
+  {
+    "id": "7382 - Security Systems Services"
+  },
+  {
+    "id": "7383 - News Syndicates"
+  },
+  {
+    "id": "7384 - Photofinishing Laboratories"
+  },
+  {
+    "id": "7389 - Business Services, Not Elsewhere Classified"
+  },
+  {
+    "id": "7513 - Truck Rental and Leasing, Without Drivers"
+  },
+  {
+    "id": "7514 - Passenger Car Rental"
+  },
+  {
+    "id": "7515 - Passenger Car Leasing"
+  },
+  {
+    "id": "7519 - Utility Trailer and Recreational Vehicle Rental"
+  },
+  {
+    "id": "7521 - Automobile Parking"
+  },
+  {
+    "id": "7532 - Top, Body, and Upholstery Repair Shops and Paint Shops"
+  },
+  {
+    "id": "7533 - Automotive Exhaust System Repair Shops"
+  },
+  {
+    "id": "7534 - Tire Retreading and Repair Shops"
+  },
+  {
+    "id": "7536 - Automotive Glass Replacement Shops"
+  },
+  {
+    "id": "7537 - Automotive Transmission Repair Shops"
+  },
+  {
+    "id": "7538 - General Automotive Repair Shops"
+  },
+  {
+    "id": "7539 - Automotive Repair Shops, Not Elsewhere Classified"
+  },
+  {
+    "id": "7542 - Carwashes"
+  },
+  {
+    "id": "7549 - Automotive Services, Except Repair and Carwashes"
+  },
+  {
+    "id": "7622 - Radio and Television Repair Shops"
+  },
+  {
+    "id": "7623 - Refrigeration and Air-Conditioning Service and Repair Shops"
+  },
+  {
+    "id": "7629 - Electrical and Electronic Repair Shops, Not Elsewhere Classified"
+  },
+  {
+    "id": "7631 - Watch, Clock, and Jewelry Repair"
+  },
+  {
+    "id": "7641 - Reupholstery and Furniture Repair"
+  },
+  {
+    "id": "7692 - Welding Repair"
+  },
+  {
+    "id": "7694 - Armature Rewinding Shops"
+  },
+  {
+    "id": "7699 - Repair Shops and Related Services, Not Elsewhere Classified"
+  },
+  {
+    "id": "7812 - Motion Picture and Video Tape Production"
+  },
+  {
+    "id": "7819 - Services Allied to Motion Picture Production"
+  },
+  {
+    "id": "7822 - Motion Picture and Video Tape Distribution"
+  },
+  {
+    "id": "7829 - Services Allied to Motion Picture Distribution"
+  },
+  {
+    "id": "7832 - Motion Picture Theaters, Except Drive-In"
+  },
+  {
+    "id": "7833 - Drive-In Motion Picture Theaters"
+  },
+  {
+    "id": "7841 - Video Tape Rental"
+  },
+  {
+    "id": "7911 - Dance Studios, Schools, and Halls"
+  },
+  {
+    "id": "7922 - Theatrical Producers (Except Motion Picture) and Miscellaneous Theatrical Services"
+  },
+  {
+    "id": "7929 - Bands, Orchestras, Actors, and Other Entertainers and Entertainment Groups"
+  },
+  {
+    "id": "7933 - Bowling Centers"
+  },
+  {
+    "id": "7941 - Professional Sports Clubs and Promoters"
+  },
+  {
+    "id": "7948 - Racing, Including Track Operation"
+  },
+  {
+    "id": "7991 - Physical Fitness Facilities"
+  },
+  {
+    "id": "7992 - Public Golf Courses"
+  },
+  {
+    "id": "7993 - Coin-Operated Amusement Devices"
+  },
+  {
+    "id": "7996 - Amusement Parks"
+  },
+  {
+    "id": "7997 - Membership Sports and Recreation Clubs"
+  },
+  {
+    "id": "7999 - Amusement and Recreation Services, Not Elsewhere Classified"
+  },
+  {
+    "id": "8011 - Offices and Clinics of Doctors of Medicine"
+  },
+  {
+    "id": "8021 - Offices and Clinics of Dentists"
+  },
+  {
+    "id": "8031 - Offices and Clinics of Doctors of Osteopathy"
+  },
+  {
+    "id": "8041 - Offices and Clinics of Chiropractors"
+  },
+  {
+    "id": "8042 - Offices and Clinics of Optometrists"
+  },
+  {
+    "id": "8043 - Offices and Clinics of Podiatrists"
+  },
+  {
+    "id": "8049 - Offices and Clinics of Health Practitioners, Not Elsewhere Classified"
+  },
+  {
+    "id": "8051 - Skilled Nursing Care Facilities"
+  },
+  {
+    "id": "8052 - Intermediate Care Facilities"
+  },
+  {
+    "id": "8059 - Nursing and Personal Care Facilities, Not Elsewhere Classified"
+  },
+  {
+    "id": "8062 - General Medical and Surgical Hospitals"
+  },
+  {
+    "id": "8063 - Psychiatric Hospitals"
+  },
+  {
+    "id": "8069 - Specialty Hospitals, Except Psychiatric"
+  },
+  {
+    "id": "8071 - Medical Laboratories"
+  },
+  {
+    "id": "8072 - Dental Laboratories"
+  },
+  {
+    "id": "8082 - Home Health Care Services"
+  },
+  {
+    "id": "8092 - Kidney Dialysis Centers"
+  },
+  {
+    "id": "8093 - Specialty Outpatient Facilities, Not Elsewhere Classified"
+  },
+  {
+    "id": "8099 - Health and Allied Services, Not Elsewhere Classified"
+  },
+  {
+    "id": "8111 - Legal Services"
+  },
+  {
+    "id": "8211 - Elementary and Secondary Schools"
+  },
+  {
+    "id": "8221 - Colleges, Universities, and Professional Schools"
+  },
+  {
+    "id": "8222 - Junior Colleges and Technical Institutes"
+  },
+  {
+    "id": "8231 - Libraries"
+  },
+  {
+    "id": "8243 - Data Processing Schools"
+  },
+  {
+    "id": "8244 - Business and Secretarial Schools"
+  },
+  {
+    "id": "8249 - Vocational Schools, Not Elsewhere Classified"
+  },
+  {
+    "id": "8299 - Schools and Educational Services, Not Elsewhere Classified"
+  },
+  {
+    "id": "8322 - Individual and Family Social Services"
+  },
+  {
+    "id": "8331 - Job Training and Vocational Rehabilitation Services"
+  },
+  {
+    "id": "8351 - Child Day Care Services"
+  },
+  {
+    "id": "8361 - Residential Care"
+  },
+  {
+    "id": "8399 - Social Services, Not Elsewhere Classified"
+  },
+  {
+    "id": "8412 - Museums and Art Galleries"
+  },
+  {
+    "id": "8422 - Arboreta and Botanical or Zoological Gardens"
+  },
+  {
+    "id": "8611 - Business Associations"
+  },
+  {
+    "id": "8621 - Professional Membership Organizations"
+  },
+  {
+    "id": "8631 - Labor Unions and Similar Labor Organizations"
+  },
+  {
+    "id": "8641 - Civic, Social, and Fraternal Associations"
+  },
+  {
+    "id": "8651 - Political Organizations"
+  },
+  {
+    "id": "8661 - Religious Organizations"
+  },
+  {
+    "id": "8699 - Membership Organizations, Not Elsewhere Classified"
+  },
+  {
+    "id": "8711 - Engineering Services"
+  },
+  {
+    "id": "8712 - Architectural Services"
+  },
+  {
+    "id": "8713 - Surveying Services"
+  },
+  {
+    "id": "8721 - Accounting, Auditing, and Bookkeeping Services"
+  },
+  {
+    "id": "8731 - Commercial Physical and Biological Research"
+  },
+  {
+    "id": "8732 - Commercial Economic, Sociological, and Educational Research"
+  },
+  {
+    "id": "8733 - Noncommercial Research Organizations"
+  },
+  {
+    "id": "8734 - Testing Laboratories"
+  },
+  {
+    "id": "8741 - Management Services"
+  },
+  {
+    "id": "8742 - Management Consulting Services"
+  },
+  {
+    "id": "8743 - Public Relations Services"
+  },
+  {
+    "id": "8744 - Facilities Support Management Services"
+  },
+  {
+    "id": "8748 - Business Consulting Services, Not Elsewhere Classified"
+  },
+  {
+    "id": "8811 - Private Households"
+  },
+  {
+    "id": "8999 - Services, Not Elsewhere Classified"
+  },
+  {
+    "id": "9111 - Executive Offices"
+  },
+  {
+    "id": "9121 - Legislative Bodies"
+  },
+  {
+    "id": "9131 - Executive and Legislative Offices Combined"
+  },
+  {
+    "id": "9199 - General Government, Not Elsewhere Classified"
+  },
+  {
+    "id": "9211 - Courts"
+  },
+  {
+    "id": "9221 - Police Protection"
+  },
+  {
+    "id": "9222 - Legal Counsel and Prosecution"
+  },
+  {
+    "id": "9223 - Correctional Institutions"
+  },
+  {
+    "id": "9224 - Fire Protection"
+  },
+  {
+    "id": "9229 - Public Order and Safety, Not Elsewhere Classified"
+  },
+  {
+    "id": "9311 - Public Finance, Taxation, and Monetary Policy"
+  },
+  {
+    "id": "9411 - Administration of Educational Programs"
+  },
+  {
+    "id": "9431 - Administration of Public Health Programs"
+  },
+  {
+    "id": "9441 - Administration of Social, Human Resource and Income Maintenance Programs"
+  },
+  {
+    "id": "9451 - Administration of Veterans' Affairs, Except Health and Insurance"
+  },
+  {
+    "id": "9511 - Air and Water Resource and Solid Waste Management"
+  },
+  {
+    "id": "9512 - Land, Mineral, Wildlife, and Forest Conservation"
+  },
+  {
+    "id": "9531 - Administration of Housing Programs"
+  },
+  {
+    "id": "9532 - Administration of Urban Planning and Community and Rural Development"
+  },
+  {
+    "id": "9611 - Administration of General Economic Programs"
+  },
+  {
+    "id": "9621 - Regulation and Administration of Transportation Programs"
+  },
+  {
+    "id": "9631 - Regulation and Administration of Communications, Electric, Gas, and Other Utilities"
+  },
+  {
+    "id": "9641 - Regulation of Agricultural Marketing and Commodities"
+  },
+  {
+    "id": "9651 - Regulation, Licensing, and Inspection of Miscellaneous Commercial Sectors"
+  },
+  {
+    "id": "9661 - Space and Research and Technology"
+  },
+  {
+    "id": "9711 - National Security"
+  },
+  {
+    "id": "9721 - International Affairs"
+  },
+  {
+    "id": "9999 - Nonclassifiable Establishments"
+  }
+]

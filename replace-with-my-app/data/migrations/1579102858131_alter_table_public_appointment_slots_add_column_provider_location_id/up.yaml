@@ -1,0 +1,4 @@
+- args:
+    sql: ALTER TABLE "public"."appointment_slots" ADD COLUMN "provider_location_id"
+      uuid NULL;
+  type: run_sql

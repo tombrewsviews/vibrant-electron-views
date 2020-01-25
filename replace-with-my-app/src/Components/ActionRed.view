@@ -1,0 +1,26 @@
+ActionRed View
+  Horizontal
+  height 40
+  alignItems center
+  backgroundColor rgba(224,51,51, 0.1)
+  borderBottomLeftRadius < 6
+  borderBottomRightRadius < 6
+  borderColor rgba(0,162,255, 0) 
+  borderStyle solid
+  borderTopLeftRadius < 6
+  borderTopRightRadius < 6
+  borderWidth 3
+  cursor pointer
+  onClick <
+  paddingLeft 16
+  paddingRight 16
+  marginTop < 0
+  onMouseEnter <
+  onMouseLeave <
+  zIndex < 
+  when <isHovered
+  backgroundColor rgba(224,51,51, 0.1) easeInOut
+  borderColor rgba(224,51,51, 0.3) easeInOut
+    SubTitle
+    text < Action
+    color rgba(224,51,51, 1)

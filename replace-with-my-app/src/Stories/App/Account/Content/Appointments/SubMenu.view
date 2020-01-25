@@ -1,0 +1,19 @@
+SubMenu View
+flow together
+  Horizontal
+  marginTop 16
+  paddingLeft 8
+  when <isMediaLaptop
+  marginTop 0
+  paddingLeft 16
+    SubMenuTab
+    onClick <setFlow
+    onClickId /App/Account/Content/Appointments/Content/Me
+    text Me
+    isSelected <flowMe
+    SubMenuTab
+    paddingLeft 16
+    onClick <setFlow
+    onClickId /App/Account/Content/Appointments/Content/Others
+    text Others
+    isSelected <flowOthers

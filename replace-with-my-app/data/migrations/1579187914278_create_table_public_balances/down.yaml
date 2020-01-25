@@ -1,0 +1,3 @@
+- args:
+    sql: DROP TABLE "public"."balances"
+  type: run_sql

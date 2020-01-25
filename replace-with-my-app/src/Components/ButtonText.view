@@ -1,0 +1,17 @@
+View
+  ButtonText Vertical
+  cursor pointer
+  onClick <
+  marginTop < 0
+  marginRight < 0
+  marginLeft < 0
+    Text
+    color < rgb(0, 162, 255)
+    fontFamily WonderUnitSans
+    fontSize < 14
+    letterSpacing 0.3
+    fontWeight 300
+    text < Deafult text
+    textDecoration none
+    when <isHovered
+    textDecoration underline

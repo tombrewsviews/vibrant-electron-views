@@ -1,0 +1,21 @@
+Appointments View
+flow together
+  Vertical
+  paddingTop 8
+  paddingLeft 8
+  paddingRight 8
+  paddingBottom 100
+  when <isMediaLaptop
+  paddingLeft 16
+  paddingRight 32
+    SubMenu
+    Content
+    Text
+    marginTop 32
+    text Filter
+    Text
+    marginTop 32
+    text Similar to treatment card - schedule/re-schedule/cancel
+    Text
+    marginTop 32
+    text Print out excuse notes for each of the pass appt

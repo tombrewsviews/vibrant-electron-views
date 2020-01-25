@@ -1,0 +1,40 @@
+---
+table: feedback
+
+###############
+# permissions #
+###############
+insert_permissions:
+  - role: public
+    permission:
+      columns:
+        - app
+        - message
+  - role: feedback
+    permission: &insert_permissions:feedback:permission
+      columns:
+        - app
+        - message
+        - context
+      set:
+        user_id: x-hasura-user-id
+  - role: support
+    permission: *insert_permissions:feedback:permission
+
+############
+#  events  #
+############
+# event_triggers:
+#   - definition:
+#       enable_manual: true
+#       insert:
+#         columns: '*'
+#     headers:
+#       - name: x-api-key
+#         value_from_env: HASURA_EVENTS_KEY
+#     name: report-feedback
+#     retry_conf:
+#       interval_sec: 10
+#       num_retries: 0
+#       timeout_sec: 60
+#     webhook_from_env: HASURA_EVENTS_URL

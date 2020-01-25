@@ -1,0 +1,18 @@
+Questions View
+flow together
+  Vertical
+  width 350
+  # flexGrow 1
+  # flexShrink 1
+  # flexBasis auto
+  #backgroundColor red
+    Repeater
+    text John
+    textLabel firstname
+    Repeater
+    text Summers
+    textLabel lastname
+    Repeater
+    text john@email.com
+    textLabel email
+    textTransform lowercase

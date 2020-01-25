@@ -1,0 +1,9 @@
+Auth View
+flow separate
+    SignIn
+    SignInNewPasswordRequired
+    SignUp
+    SignUpConfirm
+    ResetPassword
+    ResetPasswordConfirm
+    TermsAndConditions

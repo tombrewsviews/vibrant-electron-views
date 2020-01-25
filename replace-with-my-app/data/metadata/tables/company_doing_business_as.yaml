@@ -1,0 +1,98 @@
+---
+table: company_doing_business_as
+
+#############
+# relations #
+#############
+array_relationships:
+  - name: provider_locations
+    using:
+      foreign_key_constraint_on:
+        column: company_doing_business_as_id
+        table: provider_locations
+object_relationships:
+  - name: company
+    using:
+      foreign_key_constraint_on: company_id
+
+###############
+# permissions #
+###############
+# insert_permissions:
+#   - role: company-admin
+#     permission:
+#       check:
+#         _or:
+#           &my-company-or-one-i-created-or-company-im-broker-of # company agreement is for a company I'm an admin of
+#           - company_id:
+#               _in: X-Hasura-Companies
+#           # company agreement is for a company I created
+#           - company:
+#               created_by_user_id:
+#                 _eq: X-Hasura-User-Id
+#           # company agreement is for a company I'm a broker of
+#           - company:
+#               broker_id:
+#                 _in: X-Hasura-Companies
+#       columns:
+#         - company_id
+#         - name
+#   - role: support
+#     permission:
+#       columns:
+#         - company_id
+#         - name
+# select_permissions:
+#   - role: company-admin
+#     permission: &select_permissions:company-admin:permission
+#       allow_aggregations: true
+#       columns:
+#         - name
+#         - company_id
+#         - id
+#       filter: &select_permissions:company-admin:permission:filter
+#         _or: *my-company-or-one-i-created-or-company-im-broker-of
+#   - role: company-user
+#     permission: *select_permissions:company-admin:permission
+#   - role: provider
+#     permission: *select_permissions:company-admin:permission
+#   - role: public
+#     permission:
+#       allow_aggregations: false
+#       columns:
+#         - id
+#         - name
+#   - role: member
+#     permission:
+#       allow_aggregations: false
+#       columns:
+#         - company_id
+#         - id
+#         - name
+#   - role: support
+#     permission:
+#       allow_aggregations: true
+#       columns:
+#         - id
+#         - company_id
+#         - name
+# update_permissions:
+#   - role: company-admin
+#     permission:
+#       columns:
+#         - name
+#       filter: *select_permissions:company-admin:permission:filter
+#   - role: support
+#     permission:
+#       columns:
+#         - company_id
+#         - name
+# delete_permissions:
+#   - role: company-admin
+#     permission:
+#       filter: *select_permissions:company-admin:permission:filter
+#   - role: support
+#     columns:
+#       - id
+#       - company_id
+#       - name

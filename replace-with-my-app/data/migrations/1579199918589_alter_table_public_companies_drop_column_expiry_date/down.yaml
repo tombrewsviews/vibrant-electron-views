@@ -1,0 +1,6 @@
+- args:
+    sql: ALTER TABLE "public"."companies" ADD COLUMN "expiry_date" date
+  type: run_sql
+- args:
+    sql: ALTER TABLE "public"."companies" ALTER COLUMN "expiry_date" DROP NOT NULL
+  type: run_sql

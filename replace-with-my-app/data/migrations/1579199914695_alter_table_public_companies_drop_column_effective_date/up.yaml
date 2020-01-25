@@ -1,0 +1,3 @@
+- args:
+    sql: ALTER TABLE "public"."companies" DROP COLUMN "effective_date" CASCADE
+  type: run_sql

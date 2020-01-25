@@ -1,0 +1,167 @@
+DueNow View
+  Vertical
+  backgroundColor white
+  borderBottomLeftRadius 12
+  borderBottomRightRadius 12
+  borderTopLeftRadius 12
+  borderTopRightRadius 12
+  shadowBlur 16
+  shadowColor rgba(0,0,0, 0.1)
+  shadowOffsetX 0
+  shadowOffsetY 8
+  shadowSpread 0
+  maxWidth 400
+  flexGrow 1
+  flexShrink 1
+  flexBasis 100%
+  marginTop 16
+  marginLeft 0
+  when <isMediaLaptop
+  flexBasis 300px
+  marginLeft 16
+    Vertical
+    onWhen <isNoShow
+    position absolute
+    top 20
+    left 0
+    height 32
+    justifyContent center
+    backgroundColor rgba(237,55,26,1)
+    zIndex 20
+    borderBottomRightRadius 8
+    borderTopRightRadius 8
+    paddingLeft 24
+    paddingRight 24
+      SubTitle
+      color white
+      text Missed
+    Vertical
+    position absolute
+    right 8
+    top 112
+    zIndex 2
+      ButtonWhite
+      backdropFilter blur(4px)
+      backgroundColor rgba(255,255,255,0.7)
+      text Open Map
+    Vertical
+    borderBottomLeftRadius 0
+    borderTopLeftRadius 12
+    borderBottomRightRadius 0
+    borderTopRightRadius 12
+    height 150
+    alignItems center
+    overflowY hidden
+    overflowX hidden
+    backgroundColor rgba(116,213,222,0.2)
+      Vertical
+      position absolute
+      top 0
+      right 0
+      left 0
+      bottom 0
+      backgroundColor rgba(0,0,0,0.05)
+      zIndex 1
+      GoogleMap
+      zoomControl false
+      zoom 14
+    Vertical
+    paddingTop 16
+    paddingBottom 16
+    paddingLeft 16
+    paddingRight 16
+      Horizontal
+      paddingTop 16
+      paddingLeft 8
+      paddingRight 8
+      alignItems baseline
+        SubTitle
+        marginRight auto
+        text Patient
+        SubTitle
+        color rgb(19,126,197)
+        text John Summers
+      Horizontal
+      paddingTop 8
+      paddingLeft 8
+      paddingRight 8
+      alignItems baseline
+        SubTitle
+        marginRight auto
+        text Treatment
+        SubTitle
+        color rgb(19,126,197)
+        text Ortho
+      Horizontal
+      paddingTop 8
+      paddingLeft 8
+      paddingRight 8
+      alignItems baseline
+        SubTitle
+        marginRight auto
+        text Next appointment
+        SubTitle
+        color rgb(19,126,197)
+        text New Exam
+      Horizontal
+      paddingTop 8
+      paddingLeft 8
+      paddingRight 8
+      alignItems baseline
+        SubTitle
+        marginRight auto
+        text Location
+        SubTitle
+        color rgb(19,126,197)
+        text 212 Winters Garden
+      Horizontal
+      paddingTop 8
+      paddingLeft 8
+      paddingRight 8
+      alignItems baseline
+        SubTitle
+        marginRight auto
+        text Date
+        SubTitle
+        color rgb(237,55,26)
+        text Not set
+        when <isScheduled
+        text 01.01.2020
+        color rgba(0, 188, 112, 1)
+        when <isNoShow
+        text 01.01.2020
+        color rgb(237,55,26)
+      Horizontal
+      paddingTop 8
+      paddingLeft 8
+      paddingRight 8
+      alignItems baseline
+        SubTitle
+        marginRight auto
+        text Time
+        SubTitle
+        color rgb(237,55,26)
+        text Not set
+        when <isScheduled
+        text 1:45pm
+        color rgba(0, 188, 112, 1)
+        when <isNoShow
+        text 1:45pm
+        color rgb(237,55,26)
+      Button
+      onWhen <!isScheduled
+      marginTop 32
+      text Schedule date and time
+      when <isNoShow
+      text Re-Schedule
+      Horizontal
+      onWhen <isScheduled
+      marginTop 32
+        ButtonRed
+        text Cancel
+        marginRight 4
+        width 28%
+        Button
+        text Re-Schedule
+        marginLeft 4
+        width 70%

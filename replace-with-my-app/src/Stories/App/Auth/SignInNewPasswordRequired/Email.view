@@ -1,0 +1,19 @@
+Email View
+flow together
+data show email
+  InputSmallLabel
+  marginTop 20
+  marginRight 0
+  marginLeftLabel 0
+  paddingBottom 16
+  paddingLeft 16
+  paddingRight 16
+  paddingTop 16
+  label email
+  disabled true
+  # TODO replace for isDisabled true
+  placeholder you@email.com
+  textTransform none
+  type email
+  value <
+  width 100%

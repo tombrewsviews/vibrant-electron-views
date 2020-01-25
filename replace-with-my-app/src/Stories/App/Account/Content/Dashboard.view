@@ -1,0 +1,12 @@
+Dashboard View
+flow together
+  Vertical
+  backgroundColor red
+  flexGrow 1
+  flexShrink 1
+  flexBasis auto
+    TopBar Horizontal
+    Text
+    text Dashboard
+    Text
+    text <value Balance $1900

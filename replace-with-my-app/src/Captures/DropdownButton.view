@@ -1,0 +1,34 @@
+DropdownButton View
+  Vertical
+  alignItems < flexStart
+  backgroundColor < #fff
+  borderBottomLeftRadius < 5
+  borderBottomRightRadius < 5
+  borderColor #f2f2f2
+  borderStyle solid
+  borderTopLeftRadius < 5
+  borderTopRightRadius < 5
+  borderWidth 1
+  borderWidth 2
+  disabled <
+  height < auto
+  justifyContent center
+  minWidth < 200
+  onClick <
+  when <isFocused
+  backgroundColor white linear
+  borderColor #00a2ff linear
+  when <disabled
+  backgroundColor transparent
+  borderColor #f2f2f2
+    Text
+    text < Select
+    fontSize 14
+    color #161616
+    fontFamily WonderUnitSans
+    paddingBottom 5
+    paddingLeft 8
+    paddingRight 8
+    paddingTop 5
+    fontWeight 300
+    lineHeight 1.2

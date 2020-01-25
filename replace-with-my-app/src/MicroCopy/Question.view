@@ -1,0 +1,13 @@
+View
+  Question Text
+  color #404040
+  fontFamily WonderUnitSans
+  fontSize 18
+  fontWeight 300
+  lineHeight 1.2
+  marginBottom < 20
+  marginRight < 0
+  marginTop < 15
+  letterSpacing < 0.1
+  text <
+  wordBreak keepAll

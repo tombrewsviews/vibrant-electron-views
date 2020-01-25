@@ -1,0 +1,53 @@
+Button View
+  Vertical
+  backgroundColor rgba(0, 188, 112, 0.83)
+  borderBottomLeftRadius 8
+  borderBottomRightRadius 8
+  borderTopLeftRadius 8
+  borderTopRightRadius 8
+  cursor pointer
+  id <
+  isDisabled <
+  justifyContent center
+  marginLeft < 0
+  marginRight < 0
+  marginTop < 0
+  marginBottom < 0
+  onClick <
+  paddingBottom < 16
+  paddingLeft < 16
+  paddingRight < 16
+  paddingTop < 16
+  userSelect none
+  opacity 1
+  alignItems center
+  shadowBlur 8
+  shadowColor rgba(0,207,104, 0.4)
+  shadowOffsetX 0
+  shadowOffsetY 8
+  shadowSpread 0
+  width < auto
+  when <isBefore
+  opacity 0 linear
+  when <isHovered
+  backgroundColor rgba(0, 234, 141, 0.21) easeInOut delay 1
+  when <isDisabled
+  backgroundColor #f2f2f2
+  borderColor rgba(0, 188, 112, 0)
+  opacity 0.5
+  cursor auto
+    Text
+    color #ffffff
+    fontFamily WonderUnitSans
+    fontSize 14
+    fontWeight 500
+    letterSpacing 1.2
+    text < Press Return To Continue
+    textTransform uppercase
+    when <isHovered
+    color rgba(0, 188, 112, 0.83) easeInOut delay 1
+    when <isDisabled
+    color rgba(0, 0, 0, 0.6)
+    Shortcut
+    onPress <onClick
+    keys enter

@@ -1,0 +1,15 @@
+Profile View
+flow together
+  Vertical
+  paddingTop 8
+  paddingLeft 8
+  paddingRight 8
+  #backgroundColor yellow
+  flexGrow 1
+  flexShrink 1
+  flexBasis auto
+  when <isMediaLaptop
+  paddingLeft 16
+  paddingRight 32
+    SubMenu
+    Content

@@ -1,0 +1,34 @@
+Data View
+  Vertical
+  width < auto
+  minWidth < auto
+  maxWidth < 25%
+  height < 50
+  marginLeft < 16
+  onMouseEnter <
+  onMouseLeave <
+  justifyContent center
+    Text
+    text <label
+    color #303030
+    fontFamily WonderUnitSans
+    fontSize 8
+    fontWeight 500
+    letterSpacing 1
+    textTransform uppercase
+    opacity 0
+    position absolute
+    top 0
+    left 0
+    when <isHoveredManual
+    opacity 1 linear
+    top 5 easeOut
+    Text
+    backgroundColor < transparent
+    text < Johns
+    color < #303030
+    fontFamily WonderUnitSans
+    fontSize 14
+    fontWeight < 400
+    letterSpacing 0.3
+    textTransform <

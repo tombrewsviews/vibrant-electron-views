@@ -1,0 +1,16 @@
+*.log
+*.tmp
+.DS_Store
+node_modules
+
+.env
+.env.staging
+.env.production
+
+Locations.csv
+Professionals.csv
+metadata-debug.json
+Admins.csv
+AdminsToEmail.json
+reminder-emails.txt
+reminder-emails-members.json

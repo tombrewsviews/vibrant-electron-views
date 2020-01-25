@@ -1,0 +1,15 @@
+CheckSelected View
+  Vertical
+  backgroundColor #ffffff
+  borderBottomLeftRadius 10
+  borderBottomRightRadius 10
+  borderTopLeftRadius 10
+  borderTopRightRadius 10
+  paddingBottom 2
+  paddingLeft 2
+  paddingRight 2
+  paddingTop 2
+    Check
+    width 18
+    height 18 
+    stroke rgba(0, 188, 112, 0.83)

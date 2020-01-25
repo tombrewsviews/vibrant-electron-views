@@ -1,0 +1,48 @@
+DataAutoCentred View
+  Vertical
+  width < auto
+  minWidth < auto
+  maxWidth < 100%
+  height < 50
+  marginLeft < 16
+  marginRight < 0
+  onMouseEnter <
+  onMouseLeave <
+  justifyContent center
+    Text
+    text <label
+    color #303030
+    fontFamily WonderUnitSans
+    fontSize 8
+    fontWeight 500
+    letterSpacing 1
+    textTransform uppercase
+    opacity 0
+    marginBottom 0
+    height 0
+    when <isHoveredManual
+    opacity 1 easeOut
+    height 15 easeOut delay 20
+    Horizontal
+      Text
+      backgroundColor < transparent
+      text < -
+      color < #303030
+      fontFamily WonderUnitSans
+      fontSize 14
+      fontWeight < 400
+      letterSpacing 0.3
+      textTransform <
+      textOverflow ellipsis
+      whiteSpace nowrap
+      overflowX hidden
+      Text
+      backgroundColor < transparent
+      text <additional
+      color < #303030
+      fontFamily WonderUnitSans
+      fontSize 14
+      fontWeight < 400
+      letterSpacing 0.3
+      textTransform <
+      marginLeft 8

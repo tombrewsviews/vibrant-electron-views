@@ -1,0 +1,16 @@
+BackRepeaterText View
+  Text
+  color < #404040
+  fontFamily WonderUnitSans
+  fontSize < 14
+  fontWeight 300
+  marginRight < 0
+  letterSpacing 0.5
+  textTransform < capitalize
+  textOverflow ellipsis
+  whiteSpace nowrap
+  overflowX hidden
+  maxWidth < 300
+  text <
+  when <isHovered
+  color #303030 easeInOut

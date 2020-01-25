@@ -1,0 +1,14 @@
+- args:
+    sql: ALTER TABLE "public"."patients" ADD COLUMN "status" text
+  type: run_sql
+- args:
+    sql: ALTER TABLE "public"."patients" ALTER COLUMN "status" DROP NOT NULL
+  type: run_sql
+- args:
+    sql: ALTER TABLE "public"."patients" ADD CONSTRAINT members_status_fkey FOREIGN
+      KEY (status) REFERENCES "public"."patient_statuses" (name) ON DELETE no action
+      ON UPDATE no action
+  type: run_sql
+- args:
+    sql: ALTER TABLE "public"."patients" ALTER COLUMN "status" SET DEFAULT 'Created'::text
+  type: run_sql

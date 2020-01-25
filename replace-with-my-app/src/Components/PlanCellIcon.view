@@ -1,0 +1,8 @@
+PlanCellIcon View
+  Vertical
+  height 40
+  justifyContent center
+    PeopleOneIcon
+    stroke < #606060
+    proxy true
+    height 30

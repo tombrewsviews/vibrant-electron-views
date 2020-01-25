@@ -1,0 +1,36 @@
+ButtonBlue View
+  Vertical
+  cursor pointer
+  onClick <
+  marginTop < 0
+  marginRight < 0
+  paddingTop 8
+  paddingBottom 8
+  paddingLeft 16
+  paddingRight 16
+  alignSelf < auto
+  backgroundColor < transparent
+  borderBottomLeftRadius 5
+  borderBottomRightRadius 5
+  borderColor < #f2f2f2
+  borderStyle solid
+  borderTopLeftRadius 5
+  borderTopRightRadius 5
+  borderWidth 2
+  when <isSelected
+  backgroundColor rgba(0,162,255, 0.1) easeInOut
+  borderColor rgba(0,162,255, 0.2) easeInOut
+  when <isHovered
+  backgroundColor rgba(0,162,255, 0.15) easeInOut
+  borderColor rgba(0,162,255, 0.0) easeInOut
+    Text
+    color #606060
+    fontFamily WonderUnitSans
+    fontSize 14
+    letterSpacing 0.5
+    fontWeight 400
+    text < Deafult text
+    when <isHovered
+    color rgba(0,141,222, 1) easeInOut
+    when <isSelected
+    color rgba(0,141,222, 1)

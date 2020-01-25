@@ -1,0 +1,19 @@
+View
+  Info Text
+  color < #808080
+  fontFamily WonderUnitSans
+  fontSize < 14
+  fontWeight 300
+  marginTop < 0
+  marginBottom < 0
+  marginRight < 0
+  marginLeft < 0
+  text < Info
+  hyphens < none
+  textAlign < left
+  width < auto
+  maxWidth < auto
+  lineHeight < 18px
+  textOverflow < ellipsis
+  whiteSpace < nowrap
+  overflowX < hidden

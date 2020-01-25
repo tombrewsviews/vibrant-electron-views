@@ -1,0 +1,11 @@
+- args:
+    sql: ALTER TABLE "public"."patients" ADD COLUMN "plan_id" uuid
+  type: run_sql
+- args:
+    sql: ALTER TABLE "public"."patients" ALTER COLUMN "plan_id" DROP NOT NULL
+  type: run_sql
+- args:
+    sql: ALTER TABLE "public"."patients" ADD CONSTRAINT members_plan_id_fkey FOREIGN
+      KEY (plan_id) REFERENCES "public"."plans" (id) ON DELETE no action ON UPDATE
+      no action
+  type: run_sql

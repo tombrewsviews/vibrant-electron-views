@@ -1,0 +1,13 @@
+LebelButton View
+  Text
+  marginLeft 8
+  marginRight 8
+  color #606060
+  fontFamily WonderUnitSans
+  fontSize 14
+  letterSpacing 0.5
+  fontWeight 400
+  text < Deafult text
+
+    # when <isHovered
+    # color rgba(0,162,255, 1) easeInOut

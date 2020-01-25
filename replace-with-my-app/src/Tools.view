@@ -1,0 +1,51 @@
+Tools View
+  Vertical
+  position fixed
+  bottom 10
+  right 10
+  zIndex 1000
+  pointerEvents none
+  backgroundColor transparent
+    Horizontal
+    borderBottomLeftRadius 4
+    borderBottomRightRadius 4
+    borderTopLeftRadius 4
+    borderTopRightRadius 4
+    position absolute
+    paddingLeft 8
+    paddingRight 8
+    left 30
+    top 0
+    maxWidth 150
+    height 23
+    backgroundColor rgba(255,255,255,0.05)
+    backdropFilter blur(15px)
+    shadowBlur 16
+    shadowColor rgba(0, 0, 0, 0.3)
+    shadowOffsetX 0
+    shadowOffsetY 8
+    shadowSpread 0
+    alignItems center
+    zIndex 1
+      Text
+      color rgba(255,255,255,0.8)
+      fontFamily WonderUnitSans
+      fontSize 11
+      fontWeight 300
+      letterSpacing 0.5
+      textOverflow < ellipsis
+      whiteSpace < nowrap
+      overflowX < hidden
+      text Status
+      textTransform capitalize
+      Text
+      color rgba(255,255,255,0.8)
+      fontFamily WonderUnitSans
+      fontSize 11
+      fontWeight 300
+      letterSpacing 0.5
+      textOverflow < ellipsis
+      whiteSpace < nowrap
+      overflowX < hidden
+      text <status
+      textTransform capitalize

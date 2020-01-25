@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "scope": "greyfinch",
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@now/static-build",
+      "config": { "distDir": "build" }
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+ActionRequired View
+  Horizontal
+  height 50
+  alignItems center
+  backgroundColor rgba(255,255,255,0.5)
+  borderBottomLeftRadius < 6
+  borderBottomRightRadius < 6
+  borderColor #f2f2f2
+  borderStyle solid
+  borderTopLeftRadius < 6
+  borderTopRightRadius < 6
+  borderWidth 1
+  cursor pointer
+  onClick <
+  paddingBottom 8
+  paddingLeft 16
+  paddingRight 16
+  paddingTop 8
+  marginTop < 0
+  alignSelf < auto
+  when <isSelected
+  backgroundColor rgba(255,131,0, 0.1) easeInOut
+  borderColor rgba(255,131,0, 0.2) easeInOut
+  when <isHovered
+  backgroundColor rgba(255,131,0, 0.1) easeInOut
+  borderColor rgba(255,131,0, 0.3) easeInOut
+    # Vertical
+    # backgroundColor transparent
+    # borderBottomLeftRadius 6
+    # borderBottomRightRadius 6
+    # borderColor rgba(255,131,0, 0.4)
+    # borderStyle solid
+    # borderTopLeftRadius 6
+    # borderTopRightRadius 6
+    # borderWidth 3
+    # width 20
+    # height 20
+    # marginRight 16
+    Text
+    text ⭐️
+    fontSize 20
+    marginRight 8
+    Text
+    color #404040
+    fontFamily WonderUnitSans
+    fontSize 16
+    fontWeight 500
+    letterSpacing 0.3
+    text < Action
+    when <isHovered
+    color rgba(255,131,0, 0.83)
+
+  

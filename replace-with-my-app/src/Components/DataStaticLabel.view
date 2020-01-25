@@ -1,0 +1,24 @@
+DataStaticLabel View
+  Vertical
+  flexGrow < 1
+  flexShrink 1
+  flexBasis 0
+  height < 50
+  marginLeft < 0
+  marginTop < 0
+  width < 
+    Label
+    text <label
+    marginBottom < 6
+    Text
+    text < -
+    color < #303030
+    fontFamily WonderUnitSans
+    fontSize 14
+    fontWeight < 400
+    letterSpacing 0.3
+    textTransform < none
+    hyphens none
+    textOverflow ellipsis
+    whiteSpace nowrap
+    overflowX hidden

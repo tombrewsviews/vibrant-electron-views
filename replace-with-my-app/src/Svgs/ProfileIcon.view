@@ -1,0 +1,25 @@
+ProfileIcon View
+  Svg
+  alignSelf < auto
+  marginTop < 0
+  marginBottom < 0
+  marginLeft < 0
+  marginRight < 0
+  opacity < 1
+  width < 32
+  height < 32
+  viewBox 0 0 32 32
+    SvgCircle
+    fill < none
+    stroke < #474747
+    strokeWidth 3
+    strokeMiterlimit 10
+    cx 16
+    cy 13
+    r 10.1
+    SvgPath
+    fill < none
+    stroke < #474747
+    strokeWidth 3
+    strokeMiterlimit 10
+    d M3.6 29.2c6.9-6.9 17.9-6.9 24.8 0

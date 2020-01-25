@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<database name="postgres" schema="public" type="PostgreSQL - 12.1 (Debian 12.1-1.pgdg100+1)">
+   <tables>
+      <table name="addresses" numRows="0" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" defaultValue="gen_random_uuid()" digits="0" id="0" name="id" nullable="false" remarks="" size="2147483647" type="uuid">
+            <child column="physical_address_id" foreignKey="companies_physical_address_id_fkey" implied="false" onDeleteCascade="false" schema="public" table="companies"/>
+            <child column="address_id" foreignKey="profiles_address_id_fkey" implied="false" onDeleteCascade="false" schema="public" table="profiles"/>
+            <child column="address_id" foreignKey="provider_locations_address_id_fkey" implied="false" onDeleteCascade="false" schema="public" table="provider_locations"/>
+         </column>
+         <column autoUpdated="false" digits="0" id="1" name="street" nullable="false" remarks="" size="2147483647" type="text"/>
+         <column autoUpdated="false" digits="0" id="2" name="city" nullable="false" remarks="" size="2147483647" type="text"/>
+         <column autoUpdated="false" digits="0" id="3" name="state" nullable="false" remarks="" size="2147483647" type="text"/>
+         <column autoUpdated="false" digits="0" id="4" name="zip" nullable="false" remarks="" size="2147483647" type="text"/>
+         <column autoUpdated="false" defaultValue="'US'::text" digits="0" id="5" name="country" nullable="false" remarks="" size="2147483647" type="text"/>
+         <column autoUpdated="false" digits="0" id="6" name="latitude" nullable="true" remarks="" size="131089" type="numeric"/>
+         <column autoUpdated="false" digits="0" id="7" name="longitude" nullable="true" remarks="" size="131089" type="numeric"/>
+         <column autoUpdated="false" defaultValue="now()" digits="6" id="8" name="created_at" nullable="false" remarks="" size="35" type="timestamptz"/>
+         <column autoUpdated="false" defaultValue="now()" digits="6" id="9" name="updated_at" nullable="false" remarks="" size="35" type="timestamptz"/>
+         <column autoUpdated="false" digits="6" id="10" name="deleted_at" nullable="true" remarks="" size="35" type="timestamptz"/>
+         <primaryKey column="id" sequenceNumberInPK="1"/>
+         <index name="addresses_pkey" unique="true">
+            <column ascending="true" name="id"/>
+         </index>
+      </table>
+      <table name="appointment_slots" numRows="0" remarks="virtual table of sorts" schema="public" type="TABLE">
+         <column autoUpdated="false" digits="6" id="0" name="start" nullable="false" remarks="" size="35" type="timestamptz"/>
+         <column autoUpdated="false" digits="6" id="1" name="end" nullable="false" remarks="" size="35" type="timestamptz"/>
+         <column autoUpdated="false" digits="0" id="2" name="template_id" nullable="false" remarks="" size="2147483647" type="uuid"/>
+         <column autoUpdated="false" digits="0" id="3" name="provider_location_id" nullable="true" remarks="" size="2147483647" type="uuid"/>
+         <column autoUpdated="false" digits="0" id="4" name="professional_id" nullable="true" remarks="" size="2147483647" type="uuid"/>
+         <primaryKey column="start" sequenceNumberInPK="1"/>
+         <primaryKey column="end" sequenceNumberInPK="2"/>
+         <primaryKey column="template_id" sequenceNumberInPK="3"/>
+         <index name="appointment_slots_pkey" unique="true">
+            <column ascending="true" name="start"/>
+            <column ascending="true" name="end"/>
+            <column ascending="true" name="template_id"/>
+         </index>
+      </table>
+      <table name="appointment_statuses" numRows="0" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" digits="0" id="0" name="name" nullable="false" remarks="" size="2147483647" type="text"/>
+         <primaryKey column="name" sequenceNumberInPK="1"/>
+         <index name="appointment_statuses_pkey" unique="true">
+            <column ascending="true" name="name"/>
+         </index>
+      </table>
+      <table name="appointment_templates" numRows="0" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" defaultValue="gen_random_uuid()" digits="0" id="0" name="id" nullable="false" remarks="" size="2147483647" type="uuid"/>
+         <column autoUpdated="false" digits="0" id="1" name="name" nullable="false" remarks="" size="2147483647" type="text"/>
+         <column autoUpdated="false" digits="0" id="2" name="type" nullable="false" remarks="" size="2147483647" type="text"/>
+         <primaryKey column="id" sequenceNumberInPK="1"/>
+         <index name="appointment_templates_pkey" unique="true">
+            <column ascending="true" name="id"/>
+         </index>
+      </table>
+      <table name="appointment_types" numRows="0" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" digits="0" id="0" name="name" nullable="false" remarks="" size="2147483647" type="text"/>
+         <primaryKey column="name" sequenceNumberInPK="1"/>
+         <index name="appointment_types_pkey" unique="true">
+            <column ascending="true" name="name"/>
+         </index>
+      </table>
+      <table name="appointments" numRows="0" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" defaultValue="gen_random_uuid()" digits="0" id="0" name="id" nullable="false" remarks="" size="2147483647" type="uuid"/>
+         <column autoUpdated="false" defaultValue="now()" digits="6" id="1" name="created_at" nullable="false" remarks="" size="35" type="timestamptz"/>
+         <column autoUpdated="false" defaultValue="now()" digits="6" id="2" name="updated_at" nullable="false" remarks="" size="35" type="timestamptz"/>
+         <column autoUpdated="false" digits="0" id="3" name="patient_id" nullable="false" remarks="" size="2147483647" type="uuid"/>
+         <column autoUpdated="false" digits="0" id="4" name="template_id" nullable="false" remarks="" size="2147483647" type="text"/>
+         <column autoUpdated="false" digits="0" id="5" name="professional_id" nullable="false" remarks="" size="2147483647" type="uuid"/>
+         <column autoUpdated="false" digits="6" id="6" name="start" nullable="true" remarks="" size="35" type="timestamptz"/>
+         <column autoUpdated="false" digits="6" id="7" name="end" nullable="true" remarks="" size="35" type="timestamptz"/>
+         <column autoUpdated="false" digits="0" id="8" name="provider_location_id" nullable="false" remarks="" size="2147483647" type="uuid"/>
+         <column autoUpdated="false" digits="0" id="9" name="status" nullable="false" remarks="" size="2147483647" type="text"/>
+         <column autoUpdated="false" defaultValue="now()" digits="6" id="10" name="schedulable_at_around" nullable="false" remarks="" size="35" type="timestamptz"/>
+         <primaryKey column="id" sequenceNumberInPK="1"/>
+         <index name="appointments_pkey" unique="true">
+            <column ascending="true" name="id"/>
+         </index>
+      </table>
+      <table name="balances" numRows="0" remarks="derived from core/FS" schema="public" type="TABLE">
+         <column autoUpdated="false" digits="0" id="0" name="account_balance" nullable="false" remarks="" size="131089" type="numeric"/>
+         <column autoUpdated="false" digits="0" id="1" name="due_now" nullable="false" remarks="" size="131089" type="numeric"/>
+         <column autoUpdated="false" digits="0" id="2" name="patient_id" nullable="false" remarks="" size="2147483647" type="uuid"/>
+         <column autoUpdated="false" digits="0" id="3" name="payer_id" nullable="false" remarks="" size="2147483647" type="uuid"/>
+         <primaryKey column="patient_id" sequenceNumberInPK="1"/>
+         <primaryKey column="payer_id" sequenceNumberInPK="2"/>
+         <index name="balances_pkey" unique="true">
+            <column ascending="true" name="patient_id"/>
+            <column ascending="true" name="payer_id"/>
+         </index>
+      </table>
+      <table name="companies" numRows="0" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" defaultValue="gen_random_uuid()" digits="0" id="0" name="id" nullable="false" remarks="" size="2147483647" type="uuid">
+            <child column="company_id" foreignKey="company_doing_business_as_company_id_fkey" implied="false" onDeleteCascade="false" schema="public" table="company_doing_business_as"/>
+            <child column="company_id" foreignKey="company_users_company_id_fkey" implied="false" onDeleteCascade="false" schema="public" table="company_users"/>
+            <child column="company_id" foreignKey="members_company_id_fkey" implied="false" onDeleteCascade="false" schema="public" table="patients"/>
+            <child column="company_id" foreignKey="provider_locations_company_id_fkey" implied="false" onDeleteCascade="false" schema="public" table="provider_locations"/>
+         </column>
+         <column autoUpdated="false" digits="0" id="1" name="legal_name" nullable="false" remarks="" size="2147483647" type="text"/>
+         <column autoUpdated="false" digits="0" id="2" name="federal_tax_id_number" nullable="false" remarks="" size="2147483647" type="text"/>
+         <column autoUpdated="false" digits="0" id="3" name="primary_industry_sic_code" nullable="true" remarks="" size="2147483647" type="text"/>
+         <column autoUpdated="false" digits="0" id="4" name="physical_address_id" nullable="false" remarks="" size="2147483647" type="uuid">
+            <parent column="id" foreignKey="companies_physical_address_id_fkey" implied="false" onDeleteCascade="false" schema="public" table="addresses"/>
+         </column>
+         <column autoUpdated="false" digits="0" id="5" name="phone_number" nullable="false" remarks="" size="2147483647" type="text"/>
+         <column autoUpdated="false" digits="0" id="6" name="business_type" nullable="false" remarks="" size="2147483647" type="text"/>
+         <column autoUpdated="false" digits="0" id="7" name="created_by_user_id" nullable="false" remarks="" size="2147483647" type="uuid">
+            <parent column="id" foreignKey="companies_created_by_user_id_fkey" implied="false" onDeleteCascade="false" schema="public" table="users"/>
+         </column>
+         <column autoUpdated="false" digits="0" id="8" name="national_provider_id" nullable="true" remarks="" size="2147483647" type="text"/>
+         <column autoUpdated="false" defaultValue="now()" digits="6" id="9" name="created_at" nullable="false" remarks="" size="35" type="timestamptz"/>
+         <column autoUpdated="false" defaultValue="now()" digits="6" id="10" name="updated_at" nullable="false" remarks="" size="35" type="timestamptz"/>
+         <column autoUpdated="false" digits="6" id="11" name="deleted_at" nullable="true" remarks="" size="35" type="timestamptz"/>
+         <column autoUpdated="false" digits="0" id="12" name="financial_email" nullable="false" remarks="" size="2147483647" type="text"/>
+         <column autoUpdated="false" digits="0" id="13" name="hr_email" nullable="false" remarks="" size="2147483647" type="text"/>
+         <primaryKey column="id" sequenceNumberInPK="1"/>
+         <index name="companies_pkey" unique="true">
+            <column ascending="true" name="id"/>
+         </index>
+      </table>
+      <table name="company_doing_business_as" numRows="0" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" defaultValue="gen_random_uuid()" digits="0" id="0" name="id" nullable="false" remarks="" size="2147483647" type="uuid">
+            <child column="company_doing_business_as_id" foreignKey="provider_locations_company_doing_business_as_id_fkey" implied="false" onDeleteCascade="false" schema="public" table="provider_locations"/>
+         </column>
+         <column autoUpdated="false" digits="0" id="1" name="company_id" nullable="false" remarks="" size="2147483647" type="uuid">
+            <parent column="id" foreignKey="company_doing_business_as_company_id_fkey" implied="false" onDeleteCascade="false" schema="public" table="companies"/>
+         </column>
+         <column autoUpdated="false" digits="0" id="2" name="name" nullable="false" remarks="" size="2147483647" type="text"/>
+         <primaryKey column="id" sequenceNumberInPK="1"/>
+         <index name="company_doing_business_as_pkey" unique="true">
+            <column ascending="true" name="id"/>
+         </index>
+      </table>
+      <table name="company_users" numRows="0" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" digits="0" id="0" name="company_id" nullable="false" remarks="" size="2147483647" type="uuid">
+            <parent column="id" foreignKey="company_users_company_id_fkey" implied="false" onDeleteCascade="false" schema="public" table="companies"/>
+         </column>
+         <column autoUpdated="false" digits="0" id="1" name="user_id" nullable="false" remarks="" size="2147483647" type="uuid">
+            <parent column="id" foreignKey="company_users_user_id_fkey" implied="false" onDeleteCascade="false" schema="public" table="users"/>
+         </column>
+         <column autoUpdated="false" digits="0" id="2" name="role" nullable="false" remarks="" size="2147483647" type="text"/>
+         <primaryKey column="company_id" sequenceNumberInPK="1"/>
+         <primaryKey column="user_id" sequenceNumberInPK="2"/>
+         <primaryKey column="role" sequenceNumberInPK="3"/>
+         <index name="company_users_pkey" unique="true">
+            <column ascending="true" name="company_id"/>
+            <column ascending="true" name="user_id"/>
+            <column ascending="true" name="role"/>
+         </index>
+      </table>
+      <table name="feedback" numRows="0" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" defaultValue="gen_random_uuid()" digits="0" id="0" name="id" nullable="false" remarks="" size="2147483647" type="uuid"/>
+         <column autoUpdated="false" digits="0" id="1" name="message" nullable="false" remarks="" size="2147483647" type="text"/>
+         <column autoUpdated="false" digits="0" id="2" name="user_id" nullable="true" remarks="" size="2147483647" type="uuid">
+            <parent column="id" foreignKey="feedback_user_id_fkey" implied="false" onDeleteCascade="false" schema="public" table="users"/>
+         </column>
+         <column autoUpdated="false" defaultValue="now()" digits="6" id="3" name="created_at" nullable="false" remarks="" size="35" type="timestamptz"/>
+         <column autoUpdated="false" digits="0" id="4" name="app" nullable="false" remarks="" size="2147483647" type="text"/>
+         <column autoUpdated="false" digits="0" id="5" name="context" nullable="true" remarks="" size="2147483647" type="jsonb"/>
+         <primaryKey column="id" sequenceNumberInPK="1"/>
+         <index name="feedback_pkey" unique="true">
+            <column ascending="true" name="id"/>
+         </index>
+      </table>
+      <table name="genders" numRows="0" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" digits="0" id="0" name="name" nullable="false" remarks="" size="2147483647" type="text">
+            <child column="gender" foreignKey="profiles_gender_fkey" implied="false" onDeleteCascade="false" schema="public" table="profiles"/>
+         </column>
+         <primaryKey column="name" sequenceNumberInPK="1"/>
+         <index name="genders_pkey" unique="true">
+            <column ascending="true" name="name"/>
+         </index>
+      </table>
+      <table name="licenses" numRows="0" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" digits="0" id="0" name="name" nullable="false" remarks="" size="2147483647" type="text"/>
+         <column autoUpdated="false" defaultValue="gen_random_uuid()" digits="0" id="1" name="id" nullable="false" remarks="" size="2147483647" type="uuid">
+            <child column="license_id" foreignKey="professionals_license_id_fkey" implied="false" onDeleteCascade="false" schema="public" table="professionals"/>
+         </column>
+         <column autoUpdated="false" defaultValue="false" digits="0" id="2" name="is_primary_care" nullable="false" remarks="" size="1" type="bool"/>
+         <column autoUpdated="false" defaultValue="0" digits="0" id="3" name="default_age_min" nullable="true" remarks="" size="10" type="int4"/>
+         <column autoUpdated="false" defaultValue="150" digits="0" id="4" name="default_age_max" nullable="true" remarks="" size="10" type="int4"/>
+         <column autoUpdated="false" defaultValue="true" digits="0" id="5" name="can_age_be_set_by_professional" nullable="false" remarks="" size="1" type="bool"/>
+         <primaryKey column="id" sequenceNumberInPK="1"/>
+         <index name="licenses_pkey" unique="true">
+            <column ascending="true" name="id"/>
+         </index>
+      </table>
+      <table name="marital_statuses" numRows="0" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" digits="0" id="0" name="name" nullable="false" remarks="" size="2147483647" type="text">
+            <child column="marital_status" foreignKey="profiles_marital_status_fkey" implied="false" onDeleteCascade="false" schema="public" table="profiles"/>
+         </column>
+         <primaryKey column="name" sequenceNumberInPK="1"/>
+         <index name="marital_statuses_pkey" unique="true">
+            <column ascending="true" name="name"/>
+         </index>
+      </table>
+      <table name="medical_histories" numRows="0" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" defaultValue="gen_random_uuid()" digits="0" id="0" name="id" nullable="false" remarks="" size="2147483647" type="uuid"/>
+         <column autoUpdated="false" defaultValue="now()" digits="6" id="1" name="created_at" nullable="false" remarks="" size="35" type="timestamptz"/>
+         <column autoUpdated="false" defaultValue="now()" digits="6" id="2" name="updated_at" nullable="false" remarks="" size="35" type="timestamptz"/>
+         <column autoUpdated="false" digits="0" id="3" name="patient_id" nullable="false" remarks="" size="2147483647" type="uuid"/>
+         <column autoUpdated="false" digits="0" id="4" name="data" nullable="false" remarks="" size="2147483647" type="jsonb"/>
+         <primaryKey column="id" sequenceNumberInPK="1"/>
+         <index name="medical_histories_pkey" unique="true">
+            <column ascending="true" name="id"/>
+         </index>
+      </table>
+      <table name="patients" numRows="0" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" defaultValue="gen_random_uuid()" digits="0" id="0" name="id" nullable="false" remarks="" size="2147483647" type="uuid">
+            <child column="main_member_id" foreignKey="members_main_member_id_fkey" implied="false" onDeleteCascade="false" schema="public" table="patients"/>
+            <child column="patient_id" foreignKey="responsible_persons_patient_id_fkey" implied="false" onDeleteCascade="false" schema="public" table="responsible_persons"/>
+         </column>
+         <column autoUpdated="false" digits="0" id="1" name="profile_id" nullable="false" remarks="" size="2147483647" type="uuid">
+            <parent column="id" foreignKey="members_profile_id_fkey" implied="false" onDeleteCascade="false" schema="public" table="profiles"/>
+         </column>
+         <column autoUpdated="false" digits="0" id="2" name="user_id" nullable="true" remarks="" size="2147483647" type="uuid">
+            <parent column="id" foreignKey="members_user_id_fkey" implied="false" onDeleteCascade="false" schema="public" table="users"/>
+         </column>
+         <column autoUpdated="false" digits="0" id="3" name="company_id" nullable="true" remarks="" size="2147483647" type="uuid">
+            <parent column="id" foreignKey="members_company_id_fkey" implied="false" onDeleteCascade="false" schema="public" table="companies"/>
+         </column>
+         <column autoUpdated="false" digits="0" id="4" name="provider_location_id" nullable="true" remarks="" size="2147483647" type="uuid">
+            <parent column="id" foreignKey="members_provider_location_id_fkey" implied="false" onDeleteCascade="false" schema="public" table="provider_locations"/>
+         </column>
+         <column autoUpdated="false" digits="0" id="5" name="professional_id" nullable="true" remarks="" size="2147483647" type="uuid">
+            <parent column="id" foreignKey="members_professional_id_fkey" implied="false" onDeleteCascade="false" schema="public" table="professionals"/>
+         </column>
+         <column autoUpdated="false" digits="0" id="6" name="insurance_policy_id" nullable="true" remarks="" size="2147483647" type="text"/>
+         <column autoUpdated="false" digits="0" id="7" name="insurance_effective_date" nullable="false" remarks="" size="13" type="date"/>
+         <column autoUpdated="false" digits="0" id="8" name="insurance_expiry_date" nullable="true" remarks="" size="13" type="date"/>
+         <column autoUpdated="false" digits="0" id="9" name="main_member_id" nullable="true" remarks="" size="2147483647" type="uuid">
+            <parent column="id" foreignKey="members_main_member_id_fkey" implied="false" onDeleteCascade="false" schema="public" table="patients"/>
+         </column>
+         <column autoUpdated="false" digits="0" id="10" name="relationship_to_main_member" nullable="true" remarks="" size="2147483647" type="text">
+            <parent column="name" foreignKey="members_relationship_to_main_member_fkey" implied="false" onDeleteCascade="false" schema="public" table="relationships"/>
+         </column>
+         <column autoUpdated="false" defaultValue="false" digits="0" id="11" name="is_configuration_up_to_member" nullable="false" remarks="" size="1" type="bool"/>
+         <column autoUpdated="false" defaultValue="false" digits="0" id="12" name="has_accepted_agreement" nullable="false" remarks="" size="1" type="bool"/>
+         <column autoUpdated="false" digits="0" id="13" name="accepted_agreement_by_user_id" nullable="true" remarks="" size="2147483647" type="uuid">
+            <parent column="id" foreignKey="members_accepted_agreement_by_user_id_fkey" implied="false" onDeleteCascade="false" schema="public" table="users"/>
+         </column>
+         <column autoUpdated="false" digits="6" id="14" name="accepted_agreement_on" nullable="true" remarks="" size="35" type="timestamptz"/>
+         <column autoUpdated="false" digits="0" id="15" name="created_by_user_id" nullable="true" remarks="" size="2147483647" type="uuid">
+            <parent column="id" foreignKey="members_created_by_user_id_fkey" implied="false" onDeleteCascade="false" schema="public" table="users"/>
+         </column>
+         <column autoUpdated="false" defaultValue="now()" digits="6" id="16" name="created_at" nullable="false" remarks="" size="35" type="timestamptz"/>
+         <column autoUpdated="false" defaultValue="now()" digits="6" id="17" name="updated_at" nullable="false" remarks="" size="35" type="timestamptz"/>
+         <column autoUpdated="false" digits="6" id="18" name="deleted_at" nullable="true" remarks="" size="35" type="timestamptz"/>
+         <column autoUpdated="false" digits="0" id="19" name="insurance_company_name" nullable="true" remarks="" size="2147483647" type="text"/>
+         <column autoUpdated="false" digits="0" id="20" name="insurance_card_front" nullable="true" remarks="" size="2147483647" type="text"/>
+         <column autoUpdated="false" digits="0" id="21" name="insurance_card_back" nullable="true" remarks="" size="2147483647" type="text"/>
+         <primaryKey column="id" sequenceNumberInPK="1"/>
+         <index name="members_pkey" unique="true">
+            <column ascending="true" name="id"/>
+         </index>
+         <index name="members_policy_id_key" unique="true">
+            <column ascending="true" name="insurance_policy_id"/>
+         </index>
+      </table>
+      <table name="payment_auto_drafts" numRows="0" remarks="somehow coming from core" schema="public" type="TABLE">
+         <column autoUpdated="false" digits="0" id="0" name="user_id" nullable="false" remarks="" size="2147483647" type="uuid"/>
+         <column autoUpdated="false" digits="0" id="1" name="context" nullable="false" remarks="" size="2147483647" type="jsonb"/>
+         <primaryKey column="user_id" sequenceNumberInPK="1"/>
+         <index name="payment_auto_drafts_pkey" unique="true">
+            <column ascending="true" name="user_id"/>
+         </index>
+      </table>
+      <table name="payment_statuses" numRows="0" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" digits="0" id="0" name="name" nullable="false" remarks="" size="2147483647" type="text"/>
+         <primaryKey column="name" sequenceNumberInPK="1"/>
+         <index name="payment_statuses_pkey" unique="true">
+            <column ascending="true" name="name"/>
+         </index>
+      </table>
+      <table name="payment_types" numRows="0" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" digits="0" id="0" name="name" nullable="false" remarks="" size="2147483647" type="text"/>
+         <primaryKey column="name" sequenceNumberInPK="1"/>
+         <index name="payment_types_pkey" unique="true">
+            <column ascending="true" name="name"/>
+         </index>
+      </table>
+      <table name="payments" numRows="0" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" defaultValue="gen_random_uuid()" digits="0" id="0" name="id" nullable="false" remarks="" size="2147483647" type="uuid"/>
+         <column autoUpdated="false" defaultValue="now()" digits="6" id="1" name="created_at" nullable="false" remarks="" size="35" type="timestamptz"/>
+         <column autoUpdated="false" digits="0" id="2" name="payer_id" nullable="false" remarks="" size="2147483647" type="uuid"/>
+         <column autoUpdated="false" digits="0" id="3" name="patient_id" nullable="false" remarks="" size="2147483647" type="uuid"/>
+         <column autoUpdated="false" digits="0" id="4" name="amount" nullable="false" remarks="" size="131089" type="numeric"/>
+         <column autoUpdated="false" digits="0" id="5" name="type" nullable="false" remarks="" size="2147483647" type="text"/>
+         <column autoUpdated="false" digits="0" id="6" name="context" nullable="false" remarks="" size="2147483647" type="jsonb"/>
+         <column autoUpdated="false" digits="0" id="7" name="status" nullable="false" remarks="" size="2147483647" type="text"/>
+         <primaryKey column="id" sequenceNumberInPK="1"/>
+         <index name="payments_pkey" unique="true">
+            <column ascending="true" name="id"/>
+         </index>
+      </table>
+      <table name="professional_locations" numRows="0" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" digits="0" id="0" name="professional_id" nullable="false" remarks="" size="2147483647" type="uuid">
+            <parent column="id" foreignKey="professional_locations_professional_id_fkey" implied="false" onDeleteCascade="false" schema="public" table="professionals"/>
+         </column>
+         <column autoUpdated="false" digits="0" id="1" name="provider_location_id" nullable="false" remarks="" size="2147483647" type="uuid">
+            <parent column="id" foreignKey="professional_locations_provider_location_id_fkey" implied="false" onDeleteCascade="false" schema="public" table="provider_locations"/>
+         </column>
+         <primaryKey column="professional_id" sequenceNumberInPK="1"/>
+         <primaryKey column="provider_location_id" sequenceNumberInPK="2"/>
+         <index name="professional_locations_pkey" unique="true">
+            <column ascending="true" name="professional_id"/>
+            <column ascending="true" name="provider_location_id"/>
+         </index>
+      </table>
+      <table name="professionals" numRows="0" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" defaultValue="gen_random_uuid()" digits="0" id="0" name="id" nullable="false" remarks="" size="2147483647" type="uuid">
+            <child column="professional_id" foreignKey="members_professional_id_fkey" implied="false" onDeleteCascade="false" schema="public" table="patients"/>
+            <child column="professional_id" foreignKey="professional_locations_professional_id_fkey" implied="false" onDeleteCascade="false" schema="public" table="professional_locations"/>
+         </column>
+         <column autoUpdated="false" digits="0" id="1" name="user_id" nullable="false" remarks="" size="2147483647" type="uuid">
+            <parent column="id" foreignKey="professionals_user_id_fkey" implied="false" onDeleteCascade="false" schema="public" table="users"/>
+         </column>
+         <column autoUpdated="false" digits="0" id="2" name="national_provider_id" nullable="true" remarks="" size="2147483647" type="text"/>
+         <column autoUpdated="false" digits="0" id="3" name="license_id" nullable="false" remarks="" size="2147483647" type="uuid">
+            <parent column="id" foreignKey="professionals_license_id_fkey" implied="false" onDeleteCascade="false" schema="public" table="licenses"/>
+         </column>
+         <column autoUpdated="false" digits="0" id="4" name="license_number" nullable="true" remarks="" size="2147483647" type="text"/>
+         <column autoUpdated="false" digits="0" id="5" name="license_custom_age_min" nullable="true" remarks="" size="10" type="int4"/>
+         <column autoUpdated="false" digits="0" id="6" name="license_custom_age_max" nullable="true" remarks="" size="10" type="int4"/>
+         <column autoUpdated="false" defaultValue="now()" digits="6" id="7" name="created_at" nullable="false" remarks="" size="35" type="timestamptz"/>
+         <column autoUpdated="false" defaultValue="now()" digits="6" id="8" name="updated_at" nullable="false" remarks="" size="35" type="timestamptz"/>
+         <column autoUpdated="false" digits="6" id="9" name="deleted_at" nullable="true" remarks="" size="35" type="timestamptz"/>
+         <column autoUpdated="false" defaultValue="true" digits="0" id="10" name="is_accepting_new_patients" nullable="false" remarks="" size="1" type="bool"/>
+         <primaryKey column="id" sequenceNumberInPK="1"/>
+         <index name="professionals_pkey" unique="true">
+            <column ascending="true" name="id"/>
+         </index>
+         <index name="professionals_user_id_key" unique="true">
+            <column ascending="true" name="user_id"/>
+         </index>
+      </table>
+      <table name="profiles" numRows="0" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" defaultValue="gen_random_uuid()" digits="0" id="0" name="id" nullable="false" remarks="" size="2147483647" type="uuid">
+            <child column="profile_id" foreignKey="members_profile_id_fkey" implied="false" onDeleteCascade="false" schema="public" table="patients"/>
+            <child column="profile_id" foreignKey="users_profile_id_fkey" implied="false" onDeleteCascade="false" schema="public" table="users"/>
+         </column>
+         <column autoUpdated="false" digits="0" id="1" name="first_name" nullable="false" remarks="" size="2147483647" type="text"/>
+         <column autoUpdated="false" digits="0" id="2" name="last_name" nullable="false" remarks="" size="2147483647" type="text"/>
+         <column autoUpdated="false" digits="0" id="3" name="date_of_birth" nullable="true" remarks="" size="13" type="date"/>
+         <column autoUpdated="false" digits="0" id="4" name="gender" nullable="true" remarks="" size="2147483647" type="text">
+            <parent column="name" foreignKey="profiles_gender_fkey" implied="false" onDeleteCascade="false" schema="public" table="genders"/>
+         </column>
+         <column autoUpdated="false" digits="0" id="5" name="signature" nullable="true" remarks="" size="2147483647" type="text"/>
+         <column autoUpdated="false" digits="0" id="6" name="address_id" nullable="true" remarks="" size="2147483647" type="uuid">
+            <parent column="id" foreignKey="profiles_address_id_fkey" implied="false" onDeleteCascade="false" schema="public" table="addresses"/>
+         </column>
+         <column autoUpdated="false" digits="0" id="7" name="marital_status" nullable="true" remarks="" size="2147483647" type="text">
+            <parent column="name" foreignKey="profiles_marital_status_fkey" implied="false" onDeleteCascade="false" schema="public" table="marital_statuses"/>
+         </column>
+         <column autoUpdated="false" digits="0" id="8" name="title" nullable="true" remarks="" size="2147483647" type="text"/>
+         <column autoUpdated="false" digits="0" id="9" name="social_security_number" nullable="true" remarks="" size="2147483647" type="text"/>
+         <column autoUpdated="false" defaultValue="now()" digits="6" id="10" name="created_at" nullable="false" remarks="" size="35" type="timestamptz"/>
+         <column autoUpdated="false" defaultValue="now()" digits="6" id="11" name="updated_at" nullable="false" remarks="" size="35" type="timestamptz"/>
+         <column autoUpdated="false" digits="6" id="12" name="deleted_at" nullable="true" remarks="" size="35" type="timestamptz"/>
+         <column autoUpdated="false" digits="0" id="13" name="school" nullable="true" remarks="" size="2147483647" type="text"/>
+         <column autoUpdated="false" digits="0" id="14" name="phone_number" nullable="true" remarks="" size="2147483647" type="text"/>
+         <primaryKey column="id" sequenceNumberInPK="1"/>
+         <index name="profiles_pkey" unique="true">
+            <column ascending="true" name="id"/>
+         </index>
+      </table>
+      <table name="provider_locations" numRows="0" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" defaultValue="gen_random_uuid()" digits="0" id="0" name="id" nullable="false" remarks="" size="2147483647" type="uuid">
+            <child column="provider_location_id" foreignKey="members_provider_location_id_fkey" implied="false" onDeleteCascade="false" schema="public" table="patients"/>
+            <child column="provider_location_id" foreignKey="professional_locations_provider_location_id_fkey" implied="false" onDeleteCascade="false" schema="public" table="professional_locations"/>
+         </column>
+         <column autoUpdated="false" digits="0" id="1" name="company_id" nullable="false" remarks="" size="2147483647" type="uuid">
+            <parent column="id" foreignKey="provider_locations_company_id_fkey" implied="false" onDeleteCascade="false" schema="public" table="companies"/>
+         </column>
+         <column autoUpdated="false" digits="0" id="2" name="address_id" nullable="false" remarks="" size="2147483647" type="uuid">
+            <parent column="id" foreignKey="provider_locations_address_id_fkey" implied="false" onDeleteCascade="false" schema="public" table="addresses"/>
+         </column>
+         <column autoUpdated="false" digits="0" id="3" name="company_doing_business_as_id" nullable="true" remarks="" size="2147483647" type="uuid">
+            <parent column="id" foreignKey="provider_locations_company_doing_business_as_id_fkey" implied="false" onDeleteCascade="false" schema="public" table="company_doing_business_as"/>
+         </column>
+         <column autoUpdated="false" digits="0" id="4" name="website" nullable="true" remarks="" size="2147483647" type="text"/>
+         <column autoUpdated="false" digits="0" id="5" name="phone_number" nullable="true" remarks="" size="2147483647" type="text"/>
+         <column autoUpdated="false" defaultValue="now()" digits="6" id="6" name="created_at" nullable="true" remarks="" size="35" type="timestamptz"/>
+         <column autoUpdated="false" defaultValue="now()" digits="6" id="7" name="updated_at" nullable="true" remarks="" size="35" type="timestamptz"/>
+         <column autoUpdated="false" digits="6" id="8" name="deleted_at" nullable="true" remarks="" size="35" type="timestamptz"/>
+         <primaryKey column="id" sequenceNumberInPK="1"/>
+         <index name="provider_locations_pkey" unique="true">
+            <column ascending="true" name="id"/>
+         </index>
+      </table>
+      <table name="relationships" numRows="0" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" digits="0" id="0" name="name" nullable="false" remarks="" size="2147483647" type="text">
+            <child column="relationship_to_main_member" foreignKey="members_relationship_to_main_member_fkey" implied="false" onDeleteCascade="false" schema="public" table="patients"/>
+         </column>
+         <primaryKey column="name" sequenceNumberInPK="1"/>
+         <index name="relationships_pkey" unique="true">
+            <column ascending="true" name="name"/>
+         </index>
+      </table>
+      <table name="responsible_persons" numRows="0" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" digits="0" id="0" name="user_id" nullable="false" remarks="" size="2147483647" type="uuid">
+            <parent column="id" foreignKey="responsible_persons_user_id_fkey" implied="false" onDeleteCascade="false" schema="public" table="users"/>
+         </column>
+         <column autoUpdated="false" digits="0" id="1" name="patient_id" nullable="false" remarks="" size="2147483647" type="uuid">
+            <parent column="id" foreignKey="responsible_persons_patient_id_fkey" implied="false" onDeleteCascade="false" schema="public" table="patients"/>
+         </column>
+         <column autoUpdated="false" digits="0" id="2" name="relationship_to_patient" nullable="false" remarks="" size="2147483647" type="text"/>
+         <column autoUpdated="false" defaultValue="false" digits="0" id="3" name="is_permitted_to_access_patient" nullable="false" remarks="" size="1" type="bool"/>
+         <column autoUpdated="true" defaultValue="nextval('responsible_persons_id_seq'::regclass)" digits="0" id="4" name="id" nullable="false" remarks="" size="10" type="serial"/>
+         <column autoUpdated="false" defaultValue="now()" digits="6" id="5" name="created_at" nullable="false" remarks="" size="35" type="timestamptz"/>
+         <column autoUpdated="false" defaultValue="now()" digits="6" id="6" name="updated_at" nullable="false" remarks="" size="35" type="timestamptz"/>
+         <primaryKey column="id" sequenceNumberInPK="1"/>
+         <index name="responsible_persons_pkey" unique="true">
+            <column ascending="true" name="id"/>
+         </index>
+      </table>
+      <table name="users" numRows="0" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" defaultValue="gen_random_uuid()" digits="0" id="0" name="id" nullable="false" remarks="" size="2147483647" type="uuid">
+            <child column="created_by_user_id" foreignKey="companies_created_by_user_id_fkey" implied="false" onDeleteCascade="false" schema="public" table="companies"/>
+            <child column="user_id" foreignKey="company_users_user_id_fkey" implied="false" onDeleteCascade="false" schema="public" table="company_users"/>
+            <child column="user_id" foreignKey="feedback_user_id_fkey" implied="false" onDeleteCascade="false" schema="public" table="feedback"/>
+            <child column="accepted_agreement_by_user_id" foreignKey="members_accepted_agreement_by_user_id_fkey" implied="false" onDeleteCascade="false" schema="public" table="patients"/>
+            <child column="created_by_user_id" foreignKey="members_created_by_user_id_fkey" implied="false" onDeleteCascade="false" schema="public" table="patients"/>
+            <child column="user_id" foreignKey="members_user_id_fkey" implied="false" onDeleteCascade="false" schema="public" table="patients"/>
+            <child column="user_id" foreignKey="professionals_user_id_fkey" implied="false" onDeleteCascade="false" schema="public" table="professionals"/>
+            <child column="user_id" foreignKey="responsible_persons_user_id_fkey" implied="false" onDeleteCascade="false" schema="public" table="responsible_persons"/>
+         </column>
+         <column autoUpdated="false" digits="0" id="1" name="email" nullable="false" remarks="" size="2147483647" type="text"/>
+         <column autoUpdated="false" defaultValue="false" digits="0" id="2" name="has_accepted_terms" nullable="false" remarks="" size="1" type="bool"/>
+         <column autoUpdated="false" digits="0" id="3" name="cognito_id" nullable="true" remarks="" size="2147483647" type="text"/>
+         <column autoUpdated="false" digits="0" id="4" name="profile_id" nullable="true" remarks="" size="2147483647" type="uuid">
+            <parent column="id" foreignKey="users_profile_id_fkey" implied="false" onDeleteCascade="false" schema="public" table="profiles"/>
+         </column>
+         <column autoUpdated="false" defaultValue="false" digits="0" id="5" name="can_be_support" nullable="false" remarks="" size="1" type="bool"/>
+         <column autoUpdated="false" defaultValue="now()" digits="6" id="6" name="created_at" nullable="false" remarks="" size="35" type="timestamptz"/>
+         <column autoUpdated="false" defaultValue="now()" digits="6" id="7" name="updated_at" nullable="false" remarks="" size="35" type="timestamptz"/>
+         <column autoUpdated="false" digits="6" id="8" name="deleted_at" nullable="true" remarks="" size="35" type="timestamptz"/>
+         <column autoUpdated="false" digits="0" id="9" name="core_person_id" nullable="true" remarks="" size="2147483647" type="text"/>
+         <primaryKey column="id" sequenceNumberInPK="1"/>
+         <index name="users_pkey" unique="true">
+            <column ascending="true" name="id"/>
+         </index>
+         <index name="users_cognito_id_key" unique="true">
+            <column ascending="true" name="cognito_id"/>
+         </index>
+         <index name="users_email_key" unique="true">
+            <column ascending="true" name="email"/>
+         </index>
+         <index name="users_profile_id_key" unique="true">
+            <column ascending="true" name="profile_id"/>
+         </index>
+      </table>
+   </tables>
+</database>

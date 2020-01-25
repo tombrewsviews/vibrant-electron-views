@@ -1,0 +1,3 @@
+- args:
+    sql: DROP TABLE "public"."payment_auto_drafts"
+  type: run_sql

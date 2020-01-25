@@ -1,0 +1,94 @@
+PlanDescription View
+  Vertical
+  width 220
+  paddingTop 90
+  paddingRight 50
+  marginLeft 0
+  alignItems flexEnd
+  when <isMediaMobile
+  paddingRight 30
+  marginLeft 10
+  width 190
+    PersonIcon
+    width 22
+    height 22
+    Horizontal
+    marginTop 18
+      PersonIcon
+      width 22
+      height 22
+      PersonIcon
+      width 22
+      height 22
+    Horizontal
+    marginTop 18
+      PersonIcon
+      width 22
+      height 22
+      PersonIcon
+      width 22
+      height 22
+      PersonIcon
+      width 22
+      height 22
+    Horizontal
+    marginTop 18
+      PersonIcon
+      width 22
+      height 22
+      PersonIcon
+      width 22
+      height 22
+      PersonIcon
+      width 22
+      height 22
+      PersonIcon
+      width 22
+      height 22
+    Horizontal
+    marginTop 18
+    alignItems center
+      PersonIcon
+      width 22
+      height 22
+      PersonIcon
+      width 22
+      height 22
+      PersonIcon
+      width 22
+      height 22
+      PersonIcon
+      width 22
+      height 22
+      PersonIcon
+      width 22
+      height 22
+      PlusIcon
+      width 16
+      height 16
+      stroke #606060
+    PlanCellText
+    color #606060
+    marginTop 67
+    text Routine Check-Up
+    PlanCellText
+    color #606060
+    text Teeth Cleaning
+    PlanCellText
+    color #606060
+    text 4 Bitewing X-Rays
+    PlanCellText
+    color #606060
+    text Fluoride Treatment
+    Info
+    marginTop -5
+    color #606060
+    fontSize 12
+    textAlign center
+    text 14 & under
+    ButtonGrey
+    fontSize 14
+    marginTop 40
+    onClick <setFlow
+    onClickId /App/Onboarding/Data/Provide/AcceptOrDecline/AllProcedures/Content
+    text All Procedures

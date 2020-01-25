@@ -1,0 +1,13 @@
+View
+  Title Text
+  color < #404040
+  fontFamily WonderUnitSans
+  fontSize 16
+  fontWeight 500
+  marginTop < 0
+  marginBottom < 0
+  marginLeft < 0
+  marginRight < 0
+  text <
+  letterSpacing 0.1
+  opacity < 1

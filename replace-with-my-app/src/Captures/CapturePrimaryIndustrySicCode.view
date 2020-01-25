@@ -1,0 +1,23 @@
+CapturePrimaryIndustrySicCode View
+  Vertical
+  marginTop < 0
+  marginRight < 8
+  marginLeft < 0
+  marginBottom < 0
+    Text
+    text Primary Industry SIC Code
+    color #606060
+    fontFamily WonderUnitSans
+    fontSize 8
+    fontWeight 500
+    letterSpacing 1
+    marginBottom 8
+    marginLeft 10
+    textTransform uppercase
+    Dropdown
+    from <
+    selected <value
+    field id
+    onClick <onChange
+    width 400
+    heightButton 32

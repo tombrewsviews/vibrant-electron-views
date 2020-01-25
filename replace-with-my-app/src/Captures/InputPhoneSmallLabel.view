@@ -1,0 +1,62 @@
+InputPhoneSmallLabel View
+  Vertical
+  marginLeft < 0
+  marginBottom < 0
+  marginTop < 0
+  marginRight < 0
+  width auto
+    Text
+    text <label Phone number
+    color #606060
+    fontFamily WonderUnitSans
+    fontSize 8
+    fontWeight 500
+    letterSpacing 1
+    marginBottom 8
+    marginLeft <marginLeftLabel 10
+    textTransform uppercase
+    Horizontal
+      Dropdown
+      from <codes
+      selected <valueCode
+      onClick <onChangeValueCode
+      disabled <
+      field id
+      buttonHeight 10
+      minWidth 50
+      heightButton < 32
+      width 80
+      alignItems center
+      MaskedInput
+      borderBottomLeftRadius 5
+      borderBottomRightRadius 5
+      borderTopLeftRadius 5
+      borderTopRightRadius 5
+      disabled <
+      fontSize < 14
+      initialValue <valueNumber
+      invalidMessage <
+      isInvalid <
+      onFocus <
+      marginLeft 4
+      mask phone
+      onBlur <
+      onChange <onChangeValueNumber
+      onFocus <
+      onKeyUp <
+      color #161616
+      paddingBottom < 7
+      paddingLeft < 8
+      paddingRight < 8
+      paddingTop < 7
+      placeholder (000) 000-0000
+      ref <innerRef
+      textTransform < capitalize
+      width < auto
+      when <isPlaceholder
+      color #606060
+      textTransform none
+      when <isFocused
+      backgroundColor white linear
+      borderColor #00a2ff linear
+

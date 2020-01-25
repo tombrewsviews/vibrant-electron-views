@@ -1,0 +1,11 @@
+MemberCardText View
+  Text
+  backgroundColor transparent
+  text < Summers
+  color white
+  fontFamily WonderUnitSans
+  fontSize < 18
+  fontWeight 200
+  letterSpacing < 1
+  marginLeft < 0
+  textTransform < none

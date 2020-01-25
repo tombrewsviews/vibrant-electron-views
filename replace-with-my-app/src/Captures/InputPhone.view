@@ -1,0 +1,22 @@
+InputPhone View
+  Horizontal
+  marginLeft < 0
+  marginBottom < 0
+  marginTop < 0
+  marginRight < 0
+    Dropdown
+    from <codes
+    selected <valueCode
+    onClick <onChangeValueCode
+    field id
+    heightButton 50
+    MaskedInput
+    initialValue <valueNumber
+    onChange <onChangeValueNumber
+    label Phone number
+    marginLeft 4
+    mask phone
+    onSubmit <
+    placeholder (000) 000-0000
+    textTransform none
+    width < 200

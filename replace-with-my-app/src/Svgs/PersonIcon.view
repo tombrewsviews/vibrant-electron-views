@@ -1,0 +1,25 @@
+PersonIcon View
+  Svg
+  alignSelf < auto
+  marginTop < 0
+  marginBottom < 0
+  marginLeft < 0
+  marginRight < 0
+  opacity < 1
+  viewBox 0 0 32 32
+  width < 32
+  height < 32
+    SvgCircle
+    fill < none
+    stroke < #606060
+    strokeWidth 3
+    strokeMiterlimit 10
+    cx 16
+    cy 13.3
+    r 10.8
+    SvgPath
+    fill < none
+    stroke < #606060
+    strokeWidth 3
+    strokeMiterlimit 10
+    d M2.9 30.5c7.3-7.3 19-7.3 26.3 0

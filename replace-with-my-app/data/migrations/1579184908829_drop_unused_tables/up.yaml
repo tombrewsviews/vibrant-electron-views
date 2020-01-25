@@ -1,0 +1,11 @@
+- args:
+    cascade: false
+    sql: |-
+      DROP TABLE company_agreements;
+      DROP TABLE company_agreement_types;
+      DROP TABLE member_group_contributions;
+      DROP TABLE procedure_tags;
+      DROP TABLE procedures;
+      DROP TABLE plans;
+      DROP TABLE tags;
+  type: run_sql

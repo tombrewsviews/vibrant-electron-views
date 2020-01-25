@@ -1,0 +1,35 @@
+ButtonOrange View
+  Vertical
+  cursor pointer
+  onClick <
+  marginTop < 0
+  marginRight < 0
+  paddingTop 8
+  paddingBottom 8
+  paddingLeft 16
+  paddingRight 16
+  backgroundColor transparent
+  borderBottomLeftRadius 5
+  borderBottomRightRadius 5
+  borderColor transparent
+  borderStyle solid
+  borderTopLeftRadius 5
+  borderTopRightRadius 5
+  borderWidth 1
+  when <isSelected
+  backgroundColor rgba(255,131,0, 0.1) easeInOut
+  borderColor rgba(255,131,0, 0.2) easeInOut
+  when <isHovered
+  backgroundColor rgba(255,131,0, 0.2) easeInOut
+  #borderColor rgba(255,131,0, 0.83) easeInOut
+    Text
+    color #303030
+    fontFamily WonderUnitSans
+    fontSize 14
+    letterSpacing 0.5
+    fontWeight 400
+    text < Deafult text
+    when <isHovered
+    color rgba(255,131,0, 1) easeInOut
+    when <isSelected
+    color rgba(255,131,0, 1)

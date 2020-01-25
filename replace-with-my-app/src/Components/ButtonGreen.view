@@ -1,0 +1,44 @@
+ButtonGreen View
+  Vertical
+  cursor pointer
+  onClick <
+  marginTop < 0
+  marginRight < 0
+  marginLeft < 0
+  paddingTop 8
+  paddingBottom 8
+  paddingLeft 16
+  paddingRight 16
+  alignSelf < auto
+  backgroundColor < transparent
+  borderBottomLeftRadius 5
+  borderBottomRightRadius 5
+  borderColor #f2f2f2
+  borderStyle solid
+  borderTopLeftRadius 5
+  borderTopRightRadius 5
+  borderWidth 2
+  opacity 1
+  isDisabled <
+  when <isSelected
+  backgroundColor rgba(0,207,104, 0.1) easeInOut
+  borderColor rgba(0,207,104, 0.2) easeInOut
+  when <isHovered
+  backgroundColor rgba(0,207,104, 0.15) easeInOut
+  borderColor rgba(0,207,104, 0.0) easeInOut
+  when <isDisabled
+  backgroundColor #f2f2f2
+  borderColor rgba(0, 188, 112, 0)
+  cursor notAllowed
+  opacity 0.5
+    Text
+    color #303030
+    fontFamily WonderUnitSans
+    fontSize 14
+    letterSpacing 0.5
+    fontWeight 400
+    text < Deafult text
+    when <isHovered
+    color rgba(0,173,87, 1) easeInOut
+    when <isSelected
+    color rgba(0,173,87, 1)

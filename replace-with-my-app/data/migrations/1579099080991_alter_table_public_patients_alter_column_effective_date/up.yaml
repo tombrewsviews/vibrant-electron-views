@@ -1,0 +1,6 @@
+- args:
+    sql: COMMENT ON COLUMN "public"."patients"."effective_date" IS E''
+  type: run_sql
+- args:
+    sql: alter table "public"."patients" rename column "effective_date" to "insurance_effective_date";
+  type: run_sql

@@ -1,0 +1,39 @@
+PeopleTwoIcon View
+  Svg
+  alignSelf < auto
+  marginTop < 0
+  marginBottom < 0
+  marginLeft < 0
+  marginRight < 0
+  opacity < 1
+  viewBox 0 0 70.7 32
+  width < 70.7
+  height < 32
+    SvgCircle
+    fill < none
+    stroke < #2E2E2E
+    strokeWidth 2
+    strokeMiterlimit 10
+    cx 35.3
+    cy 14.2
+    r 7.7
+    SvgPath
+    fill < none
+    stroke < #2E2E2E
+    strokeWidth 2
+    strokeMiterlimit 10
+    d M25.9 26.5c5.2-5.2 13.6-5.2 18.8 0
+    SvgCircle
+    fill < none
+    stroke < #2E2E2E
+    strokeWidth 2
+    strokeMiterlimit 10
+    cx 57
+    cy 14.2
+    r 7.7
+    SvgPath
+    fill < none
+    stroke < #2E2E2E
+    strokeWidth 2
+    strokeMiterlimit 10
+    d M47.6 26.5c5.2-5.2 13.6-5.2 18.8 0

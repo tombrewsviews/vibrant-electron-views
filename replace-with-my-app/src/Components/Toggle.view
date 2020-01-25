@@ -1,0 +1,35 @@
+Toggle View
+  Vertical
+  alignSelf < auto
+  backgroundColor white
+  borderBottomLeftRadius < 5
+  borderBottomRightRadius < 5
+  borderColor #00b46b
+  borderStyle solid
+  borderTopLeftRadius < 5
+  borderTopRightRadius < 5
+  borderWidth 1
+  cursor pointer
+  id <
+  isDisabled <
+  justifyContent center
+  marginLeft < 0
+  marginRight < 0
+  marginTop < 0
+  onClick <
+  onClickId <
+  paddingBottom 8
+  paddingLeft < 15
+  paddingRight < 15
+  paddingTop 8
+  userSelect none
+  when <isSelected
+  backgroundColor rgba(0, 188, 112, 0.83)
+    Text
+    color rgba(0, 188, 112, 0.83)
+    fontFamily WonderUnitSans
+    fontSize 14
+    fontWeight 400
+    text < Press Return To Continue
+    when <isSelected
+    color  white easeInOut delay 1
