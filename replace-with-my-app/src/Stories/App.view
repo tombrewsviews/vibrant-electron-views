@@ -1,5 +1,29 @@
 App View
 flow separate
-  Text
-  color white
-  text Blurrrry it is!
+  Horizontal
+  alignItems center
+  appRegion drag
+  backgroundColor #363636
+  height 24
+  justifyContent center
+  onDoubleClick <maximise
+    LogoThin
+    width 16
+    height 16
+    Text
+    text Views Design Experiment
+    color rgba(255,255,255,0.7)
+    fontFamily WonderUnitSans
+    fontSize 12
+    fontWeight 300
+    marginLeft 8
+    marginTop 2
+  Vertical
+  flexGrow 1
+  flexShrink 1
+  flexBasis auto
+  alignItems center
+  justifyContent center
+    Text
+    color white
+    text Blurrrry it is!

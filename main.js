@@ -12,7 +12,7 @@ function createWindow () {
     width: 800,
     height: 600,
     titleBarStyle: 'hidden',
-    vibrancy: 'under-window',
+    vibrancy: 'popover',
     //titlebar | selection | menu | popover | sidebar | header | sheet | window | hud | fullscreen-ui | tooltip | content | under-window | under-page
     webPreferences: {
       preload: path.join(__dirname, 'preload.js')

@@ -1,7 +1,6 @@
 import '@reach/dialog/styles.css';
 import './index.css';
 import './version.js';
-import './setupAmplify.js';
 import React, { Suspense } from 'react';
 import ReactDOM from 'react-dom';
 import App from './Stories/App.view.logic.js';

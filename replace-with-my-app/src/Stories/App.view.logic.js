@@ -5,4 +5,4 @@ function AppLogic() {
   return <App />;
 }
 
-export default AppLogic
+export default AppLogic;
