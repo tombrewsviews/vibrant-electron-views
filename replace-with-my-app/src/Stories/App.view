@@ -1,12 +1,19 @@
 App View
 flow separate
   Topbar
-  Vertical
+  Horizontal
   flexGrow 1
   flexShrink 1
   flexBasis auto
-  alignItems center
-  justifyContent center
-    Text
-    color white
-    text Blurrrry it is!
+  backgroundColor rgba(0,0,0,0.1)
+    Vertical
+    flexGrow 1
+    flexShrink 1
+    flexBasis auto
+    alignItems center
+    justifyContent center
+      Text
+      color white
+      text Blurrrry it is!
+    
+

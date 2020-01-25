@@ -6,9 +6,6 @@ flow together
   backgroundColor rgba(0,0,0,0.2)
   height 24
   justifyContent center
-    LogoThin
-    width 16
-    height 16
     Text
     text Views Design Experiment
     color rgba(255,255,255,0.5)
