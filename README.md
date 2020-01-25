@@ -37,6 +37,18 @@ npm start
 Important: You always need to run Views app in one tab of the Terminal and Electron app in another tab.
 Note: Made for Mac
 
+## To Mess About With
+In `main.js` file you can find the vibrancy prop together with accepted values. Use it to change the blur effect of the Electron window.
+```
+vibrancy: 'popover',
+//titlebar | selection | menu | popover | sidebar | header | sheet | window | hud | fullscreen-ui | tooltip | content
+```
+To load an app from a different URL (if you are using one) change the destination in the loadURL, also in the `main.js` file.
+```
+// and load the index.html of the app.
+mainWindow.loadURL('http://localhost:3000')
+```
+
 ## Resources for Learning Views
 - [Views Docs](https://github.com/viewstools/docs)
 
